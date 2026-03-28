@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #2d5a27;
+    --primary-light: #4a7c43;
+    --accent: #f4a261;
+    --bg: #fafaf8;
+    --card-bg: #ffffff;
+    --text: #2c3e50;
+    --text-light: #6c757d;
+    --border: #e9ecef;
+    --selected: #d4edda;
+    --selected-border: #28a745;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: var(--text-light);
+    font-size: 1rem;
+}
+
+.week-info {
+    margin-top: 10px;
+    font-weight: 600;
+    color: var(--primary-light);
+}
+
+/* Filters */
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    border: 2px solid var(--border);
+    border-radius: 20px;
+    background: var(--card-bg);
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+}
+
+.filter-btn:hover {
+    border-color: var(--primary-light);
+}
+
+.filter-btn.active {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+/* Meals Grid */
+.meals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.meal-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.meal-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.meal-card.selected {
+    background: var(--selected);
+    border-color: var(--selected-border);
+}
+
+.meal-card .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.meal-card h3 {
+    font-size: 1.1rem;
+    color: var(--primary);
+    flex: 1;
+}
+
+.meal-card .store-badge {
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    border-radius: 12px;
+    background: var(--accent);
+    color: white;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.meal-card .store-badge.harris-teeter {
+    background: #c41230;
+}
+
+.meal-card .store-badge.aldi {
+    background: #00005f;
+}
+
+.meal-components {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.component {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.95rem;
+}
+
+.component-icon {
+    width: 24px;
+    text-align: center;
+}
+
+.component-label {
+    color: var(--text-light);
+    font-size: 0.8rem;
+    min-width: 60px;
+}
+
+.meal-meta {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    border-top: 1px solid var(--border);
+    font-size: 0.85rem;
+    color: var(--text-light);
+}
+
+.price-tag {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.select-indicator {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.meal-card.selected .select-indicator {
+    background: var(--selected-border);
+    border-color: var(--selected-border);
+    color: white;
+}
+
+/* Shopping List */
+.shopping-list-section {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.shopping-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.shopping-list-section h2 {
+    color: var(--primary);
+    margin: 0;
+}
+
+.copy-btn {
+    padding: 10px 20px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.copy-btn:hover {
+    background: var(--primary-light);
+    transform: translateY(-1px);
+}
+
+.copy-btn:active {
+    transform: translateY(0);
+}
+
+.copy-feedback {
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    display: none;
+}
+
+.copy-feedback.success {
+    display: block;
+    background: #d4edda;
+    color: #155724;
+}
+
+.copy-feedback.error {
+    display: block;
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.shopping-list {
+    columns: 2;
+    column-gap: 40px;
+}
+
+@media (max-width: 600px) {
+    .shopping-list {
+        columns: 1;
+    }
+}
+
+.shopping-list .store-group {
+    break-inside: avoid;
+    margin-bottom: 20px;
+}
+
+.shopping-list h4 {
+    color: var(--text);
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--primary-light);
+}
+
+.shopping-list ul {
+    list-style: none;
+}
+
+.shopping-list li {
+    padding: 6px 0;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopping-list .item-qty {
+    color: var(--text-light);
+    font-size: 0.85rem;
+}
+
+.empty-state {
+    color: var(--text-light);
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: var(--text-light);
+    font-size: 0.85rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+    
+    header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .meals-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .filter-btn {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}

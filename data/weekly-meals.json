@@ -1,0 +1,144 @@
+{
+  "weekOf": "March 28, 2026",
+  "lastUpdated": "2026-03-28T12:30:00-04:00",
+  "meals": [
+    {
+      "id": "meal-001",
+      "name": "Sheet Pan Lemon Chicken & Veggies",
+      "proteinType": "chicken",
+      "protein": "Boneless Chicken Breast",
+      "proteinOzPerServing": 5,
+      "vegetable": "Roasted Zucchini, Peppers & Onions",
+      "carb": "Roasted Baby Potatoes",
+      "prepTime": 25,
+      "servings": 5,
+      "estimatedCost": 12.00,
+      "store": "Harris Teeter",
+      "salePrice": "$2.99/lb",
+      "ingredients": [
+        { "name": "Chicken Breast", "quantity": 2, "unit": "lbs" },
+        { "name": "Zucchini", "quantity": 2, "unit": "medium" },
+        { "name": "Bell Peppers", "quantity": 2, "unit": "large" },
+        { "name": "Yellow Onion", "quantity": 1, "unit": "large" },
+        { "name": "Baby Potatoes", "quantity": 1.5, "unit": "lbs" },
+        { "name": "Lemon", "quantity": 2, "unit": "whole" },
+        { "name": "Olive Oil", "quantity": 3, "unit": "tbsp" },
+        { "name": "Garlic", "quantity": 4, "unit": "cloves" }
+      ]
+    },
+    {
+      "id": "meal-002",
+      "name": "Honey Garlic Salmon",
+      "proteinType": "seafood",
+      "protein": "Atlantic Salmon Fillets",
+      "proteinOzPerServing": 5,
+      "vegetable": "Roasted Asparagus",
+      "carb": "Quinoa",
+      "prepTime": 20,
+      "servings": 5,
+      "estimatedCost": 19.00,
+      "store": "Aldi",
+      "salePrice": "$7.99/lb",
+      "ingredients": [
+        { "name": "Salmon Fillets", "quantity": 1.75, "unit": "lbs" },
+        { "name": "Asparagus", "quantity": 2, "unit": "bunches" },
+        { "name": "Quinoa", "quantity": 2, "unit": "cups" },
+        { "name": "Honey", "quantity": 3, "unit": "tbsp" },
+        { "name": "Soy Sauce", "quantity": 2, "unit": "tbsp" },
+        { "name": "Garlic", "quantity": 4, "unit": "cloves" }
+      ]
+    },
+    {
+      "id": "meal-003",
+      "name": "Lean Beef Taco Bowls",
+      "proteinType": "beef",
+      "protein": "93% Lean Ground Beef",
+      "proteinOzPerServing": 5,
+      "vegetable": "Sautéed Peppers & Black Beans",
+      "carb": "Cilantro Lime Rice",
+      "prepTime": 20,
+      "servings": 5,
+      "estimatedCost": 14.00,
+      "store": "Harris Teeter",
+      "salePrice": "$5.49/lb",
+      "ingredients": [
+        { "name": "Ground Beef 93% Lean", "quantity": 2, "unit": "lbs" },
+        { "name": "Bell Peppers", "quantity": 2, "unit": "large" },
+        { "name": "Black Beans", "quantity": 1, "unit": "can" },
+        { "name": "Jasmine Rice", "quantity": 2, "unit": "cups" },
+        { "name": "Fresh Cilantro", "quantity": 1, "unit": "bunch" },
+        { "name": "Lime", "quantity": 2, "unit": "whole" },
+        { "name": "Taco Seasoning", "quantity": 1, "unit": "packet" }
+      ]
+    },
+    {
+      "id": "meal-004",
+      "name": "Garlic Herb Pork Tenderloin",
+      "proteinType": "pork",
+      "protein": "Pork Tenderloin",
+      "proteinOzPerServing": 5,
+      "vegetable": "Roasted Broccoli",
+      "carb": "Baked Sweet Potato",
+      "prepTime": 25,
+      "servings": 5,
+      "estimatedCost": 13.00,
+      "store": "Harris Teeter",
+      "salePrice": "BOGO",
+      "ingredients": [
+        { "name": "Pork Tenderloin", "quantity": 2, "unit": "lbs" },
+        { "name": "Broccoli Crowns", "quantity": 2, "unit": "lbs" },
+        { "name": "Sweet Potatoes", "quantity": 5, "unit": "medium" },
+        { "name": "Garlic", "quantity": 5, "unit": "cloves" },
+        { "name": "Fresh Rosemary", "quantity": 2, "unit": "sprigs" },
+        { "name": "Olive Oil", "quantity": 2, "unit": "tbsp" }
+      ]
+    },
+    {
+      "id": "meal-005",
+      "name": "Greek Chicken & Veggie Bowls",
+      "proteinType": "chicken",
+      "protein": "Grilled Chicken Breast",
+      "proteinOzPerServing": 5,
+      "vegetable": "Cucumber, Tomato & Red Onion Salad",
+      "carb": "Brown Rice",
+      "prepTime": 25,
+      "servings": 5,
+      "estimatedCost": 12.00,
+      "store": "Aldi",
+      "salePrice": "$3.99/lb",
+      "ingredients": [
+        { "name": "Chicken Breast", "quantity": 2, "unit": "lbs" },
+        { "name": "Cucumber", "quantity": 2, "unit": "large" },
+        { "name": "Roma Tomatoes", "quantity": 4, "unit": "medium" },
+        { "name": "Red Onion", "quantity": 1, "unit": "medium" },
+        { "name": "Brown Rice", "quantity": 2, "unit": "cups" },
+        { "name": "Feta Cheese", "quantity": 4, "unit": "oz" },
+        { "name": "Greek Yogurt", "quantity": 1, "unit": "cup" },
+        { "name": "Fresh Dill", "quantity": 1, "unit": "bunch" }
+      ]
+    },
+    {
+      "id": "meal-006",
+      "name": "Crispy Baked Tilapia",
+      "proteinType": "seafood",
+      "protein": "Tilapia Fillets",
+      "proteinOzPerServing": 5,
+      "vegetable": "Garlic Green Beans",
+      "carb": "Wild Rice",
+      "prepTime": 25,
+      "servings": 5,
+      "estimatedCost": 14.00,
+      "store": "Harris Teeter",
+      "salePrice": "$5.99/lb",
+      "ingredients": [
+        { "name": "Tilapia Fillets", "quantity": 1.75, "unit": "lbs" },
+        { "name": "Green Beans", "quantity": 1.5, "unit": "lbs" },
+        { "name": "Wild Rice", "quantity": 2, "unit": "cups" },
+        { "name": "Panko Breadcrumbs", "quantity": 1, "unit": "cup" },
+        { "name": "Parmesan Cheese", "quantity": 0.25, "unit": "cup" },
+        { "name": "Garlic", "quantity": 3, "unit": "cloves" },
+        { "name": "Lemon", "quantity": 1, "unit": "whole" }
+      ]
+    }
+  ]
+}

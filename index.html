@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Meal Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍽️ This Week's Dinners</h1>
+            <p class="subtitle">Clean eating for the family</p>
+            <p class="week-info" id="weekInfo"></p>
+        </header>
+
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="selected">Selected</button>
+            <button class="filter-btn" data-filter="chicken">🐔 Chicken</button>
+            <button class="filter-btn" data-filter="beef">🥩 Beef</button>
+            <button class="filter-btn" data-filter="pork">🐷 Pork</button>
+            <button class="filter-btn" data-filter="seafood">🐟 Seafood</button>
+        </div>
+
+        <div class="meals-grid" id="mealsGrid">
+            <!-- Meals loaded dynamically -->
+        </div>
+
+        <div class="shopping-list-section">
+            <div class="shopping-list-header">
+                <h2>🛒 Shopping List</h2>
+                <button id="copyListBtn" class="copy-btn" onclick="copyShoppingList()">📋 Copy List</button>
+            </div>
+            <div id="shoppingList" class="shopping-list">
+                <p class="empty-state">Select meals above to build your shopping list</p>
+            </div>
+            <div id="copyFeedback" class="copy-feedback"></div>
+        </div>
+
+        <footer>
+            <p>Prices from Harris Teeter & Aldi in Belmont, NC</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
