@@ -1,6 +1,20 @@
 {
   "weekOf": "March 28, 2026",
-  "lastUpdated": "2026-03-28T12:30:00-04:00",
+  "lastUpdated": "2026-03-28T12:35:00-04:00",
+  "staples": {
+    "breakfast": [
+      { "name": "Coffee", "quantity": 1, "unit": "bag/container" },
+      { "name": "Creamer", "quantity": 1, "unit": "bottle" },
+      { "name": "Eggs", "quantity": 1, "unit": "dozen" },
+      { "name": "Canadian Bacon", "quantity": 1, "unit": "package" },
+      { "name": "Multigrain Bread", "quantity": 1, "unit": "loaf" }
+    ],
+    "lunch": [
+      { "name": "Sliced Turkey", "quantity": 1, "unit": "lb" },
+      { "name": "Sliced Cheese", "quantity": 1, "unit": "package" },
+      { "name": "Fresh Fruit", "quantity": 1, "unit": "variety" }
+    ]
+  },
   "meals": [
     {
       "id": "meal-001",

@@ -1,6 +1,7 @@
 // Weekly Meal Planner App
 
 let mealsData = [];
+let staplesData = {};
 let selectedMeals = new Set();
 
 // Load meals data
@@ -9,8 +10,10 @@ async function loadMeals() {
         const response = await fetch('data/weekly-meals.json');
         const data = await response.json();
         mealsData = data.meals;
+        staplesData = data.staples || {};
         document.getElementById('weekInfo').textContent = `Week of ${data.weekOf}`;
         renderMeals(mealsData);
+        updateShoppingList(); // Show staples immediately
     } catch (error) {
         console.error('Error loading meals:', error);
         document.getElementById('mealsGrid').innerHTML = `
@@ -90,8 +93,31 @@ function toggleMeal(id) {
 function updateShoppingList() {
     const listContainer = document.getElementById('shoppingList');
     
+    // Build staples section
+    let staplesHtml = '';
+    if (staplesData.breakfast || staplesData.lunch) {
+        staplesHtml = '<div class="store-group staples-group"><h4>☀️ Weekly Staples</h4>';
+        
+        if (staplesData.breakfast && staplesData.breakfast.length > 0) {
+            staplesHtml += '<div class="staple-category"><strong>Breakfast:</strong><ul>';
+            staplesData.breakfast.forEach(item => {
+                staplesHtml += `<li><span>${item.name}</span><span class="item-qty">${item.quantity} ${item.unit}</span></li>`;
+            });
+            staplesHtml += '</ul></div>';
+        }
+        
+        if (staplesData.lunch && staplesData.lunch.length > 0) {
+            staplesHtml += '<div class="staple-category"><strong>Lunch:</strong><ul>';
+            staplesData.lunch.forEach(item => {
+                staplesHtml += `<li><span>${item.name}</span><span class="item-qty">${item.quantity} ${item.unit}</span></li>`;
+            });
+            staplesHtml += '</ul></div>';
+        }
+        staplesHtml += '</div>';
+    }
+    
     if (selectedMeals.size === 0) {
-        listContainer.innerHTML = '<p class="empty-state">Select meals above to build your shopping list</p>';
+        listContainer.innerHTML = staplesHtml + '<p class="empty-state">Select meals above to add dinner ingredients</p>';
         return;
     }
     
@@ -119,9 +145,9 @@ function updateShoppingList() {
     });
     
     // Render shopping list
-    listContainer.innerHTML = Object.entries(byStore).map(([store, items]) => `
+    const dinnerHtml = Object.entries(byStore).map(([store, items]) => `
         <div class="store-group">
-            <h4>${store}</h4>
+            <h4>🍽️ ${store}</h4>
             <ul>
                 ${items.map(item => `
                     <li>
@@ -132,6 +158,8 @@ function updateShoppingList() {
             </ul>
         </div>
     `).join('');
+    
+    listContainer.innerHTML = staplesHtml + dinnerHtml;
 }
 
 // Filter functionality
@@ -165,43 +193,61 @@ function loadSavedSelections() {
 
 // Copy shopping list to clipboard
 function copyShoppingList() {
-    if (selectedMeals.size === 0) {
-        showCopyFeedback('Select some meals first!', 'error');
-        return;
-    }
-    
     // Build plain text list
-    const byStore = {};
-    
-    selectedMeals.forEach(id => {
-        const meal = mealsData.find(m => m.id === id);
-        if (!meal) return;
-        
-        const store = meal.store;
-        if (!byStore[store]) {
-            byStore[store] = [];
-        }
-        
-        meal.ingredients.forEach(ing => {
-            const existing = byStore[store].find(i => i.name === ing.name);
-            if (existing) {
-                existing.quantity += ing.quantity;
-            } else {
-                byStore[store].push({ ...ing });
-            }
-        });
-    });
-    
-    // Format as plain text
     let text = '🛒 Shopping List\n\n';
     
-    Object.entries(byStore).forEach(([store, items]) => {
-        text += `📍 ${store}\n`;
-        items.forEach(item => {
-            text += `• ${item.name} - ${item.quantity} ${item.unit}\n`;
-        });
+    // Add staples first
+    if (staplesData.breakfast || staplesData.lunch) {
+        text += '☀️ WEEKLY STAPLES\n';
+        
+        if (staplesData.breakfast && staplesData.breakfast.length > 0) {
+            text += '\nBreakfast:\n';
+            staplesData.breakfast.forEach(item => {
+                text += `• ${item.name} - ${item.quantity} ${item.unit}\n`;
+            });
+        }
+        
+        if (staplesData.lunch && staplesData.lunch.length > 0) {
+            text += '\nLunch:\n';
+            staplesData.lunch.forEach(item => {
+                text += `• ${item.name} - ${item.quantity} ${item.unit}\n`;
+            });
+        }
         text += '\n';
-    });
+    }
+    
+    // Add dinner ingredients if meals selected
+    if (selectedMeals.size > 0) {
+        const byStore = {};
+        
+        selectedMeals.forEach(id => {
+            const meal = mealsData.find(m => m.id === id);
+            if (!meal) return;
+            
+            const store = meal.store;
+            if (!byStore[store]) {
+                byStore[store] = [];
+            }
+            
+            meal.ingredients.forEach(ing => {
+                const existing = byStore[store].find(i => i.name === ing.name);
+                if (existing) {
+                    existing.quantity += ing.quantity;
+                } else {
+                    byStore[store].push({ ...ing });
+                }
+            });
+        });
+        
+        text += '🍽️ DINNER INGREDIENTS\n\n';
+        Object.entries(byStore).forEach(([store, items]) => {
+            text += `📍 ${store}\n`;
+            items.forEach(item => {
+                text += `• ${item.name} - ${item.quantity} ${item.unit}\n`;
+            });
+            text += '\n';
+        });
+    }
     
     // Copy to clipboard
     navigator.clipboard.writeText(text).then(() => {
