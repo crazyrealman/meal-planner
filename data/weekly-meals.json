@@ -1,6 +1,6 @@
 {
   "weekOf": "March 28, 2026",
-  "lastUpdated": "2026-03-28T12:36:00-04:00",
+  "lastUpdated": "2026-03-28T12:37:00-04:00",
   "meals": [
     {
       "id": "meal-001",
@@ -24,6 +24,14 @@
         { "name": "Lemon", "quantity": 2, "unit": "whole" },
         { "name": "Olive Oil", "quantity": 3, "unit": "tbsp" },
         { "name": "Garlic", "quantity": 4, "unit": "cloves" }
+      ],
+      "instructions": [
+        "Preheat oven to 425°F.",
+        "Cut chicken into 1-inch pieces. Chop zucchini, peppers, and onion into bite-sized chunks. Halve the baby potatoes.",
+        "Toss everything with olive oil, minced garlic, juice of 1 lemon, salt & pepper.",
+        "Spread on a large sheet pan in a single layer.",
+        "Roast 22-25 minutes until chicken is cooked through and veggies are tender.",
+        "Squeeze remaining lemon over top before serving."
       ]
     },
     {
@@ -46,6 +54,15 @@
         { "name": "Honey", "quantity": 3, "unit": "tbsp" },
         { "name": "Soy Sauce", "quantity": 2, "unit": "tbsp" },
         { "name": "Garlic", "quantity": 4, "unit": "cloves" }
+      ],
+      "instructions": [
+        "Cook quinoa according to package directions.",
+        "Mix honey, soy sauce, and minced garlic for the glaze.",
+        "Preheat oven to 400°F. Line a baking sheet with foil.",
+        "Place salmon fillets on one side, asparagus on the other. Drizzle asparagus with olive oil.",
+        "Brush salmon generously with honey garlic glaze.",
+        "Bake 12-15 minutes until salmon flakes easily.",
+        "Serve over quinoa with asparagus on the side."
       ]
     },
     {
@@ -69,6 +86,14 @@
         { "name": "Fresh Cilantro", "quantity": 1, "unit": "bunch" },
         { "name": "Lime", "quantity": 2, "unit": "whole" },
         { "name": "Taco Seasoning", "quantity": 1, "unit": "packet" }
+      ],
+      "instructions": [
+        "Cook rice according to package. When done, stir in chopped cilantro and lime juice.",
+        "Brown ground beef in a large skillet over medium-high heat. Drain any excess fat.",
+        "Add taco seasoning and 1/4 cup water. Simmer 3-4 minutes.",
+        "In another pan, sauté sliced peppers until tender. Add drained black beans to warm through.",
+        "Build bowls: rice on bottom, beef, peppers & beans on top.",
+        "Top with your favorites: salsa, cheese, sour cream, avocado."
       ]
     },
     {
@@ -91,6 +116,14 @@
         { "name": "Garlic", "quantity": 5, "unit": "cloves" },
         { "name": "Fresh Rosemary", "quantity": 2, "unit": "sprigs" },
         { "name": "Olive Oil", "quantity": 2, "unit": "tbsp" }
+      ],
+      "instructions": [
+        "Preheat oven to 400°F. Pierce sweet potatoes with a fork and bake 45-50 min (start these first!).",
+        "Rub tenderloin with olive oil, minced garlic, chopped rosemary, salt & pepper.",
+        "Sear tenderloin in an oven-safe skillet 2-3 min per side until browned.",
+        "Transfer skillet to oven. Roast 15-20 min until internal temp reaches 145°F.",
+        "Toss broccoli with olive oil, salt & pepper. Roast on a sheet pan alongside pork for 15-18 min.",
+        "Let pork rest 5 minutes before slicing. Serve with broccoli and split sweet potatoes."
       ]
     },
     {
@@ -115,6 +148,13 @@
         { "name": "Feta Cheese", "quantity": 4, "unit": "oz" },
         { "name": "Greek Yogurt", "quantity": 1, "unit": "cup" },
         { "name": "Fresh Dill", "quantity": 1, "unit": "bunch" }
+      ],
+      "instructions": [
+        "Cook brown rice according to package directions.",
+        "Season chicken with olive oil, oregano, garlic powder, salt & pepper. Grill or pan-sear 6-7 min per side until cooked through.",
+        "Dice cucumber, tomatoes, and red onion. Toss together with a drizzle of olive oil and red wine vinegar.",
+        "Make tzatziki: mix Greek yogurt with minced garlic, chopped dill, lemon juice, salt.",
+        "Slice chicken. Build bowls with rice, chicken, veggie salad, crumbled feta, and tzatziki drizzle."
       ]
     },
     {
@@ -138,6 +178,15 @@
         { "name": "Parmesan Cheese", "quantity": 0.25, "unit": "cup" },
         { "name": "Garlic", "quantity": 3, "unit": "cloves" },
         { "name": "Lemon", "quantity": 1, "unit": "whole" }
+      ],
+      "instructions": [
+        "Cook wild rice according to package (usually 45 min — start first!).",
+        "Preheat oven to 425°F. Line a baking sheet with parchment.",
+        "Mix panko, grated parmesan, and a pinch of salt.",
+        "Pat tilapia dry. Brush with olive oil, then press panko mixture onto top of each fillet.",
+        "Bake 12-15 minutes until fish flakes and topping is golden.",
+        "Sauté green beans in olive oil with minced garlic 5-7 min until tender-crisp.",
+        "Serve fish over rice with green beans. Squeeze lemon over everything."
       ]
     }
   ]

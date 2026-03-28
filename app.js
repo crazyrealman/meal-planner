@@ -33,36 +33,58 @@ function renderMeals(meals) {
     grid.innerHTML = meals.map(meal => `
         <div class="meal-card ${selectedMeals.has(meal.id) ? 'selected' : ''}" 
              data-id="${meal.id}" 
-             data-protein-type="${meal.proteinType}"
-             onclick="toggleMeal('${meal.id}')">
-            <div class="header">
-                <h3>${meal.name}</h3>
-                <span class="store-badge ${meal.store.toLowerCase().replace(' ', '-')}">${meal.store}</span>
+             data-protein-type="${meal.proteinType}">
+            <div class="card-main" onclick="toggleMeal('${meal.id}')">
+                <div class="header">
+                    <h3>${meal.name}</h3>
+                    <span class="store-badge ${meal.store.toLowerCase().replace(' ', '-')}">${meal.store}</span>
+                </div>
+                <div class="meal-components">
+                    <div class="component">
+                        <span class="component-icon">🥩</span>
+                        <span class="component-label">Protein:</span>
+                        <span>${meal.protein} (${meal.proteinOzPerServing}oz/person)</span>
+                    </div>
+                    <div class="component">
+                        <span class="component-icon">🥦</span>
+                        <span class="component-label">Veggie:</span>
+                        <span>${meal.vegetable}</span>
+                    </div>
+                    <div class="component">
+                        <span class="component-icon">🍚</span>
+                        <span class="component-label">Carb:</span>
+                        <span>${meal.carb}</span>
+                    </div>
+                </div>
+                <div class="meal-meta">
+                    <span>⏱️ ${meal.prepTime} min prep</span>
+                    <span>👨‍👩‍👧‍👦 Serves ${meal.servings}</span>
+                    <span class="price-tag">~$${meal.estimatedCost.toFixed(2)}</span>
+                </div>
             </div>
-            <div class="meal-components">
-                <div class="component">
-                    <span class="component-icon">🥩</span>
-                    <span class="component-label">Protein:</span>
-                    <span>${meal.protein} (${meal.proteinOzPerServing}oz/person)</span>
-                </div>
-                <div class="component">
-                    <span class="component-icon">🥦</span>
-                    <span class="component-label">Veggie:</span>
-                    <span>${meal.vegetable}</span>
-                </div>
-                <div class="component">
-                    <span class="component-icon">🍚</span>
-                    <span class="component-label">Carb:</span>
-                    <span>${meal.carb}</span>
-                </div>
-            </div>
-            <div class="meal-meta">
-                <span>⏱️ ${meal.prepTime} min prep</span>
-                <span>👨‍👩‍👧‍👦 Serves ${meal.servings}</span>
-                <span class="price-tag">~$${meal.estimatedCost.toFixed(2)}</span>
+            <button class="recipe-toggle" onclick="toggleRecipe('${meal.id}')">📖 View Recipe</button>
+            <div class="recipe-section" id="recipe-${meal.id}">
+                <h4>📝 Instructions</h4>
+                <ol>
+                    ${meal.instructions ? meal.instructions.map(step => `<li>${step}</li>`).join('') : '<li>Recipe coming soon!</li>'}
+                </ol>
             </div>
         </div>
     `).join('');
+}
+
+// Toggle recipe visibility
+function toggleRecipe(id) {
+    const recipeSection = document.getElementById(`recipe-${id}`);
+    const btn = recipeSection.previousElementSibling;
+    
+    if (recipeSection.classList.contains('show')) {
+        recipeSection.classList.remove('show');
+        btn.textContent = '📖 View Recipe';
+    } else {
+        recipeSection.classList.add('show');
+        btn.textContent = '📖 Hide Recipe';
+    }
 }
 
 // Toggle meal selection

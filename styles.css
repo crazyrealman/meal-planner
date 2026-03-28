@@ -109,6 +109,56 @@ header h1 {
     border-color: var(--selected-border);
 }
 
+.card-main {
+    cursor: pointer;
+}
+
+.recipe-toggle {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: var(--primary-light);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.recipe-toggle:hover {
+    background: var(--primary);
+}
+
+.recipe-section {
+    display: none;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px dashed var(--border);
+}
+
+.recipe-section.show {
+    display: block;
+}
+
+.recipe-section h4 {
+    color: var(--primary);
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.recipe-section ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.recipe-section li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+    color: var(--text);
+}
+
 .meal-card .header {
     display: flex;
     justify-content: space-between;
