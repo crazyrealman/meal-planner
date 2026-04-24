@@ -1,43 +1,43 @@
 {
-  "weekOf": "April 20, 2026",
-  "lastUpdated": "2026-04-20T09:05:00-04:00",
+  "weekOf": "April 27, 2026",
+  "lastUpdated": "2026-04-24T18:10:00-04:00",
   "dealsSource": {
-    "harrisTeeter": "Belmont Harris Teeter weekly ad review (week of April 20, 2026)",
-    "aldi": "Belmont Aldi weekly ad review (week of April 20, 2026)"
+    "harrisTeeter": "Belmont Harris Teeter weekly ad preview (4/29/26 - 5/5/26)",
+    "aldi": "Belmont Aldi weekly ad preview (4/29/26 - 5/5/26)"
   },
   "topDeals": {
     "harristeeter": [
-      { "item": "Boneless Skinless Chicken Breast", "price": "$2.99/lb", "type": "poultry" },
-      { "item": "Pork Tenderloin", "price": "$3.99/lb", "type": "pork" },
-      { "item": "93% Lean Ground Turkey", "price": "$4.49/lb", "type": "poultry" }
+      { "item": "Boneless Skinless Chicken Breast", "price": "$2.79/lb", "type": "poultry" },
+      { "item": "Pork Tenderloin", "price": "$3.49/lb", "type": "pork" },
+      { "item": "93% Lean Ground Turkey", "price": "$4.29/lb", "type": "poultry" }
     ],
     "aldi": [
-      { "item": "Fresh Atlantic Salmon", "price": "$8.49/lb", "type": "seafood" },
-      { "item": "Grass Fed Ground Beef", "price": "$4.99/lb", "type": "beef" },
-      { "item": "Boneless Pork Chops", "price": "$3.79/lb", "type": "pork" }
+      { "item": "Atlantic Salmon", "price": "$8.49/lb", "type": "seafood" },
+      { "item": "Grass Fed Ground Beef", "price": "$4.89/lb", "type": "beef" },
+      { "item": "Boneless Pork Chops", "price": "$3.69/lb", "type": "pork" }
     ]
   },
   "freezerRecommendations": [
     {
       "item": "Harris Teeter Boneless Skinless Chicken Breast",
-      "reason": "Still the strongest lean-protein value this week and easy to portion for future meals.",
-      "pricePerLb": "$2.99"
-    },
-    {
-      "item": "Aldi Grass Fed Ground Beef",
-      "reason": "Good week to grab extra for burgers, taco bowls, or quick skillet meals.",
-      "pricePerLb": "$4.99"
+      "reason": "Best lean protein value again this week and easy to portion for lunches or future dinners.",
+      "pricePerLb": "$2.79"
     },
     {
       "item": "Harris Teeter Pork Tenderloin",
-      "reason": "Quick-cooking and freezer-friendly for another clean weeknight dinner later.",
-      "pricePerLb": "$3.99"
+      "reason": "Fast-cooking, flexible, and still freezer friendly for another easy weeknight meal later.",
+      "pricePerLb": "$3.49"
+    },
+    {
+      "item": "Aldi Grass Fed Ground Beef",
+      "reason": "Solid price for a quick skillet or taco night backup option.",
+      "pricePerLb": "$4.89"
     }
   ],
   "meals": [
     {
       "id": "meal-001",
-      "name": "Garlic Herb Chicken with Broccoli",
+      "name": "Lemon Garlic Chicken Rice Bowls",
       "proteinType": "chicken",
       "protein": "Boneless Skinless Chicken Breast",
       "proteinOzPerServing": 5,
@@ -45,58 +45,54 @@
       "carb": "Brown Rice",
       "prepTime": 25,
       "servings": 5,
-      "estimatedCost": 11.5,
+      "estimatedCost": 11,
       "store": "Harris Teeter",
-      "salePrice": "$2.99/lb",
+      "salePrice": "$2.79/lb",
       "dealHighlight": "✅ Best lean value this week",
       "ingredients": [
         { "name": "Chicken Breast", "quantity": 2, "unit": "lbs" },
         { "name": "Broccoli Crowns", "quantity": 2, "unit": "lbs" },
         { "name": "Brown Rice", "quantity": 2, "unit": "cups dry" },
-        { "name": "Garlic", "quantity": 5, "unit": "cloves" },
-        { "name": "Lemon", "quantity": 1, "unit": "whole" },
-        { "name": "Olive Oil", "quantity": 3, "unit": "tbsp" },
-        { "name": "Italian Seasoning", "quantity": 1, "unit": "tbsp" }
+        { "name": "Lemon", "quantity": 2, "unit": "whole" },
+        { "name": "Garlic", "quantity": 4, "unit": "cloves" },
+        { "name": "Olive Oil", "quantity": 3, "unit": "tbsp" }
       ],
       "instructions": [
         "Cook brown rice according to package directions.",
         "Preheat oven to 425°F.",
-        "Season chicken with olive oil, garlic, Italian seasoning, lemon juice, salt, and pepper.",
-        "Cut broccoli into florets and toss with olive oil, salt, and pepper.",
-        "Roast chicken and broccoli on a sheet pan for 20 to 22 minutes until chicken reaches 165°F.",
-        "Let chicken rest briefly, then slice and serve over brown rice."
+        "Season chicken with olive oil, garlic, lemon juice, salt, and pepper.",
+        "Roast chicken and broccoli on a sheet pan for 20 to 22 minutes.",
+        "Slice chicken and serve over rice with broccoli and extra lemon."
       ]
     },
     {
       "id": "meal-002",
-      "name": "Turkey Taco Stuffed Sweet Potatoes",
+      "name": "Turkey Taco Quinoa Skillet",
       "proteinType": "turkey",
       "protein": "93% Lean Ground Turkey",
       "proteinOzPerServing": 5,
-      "vegetable": "Peppers, Onions & Romaine",
-      "carb": "Sweet Potatoes",
-      "prepTime": 30,
+      "vegetable": "Peppers, Onion & Romaine",
+      "carb": "Quinoa",
+      "prepTime": 25,
       "servings": 5,
-      "estimatedCost": 12.5,
+      "estimatedCost": 12,
       "store": "Harris Teeter",
-      "salePrice": "$4.49/lb",
-      "dealHighlight": "🌮 High-protein, clean comfort meal",
+      "salePrice": "$4.29/lb",
+      "dealHighlight": "🌮 Fast and clean taco-night pivot",
       "ingredients": [
         { "name": "Ground Turkey 93% Lean", "quantity": 2, "unit": "lbs" },
-        { "name": "Sweet Potatoes", "quantity": 5, "unit": "medium" },
-        { "name": "Bell Peppers", "quantity": 2, "unit": "large" },
+        { "name": "Quinoa", "quantity": 1.5, "unit": "cups dry" },
+        { "name": "Bell Peppers", "quantity": 3, "unit": "large" },
         { "name": "Yellow Onion", "quantity": 1, "unit": "medium" },
         { "name": "Romaine", "quantity": 1, "unit": "head" },
         { "name": "Taco Seasoning", "quantity": 1, "unit": "packet" },
         { "name": "Lime", "quantity": 2, "unit": "whole" }
       ],
       "instructions": [
-        "Microwave or roast sweet potatoes until tender.",
-        "Brown turkey in a skillet, then add taco seasoning and a splash of water.",
-        "Saute sliced peppers and onion until soft.",
-        "Slice open sweet potatoes and fluff the centers.",
-        "Fill with turkey and peppers, then top with shredded romaine.",
-        "Finish with fresh lime juice."
+        "Cook quinoa according to package directions.",
+        "Brown turkey in a large skillet and add taco seasoning with a splash of water.",
+        "Saute peppers and onion until tender.",
+        "Serve turkey and vegetables over quinoa with shredded romaine and lime juice."
       ]
     },
     {
@@ -109,10 +105,10 @@
       "carb": "Baby Potatoes",
       "prepTime": 28,
       "servings": 5,
-      "estimatedCost": 13,
+      "estimatedCost": 12.5,
       "store": "Harris Teeter",
-      "salePrice": "$3.99/lb",
-      "dealHighlight": "🔥 Great weeknight pork option",
+      "salePrice": "$3.49/lb",
+      "dealHighlight": "🔥 Best pork value this week",
       "ingredients": [
         { "name": "Pork Tenderloin", "quantity": 2, "unit": "lbs" },
         { "name": "Green Beans", "quantity": 1.5, "unit": "lbs" },
@@ -124,27 +120,26 @@
       ],
       "instructions": [
         "Preheat oven to 425°F.",
-        "Halve potatoes and trim green beans.",
-        "Toss vegetables with olive oil, garlic powder, salt, and pepper.",
-        "Mix Dijon and honey, then brush over pork tenderloin.",
-        "Roast everything together on a sheet pan for 22 to 25 minutes.",
-        "Rest pork 5 minutes before slicing and serving."
+        "Halve potatoes and trim green beans, then toss with oil and seasoning.",
+        "Brush pork with Dijon and honey mixture.",
+        "Roast pork and vegetables together for 22 to 25 minutes.",
+        "Rest pork before slicing and serving."
       ]
     },
     {
       "id": "meal-004",
-      "name": "Salmon Quinoa Bowls",
+      "name": "Salmon Quinoa Plates",
       "proteinType": "seafood",
-      "protein": "Fresh Atlantic Salmon",
+      "protein": "Atlantic Salmon",
       "proteinOzPerServing": 5,
       "vegetable": "Asparagus",
       "carb": "Quinoa",
       "prepTime": 25,
       "servings": 5,
-      "estimatedCost": 17.5,
+      "estimatedCost": 17,
       "store": "Aldi",
       "salePrice": "$8.49/lb",
-      "dealHighlight": "🐟 Cleanest premium option",
+      "dealHighlight": "🐟 Clean premium option",
       "ingredients": [
         { "name": "Atlantic Salmon Fillets", "quantity": 1.75, "unit": "lbs" },
         { "name": "Asparagus", "quantity": 2, "unit": "bunches" },
@@ -155,16 +150,14 @@
       ],
       "instructions": [
         "Cook quinoa according to package directions.",
-        "Preheat oven to 400°F.",
-        "Place salmon and asparagus on a sheet pan.",
-        "Season with olive oil, garlic, lemon juice, salt, and pepper.",
-        "Bake 12 to 15 minutes until salmon flakes easily.",
-        "Serve over quinoa with extra lemon wedges."
+        "Place salmon and asparagus on a sheet pan and season with lemon, garlic, olive oil, salt, and pepper.",
+        "Bake at 400°F for 12 to 15 minutes.",
+        "Serve salmon and asparagus over quinoa."
       ]
     },
     {
       "id": "meal-005",
-      "name": "Beef Veggie Rice Skillet",
+      "name": "Beef Veggie Brown Rice Stir Fry",
       "proteinType": "beef",
       "protein": "Grass Fed Ground Beef",
       "proteinOzPerServing": 5,
@@ -172,10 +165,10 @@
       "carb": "Brown Rice",
       "prepTime": 25,
       "servings": 5,
-      "estimatedCost": 13.5,
+      "estimatedCost": 13,
       "store": "Aldi",
-      "salePrice": "$4.99/lb",
-      "dealHighlight": "⚡ Fast skillet dinner",
+      "salePrice": "$4.89/lb",
+      "dealHighlight": "⚡ Good fast dinner value",
       "ingredients": [
         { "name": "Grass Fed Ground Beef", "quantity": 2, "unit": "lbs" },
         { "name": "Broccoli Florets", "quantity": 4, "unit": "cups" },
@@ -188,10 +181,10 @@
       ],
       "instructions": [
         "Cook brown rice according to package directions.",
-        "Brown beef in a large skillet and set aside if needed.",
-        "Cook vegetables until tender-crisp.",
+        "Brown beef in a large skillet and set aside.",
+        "Stir-fry broccoli, carrots, and snap peas until tender-crisp.",
         "Add beef back with soy sauce, garlic, and ginger.",
-        "Stir until hot and serve over rice."
+        "Serve over brown rice."
       ]
     },
     {
@@ -204,10 +197,10 @@
       "carb": "Wild Rice",
       "prepTime": 30,
       "servings": 5,
-      "estimatedCost": 14,
+      "estimatedCost": 13.5,
       "store": "Aldi",
-      "salePrice": "$3.79/lb",
-      "dealHighlight": "🍎 Nice change-up dinner",
+      "salePrice": "$3.69/lb",
+      "dealHighlight": "🍎 Nice weekend option",
       "ingredients": [
         { "name": "Boneless Pork Chops", "quantity": 2, "unit": "lbs" },
         { "name": "Brussels Sprouts", "quantity": 1.5, "unit": "lbs" },
@@ -219,9 +212,9 @@
       ],
       "instructions": [
         "Cook wild rice according to package directions.",
-        "Season pork chops with salt and pepper and sear in a large skillet.",
-        "Remove pork and cook halved Brussels sprouts with sliced apple.",
-        "Add garlic and Dijon, then return pork to the pan briefly.",
+        "Sear pork chops until cooked through and remove from pan.",
+        "Cook Brussels sprouts and sliced apple until softened and caramelized.",
+        "Add garlic and Dijon, then return pork briefly to warm through.",
         "Serve over wild rice."
       ]
     }
