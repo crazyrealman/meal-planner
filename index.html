@@ -4,20 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weekly Meal Planner</title>
+    <meta name="theme-color" content="#1f5f3a">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>🍽️ This Week's Dinners</h1>
-            <p class="subtitle">Clean eating for the family</p>
-            <p class="week-info" id="weekInfo"></p>
+        <header class="hero">
+            <div class="hero-copy">
+                <span class="eyebrow">Weekly food board</span>
+                <h1>🍽️ This Week's Dinners</h1>
+                <p class="subtitle">Clean, sale-aware meals for the family — fast enough for real weeknights.</p>
+                <p class="week-info" id="weekInfo"></p>
+            </div>
+            <div class="hero-card" aria-label="Planner summary">
+                <span class="hero-card-label">Selected meals</span>
+                <strong id="selectedCount">0</strong>
+                <span id="selectedCost">$0 planned</span>
+            </div>
         </header>
 
-        <div class="filters">
+        <section class="deal-board" id="dealBoard" aria-label="Best weekly deals"></section>
+
+        <div class="filters" aria-label="Meal filters">
             <button class="filter-btn active" data-filter="all">All</button>
             <button class="filter-btn" data-filter="selected">Selected</button>
             <button class="filter-btn" data-filter="chicken">🐔 Chicken</button>
+            <button class="filter-btn" data-filter="turkey">🦃 Turkey</button>
             <button class="filter-btn" data-filter="beef">🥩 Beef</button>
             <button class="filter-btn" data-filter="pork">🐷 Pork</button>
             <button class="filter-btn" data-filter="seafood">🐟 Seafood</button>

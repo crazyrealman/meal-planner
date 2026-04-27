@@ -10,6 +10,8 @@ async function loadMeals() {
         const data = await response.json();
         mealsData = data.meals;
         document.getElementById('weekInfo').textContent = `Week of ${data.weekOf}`;
+        renderDealBoard(data);
+        updatePlannerSummary();
         renderMeals(mealsData);
     } catch (error) {
         console.error('Error loading meals:', error);
@@ -19,6 +21,58 @@ async function loadMeals() {
             </div>
         `;
     }
+}
+
+// Render weekly deals and freezer recommendations
+function renderDealBoard(data) {
+    const board = document.getElementById('dealBoard');
+    if (!board) return;
+
+    const deals = [
+        ...(data.topDeals?.harristeeter || []).map(deal => ({ ...deal, store: 'Harris Teeter' })),
+        ...(data.topDeals?.aldi || []).map(deal => ({ ...deal, store: 'Aldi' }))
+    ].slice(0, 6);
+
+    const freezerPicks = data.freezerRecommendations || [];
+
+    board.innerHTML = `
+        <div class="deal-panel">
+            <div class="section-heading">
+                <span class="section-kicker">Sale intel</span>
+                <h2>Best protein deals</h2>
+            </div>
+            <div class="deal-chips">
+                ${deals.map(deal => `
+                    <div class="deal-chip ${deal.store.toLowerCase().replace(' ', '-')}">
+                        <span class="deal-store">${deal.store}</span>
+                        <strong>${deal.item}</strong>
+                        <span>${deal.price}</span>
+                    </div>
+                `).join('')}
+            </div>
+        </div>
+        <div class="freezer-panel">
+            <span class="section-kicker">Freezer move</span>
+            <h2>Stock-up shortlist</h2>
+            <ul>
+                ${freezerPicks.slice(0, 3).map(pick => `
+                    <li><strong>${pick.item}</strong><span>${pick.pricePerLb} · ${pick.reason}</span></li>
+                `).join('')}
+            </ul>
+        </div>
+    `;
+}
+
+function updatePlannerSummary() {
+    const selected = mealsData.filter(meal => selectedMeals.has(meal.id));
+    const selectedCount = document.getElementById('selectedCount');
+    const selectedCost = document.getElementById('selectedCost');
+
+    if (!selectedCount || !selectedCost) return;
+
+    const totalCost = selected.reduce((sum, meal) => sum + (meal.estimatedCost || 0), 0);
+    selectedCount.textContent = selected.length;
+    selectedCost.textContent = selected.length ? `~$${totalCost.toFixed(0)} planned` : '$0 planned';
 }
 
 // Render meal cards
@@ -34,9 +88,20 @@ function renderMeals(meals) {
         <div class="meal-card ${selectedMeals.has(meal.id) ? 'selected' : ''}" 
              data-id="${meal.id}" 
              data-protein-type="${meal.proteinType}">
+            ${meal.image ? `
+                <div class="meal-photo-wrap" onclick="toggleMeal('${meal.id}')">
+                    <img class="meal-photo" src="${meal.image}" alt="${meal.name}" loading="lazy">
+                    <div class="meal-photo-gradient"></div>
+                    <span class="photo-badge">${meal.prepTime} min</span>
+                </div>
+            ` : ''}
+            <div class="select-ribbon">${selectedMeals.has(meal.id) ? '✓ Picked' : 'Tap to pick'}</div>
             <div class="card-main" onclick="toggleMeal('${meal.id}')">
                 <div class="header">
-                    <h3>${meal.name}</h3>
+                    <div>
+                        <span class="deal-highlight">${meal.dealHighlight || 'Weeknight winner'}</span>
+                        <h3>${meal.name}</h3>
+                    </div>
                     <span class="store-badge ${meal.store.toLowerCase().replace(' ', '-')}">${meal.store}</span>
                 </div>
                 <div class="meal-components">
@@ -61,6 +126,7 @@ function renderMeals(meals) {
                     <span>👨‍👩‍👧‍👦 Serves ${meal.servings}</span>
                     <span class="price-tag">~$${meal.estimatedCost.toFixed(2)}</span>
                 </div>
+                <div class="sale-price">Sale protein: ${meal.salePrice || 'weekly deal'}</div>
             </div>
             <button class="recipe-toggle" onclick="toggleRecipe('${meal.id}')">📖 View Recipe</button>
             <div class="recipe-section" id="recipe-${meal.id}">
@@ -99,10 +165,13 @@ function toggleMeal(id) {
     const card = document.querySelector(`[data-id="${id}"]`);
     if (card) {
         card.classList.toggle('selected');
+        const ribbon = card.querySelector('.select-ribbon');
+        if (ribbon) ribbon.textContent = selectedMeals.has(id) ? '✓ Picked' : 'Tap to pick';
     }
     
     // Update shopping list
     updateShoppingList();
+    updatePlannerSummary();
     
     // Save to localStorage
     localStorage.setItem('selectedMeals', JSON.stringify([...selectedMeals]));

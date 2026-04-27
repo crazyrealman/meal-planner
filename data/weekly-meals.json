@@ -38,6 +38,7 @@
     {
       "id": "meal-001",
       "name": "Lemon Garlic Chicken Rice Bowls",
+      "image": "https://source.unsplash.com/900x675/?lemon,chicken,rice,bowl,broccoli",
       "proteinType": "chicken",
       "protein": "Boneless Skinless Chicken Breast",
       "proteinOzPerServing": 5,
@@ -68,6 +69,7 @@
     {
       "id": "meal-002",
       "name": "Turkey Taco Quinoa Skillet",
+      "image": "https://source.unsplash.com/900x675/?turkey,taco,quinoa,skillet",
       "proteinType": "turkey",
       "protein": "93% Lean Ground Turkey",
       "proteinOzPerServing": 5,
@@ -98,6 +100,7 @@
     {
       "id": "meal-003",
       "name": "Honey Mustard Pork Tenderloin",
+      "image": "https://source.unsplash.com/900x675/?pork,tenderloin,green,beans,potatoes",
       "proteinType": "pork",
       "protein": "Pork Tenderloin",
       "proteinOzPerServing": 5,
@@ -129,6 +132,7 @@
     {
       "id": "meal-004",
       "name": "Salmon Quinoa Plates",
+      "image": "https://source.unsplash.com/900x675/?salmon,quinoa,asparagus,dinner",
       "proteinType": "seafood",
       "protein": "Atlantic Salmon",
       "proteinOzPerServing": 5,
@@ -158,6 +162,7 @@
     {
       "id": "meal-005",
       "name": "Beef Veggie Brown Rice Stir Fry",
+      "image": "https://source.unsplash.com/900x675/?beef,stir,fry,brown,rice,vegetables",
       "proteinType": "beef",
       "protein": "Grass Fed Ground Beef",
       "proteinOzPerServing": 5,
@@ -190,6 +195,7 @@
     {
       "id": "meal-006",
       "name": "Pork Chop Apple Brussels Skillet",
+      "image": "https://source.unsplash.com/900x675/?pork,chops,apple,brussels,sprouts,skillet",
       "proteinType": "pork",
       "protein": "Boneless Pork Chops",
       "proteinOzPerServing": 5,
