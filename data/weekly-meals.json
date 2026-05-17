@@ -1,227 +1,471 @@
 {
-  "weekOf": "April 27, 2026",
-  "lastUpdated": "2026-04-24T18:10:00-04:00",
+  "weekOf": "May 17, 2026",
+  "lastUpdated": "2026-05-17T08:50:00-04:00",
+  "macroTarget": {
+    "calories": 1400,
+    "protein": 110,
+    "carbs": 135,
+    "fat": 46,
+    "note": "Daily target provided by Kmo; dinner options are portioned to support it, not consume the full day."
+  },
   "dealsSource": {
-    "harrisTeeter": "Belmont Harris Teeter weekly ad preview (4/29/26 - 5/5/26)",
-    "aldi": "Belmont Aldi weekly ad preview (4/29/26 - 5/5/26)"
+    "harrisTeeter": "Harris Teeter weekly ad May 13-19, 2026; third-party ad mirrors + official page check",
+    "aldi": "Aldi weekly deals May 13-19, 2026 via ALDI/Krazy Coupon Lady deal feed + ad mirror"
   },
   "topDeals": {
     "harristeeter": [
-      { "item": "Boneless Skinless Chicken Breast", "price": "$2.79/lb", "type": "poultry" },
-      { "item": "Pork Tenderloin", "price": "$3.49/lb", "type": "pork" },
-      { "item": "93% Lean Ground Turkey", "price": "$4.29/lb", "type": "poultry" }
+      {
+        "item": "Wild Sockeye Salmon Fillets",
+        "price": "$9.99/lb",
+        "type": "seafood"
+      },
+      {
+        "item": "Argentine Shrimp",
+        "price": "$9.99/lb",
+        "type": "seafood"
+      },
+      {
+        "item": "Smithfield Pork Tenderloin",
+        "price": "BOGO",
+        "type": "pork"
+      }
     ],
     "aldi": [
-      { "item": "Atlantic Salmon", "price": "$8.49/lb", "type": "seafood" },
-      { "item": "Grass Fed Ground Beef", "price": "$4.89/lb", "type": "beef" },
-      { "item": "Boneless Pork Chops", "price": "$3.69/lb", "type": "pork" }
+      {
+        "item": "Fresh Family Pack Chicken Breasts",
+        "price": "$2.19/lb",
+        "type": "poultry"
+      },
+      {
+        "item": "Mini Sweet Peppers",
+        "price": "$1.95/lb",
+        "type": "produce"
+      },
+      {
+        "item": "Medium Avocados",
+        "price": "$0.45 each",
+        "type": "produce"
+      }
     ]
   },
   "freezerRecommendations": [
     {
-      "item": "Harris Teeter Boneless Skinless Chicken Breast",
-      "reason": "Best lean protein value again this week and easy to portion for lunches or future dinners.",
-      "pricePerLb": "$2.79"
+      "item": "Aldi Fresh Family Pack Chicken Breasts",
+      "reason": "Best lean-protein value this week and easiest to portion for macro-friendly lunches/dinners.",
+      "pricePerLb": "$2.19"
     },
     {
-      "item": "Harris Teeter Pork Tenderloin",
-      "reason": "Fast-cooking, flexible, and still freezer friendly for another easy weeknight meal later.",
-      "pricePerLb": "$3.49"
+      "item": "Harris Teeter Smithfield Pork Tenderloin",
+      "reason": "BOGO fast-cooking protein; freeze one tenderloin flat for a later sheet-pan dinner.",
+      "pricePerLb": "BOGO"
     },
     {
-      "item": "Aldi Grass Fed Ground Beef",
-      "reason": "Solid price for a quick skillet or taco night backup option.",
-      "pricePerLb": "$4.89"
+      "item": "Harris Teeter Wild Sockeye Salmon",
+      "reason": "Premium protein deal; buy only if you\u2019ll cook/freeze same day.",
+      "pricePerLb": "$9.99"
     }
   ],
   "meals": [
     {
       "id": "meal-001",
-      "name": "Lemon Garlic Chicken Rice Bowls",
-      "image": "https://source.unsplash.com/900x675/?lemon,chicken,rice,bowl,broccoli",
+      "name": "Lemon Herb Chicken Power Bowls",
+      "image": "https://source.unsplash.com/900x675/?grilled,chicken,rice,broccoli,bowl",
       "proteinType": "chicken",
-      "protein": "Boneless Skinless Chicken Breast",
+      "protein": "Fresh Family Pack Chicken Breasts",
       "proteinOzPerServing": 5,
-      "vegetable": "Roasted Broccoli",
+      "vegetable": "Broccoli + Mini Sweet Peppers",
       "carb": "Brown Rice",
-      "prepTime": 25,
+      "prepTime": 28,
       "servings": 5,
-      "estimatedCost": 11,
-      "store": "Harris Teeter",
-      "salePrice": "$2.79/lb",
-      "dealHighlight": "✅ Best lean value this week",
+      "estimatedCost": 12.5,
+      "store": "Aldi",
+      "salePrice": "$2.19/lb",
+      "dealHighlight": "\u2705 Best macro value this week",
+      "macroPerServing": {
+        "calories": 445,
+        "protein": 43,
+        "carbs": 48,
+        "fat": 10
+      },
+      "macroFit": "High protein, moderate carb, low fat \u2014 easiest fit for a 1400/110P day.",
       "ingredients": [
-        { "name": "Chicken Breast", "quantity": 2, "unit": "lbs" },
-        { "name": "Broccoli Crowns", "quantity": 2, "unit": "lbs" },
-        { "name": "Brown Rice", "quantity": 2, "unit": "cups dry" },
-        { "name": "Lemon", "quantity": 2, "unit": "whole" },
-        { "name": "Garlic", "quantity": 4, "unit": "cloves" },
-        { "name": "Olive Oil", "quantity": 3, "unit": "tbsp" }
+        {
+          "name": "Chicken Breasts",
+          "quantity": 2,
+          "unit": "lbs"
+        },
+        {
+          "name": "Brown Rice",
+          "quantity": 2,
+          "unit": "cups dry"
+        },
+        {
+          "name": "Broccoli Crowns",
+          "quantity": 2,
+          "unit": "lbs"
+        },
+        {
+          "name": "Mini Sweet Peppers",
+          "quantity": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "Lemon",
+          "quantity": 2,
+          "unit": "whole"
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Garlic",
+          "quantity": 4,
+          "unit": "cloves"
+        }
       ],
       "instructions": [
-        "Cook brown rice according to package directions.",
-        "Preheat oven to 425°F.",
-        "Season chicken with olive oil, garlic, lemon juice, salt, and pepper.",
-        "Roast chicken and broccoli on a sheet pan for 20 to 22 minutes.",
-        "Slice chicken and serve over rice with broccoli and extra lemon."
+        "Cook brown rice.",
+        "Season chicken with lemon, garlic, salt, pepper, and half the oil.",
+        "Roast chicken, broccoli, and peppers at 425\u00b0F for 20 to 22 minutes.",
+        "Slice chicken and serve over rice with extra lemon.",
+        "Macro note: keep rice to about 3/4 cup cooked if you need carbs tighter."
       ]
     },
     {
       "id": "meal-002",
-      "name": "Turkey Taco Quinoa Skillet",
-      "image": "https://source.unsplash.com/900x675/?turkey,taco,quinoa,skillet",
-      "proteinType": "turkey",
-      "protein": "93% Lean Ground Turkey",
-      "proteinOzPerServing": 5,
-      "vegetable": "Peppers, Onion & Romaine",
-      "carb": "Quinoa",
-      "prepTime": 25,
+      "name": "Shrimp Taco Rice Bowls",
+      "image": "https://source.unsplash.com/900x675/?shrimp,taco,rice,bowl,avocado",
+      "proteinType": "seafood",
+      "protein": "Argentine Shrimp",
+      "proteinOzPerServing": 6,
+      "vegetable": "Cabbage Slaw + Peppers",
+      "carb": "Cilantro Lime Rice",
+      "prepTime": 22,
       "servings": 5,
-      "estimatedCost": 12,
+      "estimatedCost": 18,
       "store": "Harris Teeter",
-      "salePrice": "$4.29/lb",
-      "dealHighlight": "🌮 Fast and clean taco-night pivot",
+      "salePrice": "$9.99/lb",
+      "dealHighlight": "\ud83c\udf64 Fastest high-protein dinner",
+      "macroPerServing": {
+        "calories": 430,
+        "protein": 41,
+        "carbs": 51,
+        "fat": 9
+      },
+      "macroFit": "Lean seafood keeps fat low, leaving room for avocado or dressing if desired.",
       "ingredients": [
-        { "name": "Ground Turkey 93% Lean", "quantity": 2, "unit": "lbs" },
-        { "name": "Quinoa", "quantity": 1.5, "unit": "cups dry" },
-        { "name": "Bell Peppers", "quantity": 3, "unit": "large" },
-        { "name": "Yellow Onion", "quantity": 1, "unit": "medium" },
-        { "name": "Romaine", "quantity": 1, "unit": "head" },
-        { "name": "Taco Seasoning", "quantity": 1, "unit": "packet" },
-        { "name": "Lime", "quantity": 2, "unit": "whole" }
+        {
+          "name": "Argentine Shrimp",
+          "quantity": 2,
+          "unit": "lbs"
+        },
+        {
+          "name": "White or Brown Rice",
+          "quantity": 2,
+          "unit": "cups dry"
+        },
+        {
+          "name": "Shredded Cabbage/Slaw Mix",
+          "quantity": 1,
+          "unit": "bag"
+        },
+        {
+          "name": "Mini Sweet Peppers",
+          "quantity": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "Lime",
+          "quantity": 3,
+          "unit": "whole"
+        },
+        {
+          "name": "Avocado",
+          "quantity": 2,
+          "unit": "medium"
+        },
+        {
+          "name": "Taco Seasoning",
+          "quantity": 1,
+          "unit": "packet"
+        }
       ],
       "instructions": [
-        "Cook quinoa according to package directions.",
-        "Brown turkey in a large skillet and add taco seasoning with a splash of water.",
-        "Saute peppers and onion until tender.",
-        "Serve turkey and vegetables over quinoa with shredded romaine and lime juice."
+        "Cook rice with lime zest if you have it.",
+        "Pat shrimp dry and season with taco seasoning.",
+        "Saut\u00e9 shrimp 2 to 3 minutes per side.",
+        "Toss slaw with lime juice, salt, and chopped peppers.",
+        "Serve shrimp over rice with slaw; use 1/4 avocado per serving if fats allow."
       ]
     },
     {
       "id": "meal-003",
-      "name": "Honey Mustard Pork Tenderloin",
-      "image": "https://source.unsplash.com/900x675/?pork,tenderloin,green,beans,potatoes",
+      "name": "Honey Dijon Pork Tenderloin Plates",
+      "image": "https://source.unsplash.com/900x675/?pork,tenderloin,sweet,potato,green,beans",
       "proteinType": "pork",
-      "protein": "Pork Tenderloin",
+      "protein": "Smithfield Pork Tenderloin",
       "proteinOzPerServing": 5,
       "vegetable": "Green Beans",
-      "carb": "Baby Potatoes",
-      "prepTime": 28,
+      "carb": "Roasted Sweet Potatoes",
+      "prepTime": 30,
       "servings": 5,
-      "estimatedCost": 12.5,
+      "estimatedCost": 14,
       "store": "Harris Teeter",
-      "salePrice": "$3.49/lb",
-      "dealHighlight": "🔥 Best pork value this week",
+      "salePrice": "BOGO",
+      "dealHighlight": "\ud83d\udd25 BOGO protein play",
+      "macroPerServing": {
+        "calories": 465,
+        "protein": 39,
+        "carbs": 44,
+        "fat": 15
+      },
+      "macroFit": "Still macro-friendly, just a little higher fat than chicken/shrimp.",
       "ingredients": [
-        { "name": "Pork Tenderloin", "quantity": 2, "unit": "lbs" },
-        { "name": "Green Beans", "quantity": 1.5, "unit": "lbs" },
-        { "name": "Baby Potatoes", "quantity": 2, "unit": "lbs" },
-        { "name": "Dijon Mustard", "quantity": 2, "unit": "tbsp" },
-        { "name": "Honey", "quantity": 2, "unit": "tbsp" },
-        { "name": "Olive Oil", "quantity": 2, "unit": "tbsp" },
-        { "name": "Garlic Powder", "quantity": 1, "unit": "tsp" }
+        {
+          "name": "Pork Tenderloin",
+          "quantity": 2,
+          "unit": "lbs"
+        },
+        {
+          "name": "Sweet Potatoes",
+          "quantity": 2.5,
+          "unit": "lbs"
+        },
+        {
+          "name": "Green Beans",
+          "quantity": 1.5,
+          "unit": "lbs"
+        },
+        {
+          "name": "Dijon Mustard",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Honey",
+          "quantity": 1.5,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Garlic Powder",
+          "quantity": 1,
+          "unit": "tsp"
+        }
       ],
       "instructions": [
-        "Preheat oven to 425°F.",
-        "Halve potatoes and trim green beans, then toss with oil and seasoning.",
-        "Brush pork with Dijon and honey mixture.",
-        "Roast pork and vegetables together for 22 to 25 minutes.",
-        "Rest pork before slicing and serving."
+        "Cube sweet potatoes and start roasting at 425\u00b0F.",
+        "Brush pork with Dijon, honey, garlic powder, salt, and pepper.",
+        "Add pork and green beans to the sheet pan and roast 20 to 24 minutes.",
+        "Rest pork 5 minutes, then slice.",
+        "Macro note: keep sweet potato to about 6 oz cooked per serving."
       ]
     },
     {
       "id": "meal-004",
-      "name": "Salmon Quinoa Plates",
-      "image": "https://source.unsplash.com/900x675/?salmon,quinoa,asparagus,dinner",
+      "name": "Sockeye Salmon Quinoa Cucumber Plates",
+      "image": "https://source.unsplash.com/900x675/?salmon,quinoa,cucumber,plate",
       "proteinType": "seafood",
-      "protein": "Atlantic Salmon",
+      "protein": "Wild Sockeye Salmon Fillets",
       "proteinOzPerServing": 5,
-      "vegetable": "Asparagus",
+      "vegetable": "Mini Cucumber Salad",
       "carb": "Quinoa",
       "prepTime": 25,
       "servings": 5,
-      "estimatedCost": 17,
-      "store": "Aldi",
-      "salePrice": "$8.49/lb",
-      "dealHighlight": "🐟 Clean premium option",
+      "estimatedCost": 22,
+      "store": "Harris Teeter",
+      "salePrice": "$9.99/lb",
+      "dealHighlight": "\ud83d\udc1f Premium clean option",
+      "macroPerServing": {
+        "calories": 485,
+        "protein": 42,
+        "carbs": 39,
+        "fat": 18
+      },
+      "macroFit": "Great protein/omega-3 meal; watch added oil because salmon brings fat already.",
       "ingredients": [
-        { "name": "Atlantic Salmon Fillets", "quantity": 1.75, "unit": "lbs" },
-        { "name": "Asparagus", "quantity": 2, "unit": "bunches" },
-        { "name": "Quinoa", "quantity": 1.5, "unit": "cups dry" },
-        { "name": "Lemon", "quantity": 2, "unit": "whole" },
-        { "name": "Garlic", "quantity": 3, "unit": "cloves" },
-        { "name": "Olive Oil", "quantity": 2, "unit": "tbsp" }
+        {
+          "name": "Wild Sockeye Salmon",
+          "quantity": 2,
+          "unit": "lbs"
+        },
+        {
+          "name": "Quinoa",
+          "quantity": 1.75,
+          "unit": "cups dry"
+        },
+        {
+          "name": "Mini Cucumbers",
+          "quantity": 2,
+          "unit": "packs"
+        },
+        {
+          "name": "Greek Yogurt",
+          "quantity": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "Lemon",
+          "quantity": 2,
+          "unit": "whole"
+        },
+        {
+          "name": "Dill or Italian Seasoning",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Olive Oil",
+          "quantity": 1,
+          "unit": "tbsp"
+        }
       ],
       "instructions": [
-        "Cook quinoa according to package directions.",
-        "Place salmon and asparagus on a sheet pan and season with lemon, garlic, olive oil, salt, and pepper.",
-        "Bake at 400°F for 12 to 15 minutes.",
-        "Serve salmon and asparagus over quinoa."
+        "Cook quinoa.",
+        "Bake salmon at 400\u00b0F for 12 to 15 minutes with lemon and seasoning.",
+        "Slice cucumbers and toss with Greek yogurt, lemon juice, salt, pepper, and dill.",
+        "Serve salmon with quinoa and cucumber salad.",
+        "Macro note: skip extra oil if trying to stay under 46g fat/day."
       ]
     },
     {
       "id": "meal-005",
-      "name": "Beef Veggie Brown Rice Stir Fry",
-      "image": "https://source.unsplash.com/900x675/?beef,stir,fry,brown,rice,vegetables",
-      "proteinType": "beef",
-      "protein": "Grass Fed Ground Beef",
+      "name": "Chicken Fajita Sweet Pepper Skillet",
+      "image": "https://source.unsplash.com/900x675/?chicken,fajita,peppers,skillet",
+      "proteinType": "chicken",
+      "protein": "Fresh Family Pack Chicken Breasts",
       "proteinOzPerServing": 5,
-      "vegetable": "Broccoli, Carrots & Snap Peas",
-      "carb": "Brown Rice",
+      "vegetable": "Mini Sweet Peppers + Onions",
+      "carb": "Black Beans + Rice",
       "prepTime": 25,
       "servings": 5,
       "estimatedCost": 13,
       "store": "Aldi",
-      "salePrice": "$4.89/lb",
-      "dealHighlight": "⚡ Good fast dinner value",
+      "salePrice": "$2.19/lb chicken; $1.95/lb peppers",
+      "dealHighlight": "\ud83c\udf36\ufe0f Uses two Aldi deals",
+      "macroPerServing": {
+        "calories": 455,
+        "protein": 44,
+        "carbs": 53,
+        "fat": 8
+      },
+      "macroFit": "High-protein, high-fiber; very good dinner if the rest of the day is lower carb.",
       "ingredients": [
-        { "name": "Grass Fed Ground Beef", "quantity": 2, "unit": "lbs" },
-        { "name": "Broccoli Florets", "quantity": 4, "unit": "cups" },
-        { "name": "Carrots", "quantity": 2, "unit": "large" },
-        { "name": "Snap Peas", "quantity": 2, "unit": "cups" },
-        { "name": "Brown Rice", "quantity": 2, "unit": "cups dry" },
-        { "name": "Soy Sauce (low sodium)", "quantity": 3, "unit": "tbsp" },
-        { "name": "Garlic", "quantity": 4, "unit": "cloves" },
-        { "name": "Ginger", "quantity": 1, "unit": "inch piece" }
+        {
+          "name": "Chicken Breasts",
+          "quantity": 2,
+          "unit": "lbs"
+        },
+        {
+          "name": "Mini Sweet Peppers",
+          "quantity": 2,
+          "unit": "lbs"
+        },
+        {
+          "name": "Yellow Onion",
+          "quantity": 2,
+          "unit": "medium"
+        },
+        {
+          "name": "Black Beans",
+          "quantity": 2,
+          "unit": "cans"
+        },
+        {
+          "name": "Brown Rice",
+          "quantity": 1.5,
+          "unit": "cups dry"
+        },
+        {
+          "name": "Fajita Seasoning",
+          "quantity": 1,
+          "unit": "packet"
+        },
+        {
+          "name": "Lime",
+          "quantity": 2,
+          "unit": "whole"
+        }
       ],
       "instructions": [
-        "Cook brown rice according to package directions.",
-        "Brown beef in a large skillet and set aside.",
-        "Stir-fry broccoli, carrots, and snap peas until tender-crisp.",
-        "Add beef back with soy sauce, garlic, and ginger.",
-        "Serve over brown rice."
+        "Cook rice.",
+        "Slice chicken, peppers, and onions.",
+        "Saut\u00e9 chicken with fajita seasoning until cooked through.",
+        "Add peppers and onions until tender-crisp.",
+        "Serve over rice and black beans with lime."
       ]
     },
     {
       "id": "meal-006",
-      "name": "Pork Chop Apple Brussels Skillet",
-      "image": "https://source.unsplash.com/900x675/?pork,chops,apple,brussels,sprouts,skillet",
-      "proteinType": "pork",
-      "protein": "Boneless Pork Chops",
-      "proteinOzPerServing": 5,
-      "vegetable": "Brussels Sprouts",
-      "carb": "Wild Rice",
-      "prepTime": 30,
+      "name": "Lean Burger Bowl with Avocado Ranch",
+      "image": "https://source.unsplash.com/900x675/?burger,bowl,avocado,potatoes",
+      "proteinType": "beef",
+      "protein": "Chuck & Brisket Angus Beef Burgers",
+      "proteinOzPerServing": 4,
+      "vegetable": "Romaine + Tomato + Pickles",
+      "carb": "Air-Fryer Potatoes",
+      "prepTime": 28,
       "servings": 5,
-      "estimatedCost": 13.5,
+      "estimatedCost": 16,
       "store": "Aldi",
-      "salePrice": "$3.69/lb",
-      "dealHighlight": "🍎 Nice weekend option",
+      "salePrice": "$5.99/lb burgers; $0.45 avocado",
+      "dealHighlight": "\ud83c\udf54 Family-friendly, macro-managed",
+      "macroPerServing": {
+        "calories": 520,
+        "protein": 34,
+        "carbs": 42,
+        "fat": 23
+      },
+      "macroFit": "Tastier than it is lean \u2014 use this on a lower-fat breakfast/lunch day.",
       "ingredients": [
-        { "name": "Boneless Pork Chops", "quantity": 2, "unit": "lbs" },
-        { "name": "Brussels Sprouts", "quantity": 1.5, "unit": "lbs" },
-        { "name": "Wild Rice", "quantity": 1.5, "unit": "cups dry" },
-        { "name": "Apple", "quantity": 2, "unit": "medium" },
-        { "name": "Olive Oil", "quantity": 2, "unit": "tbsp" },
-        { "name": "Garlic", "quantity": 3, "unit": "cloves" },
-        { "name": "Dijon Mustard", "quantity": 1, "unit": "tbsp" }
+        {
+          "name": "Angus Burger Patties",
+          "quantity": 1.75,
+          "unit": "lbs"
+        },
+        {
+          "name": "Romaine",
+          "quantity": 2,
+          "unit": "heads"
+        },
+        {
+          "name": "Tomatoes",
+          "quantity": 4,
+          "unit": "medium"
+        },
+        {
+          "name": "Pickles",
+          "quantity": 1,
+          "unit": "jar"
+        },
+        {
+          "name": "Potatoes",
+          "quantity": 2.5,
+          "unit": "lbs"
+        },
+        {
+          "name": "Avocado",
+          "quantity": 2,
+          "unit": "medium"
+        },
+        {
+          "name": "Greek Yogurt",
+          "quantity": 1,
+          "unit": "cup"
+        }
       ],
       "instructions": [
-        "Cook wild rice according to package directions.",
-        "Sear pork chops until cooked through and remove from pan.",
-        "Cook Brussels sprouts and sliced apple until softened and caramelized.",
-        "Add garlic and Dijon, then return pork briefly to warm through.",
-        "Serve over wild rice."
+        "Air-fry or roast diced potatoes at 425\u00b0F until crisp.",
+        "Cook burger patties and slice/chop into bowl portions.",
+        "Build bowls with romaine, tomato, pickles, potatoes, and beef.",
+        "Mash avocado with Greek yogurt, pickle juice, garlic powder, salt, and pepper for a lighter ranch-style sauce.",
+        "Macro note: keep avocado sauce to 2 tbsp if fats are tight."
       ]
     }
   ]

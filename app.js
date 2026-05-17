@@ -121,6 +121,15 @@ function renderMeals(meals) {
                         <span>${meal.carb}</span>
                     </div>
                 </div>
+                ${meal.macroPerServing ? `
+                    <div class="macro-card">
+                        <span><strong>${meal.macroPerServing.calories}</strong> cal</span>
+                        <span><strong>${meal.macroPerServing.protein}g</strong> protein</span>
+                        <span><strong>${meal.macroPerServing.carbs}g</strong> carbs</span>
+                        <span><strong>${meal.macroPerServing.fat}g</strong> fat</span>
+                    </div>
+                    ${meal.macroFit ? `<div class="macro-fit">${meal.macroFit}</div>` : ''}
+                ` : ''}
                 <div class="meal-meta">
                     <span>⏱️ ${meal.prepTime} min prep</span>
                     <span>👨‍👩‍👧‍👦 Serves ${meal.servings}</span>

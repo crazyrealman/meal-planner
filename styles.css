@@ -502,6 +502,40 @@ header h1 {
     text-transform: uppercase;
 }
 
+.macro-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    margin: 0 0 10px;
+}
+
+.macro-card span {
+    padding: 9px 6px;
+    border-radius: 12px;
+    background: rgba(66, 133, 89, 0.10);
+    color: var(--primary-dark);
+    font-size: 0.74rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.macro-card strong {
+    display: block;
+    font-size: 0.93rem;
+    font-weight: 950;
+}
+
+.macro-fit {
+    margin: 0 0 14px;
+    padding: 9px 10px;
+    border-radius: 14px;
+    background: rgba(246, 243, 234, 0.86);
+    color: var(--text-light);
+    font-size: 0.82rem;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
 .meal-meta {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -708,6 +742,7 @@ footer {
         flex-direction: column;
     }
 
+    .macro-card,
     .meal-meta {
         grid-template-columns: 1fr;
     }
