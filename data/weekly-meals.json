@@ -1,521 +1,302 @@
 {
-  "weekOf": "June 6, 2026",
-  "lastUpdated": "2026-06-06T07:00:00-04:00",
+  "weekOf": "June 10, 2026",
+  "lastUpdated": "2026-06-13T07:00:00-04:00",
   "macroTarget": {
     "calories": 1400,
     "protein": 110,
     "carbs": 135,
     "fat": 46,
-    "note": "Daily target provided by Kmo; dinner options are portioned to support it, not consume the full day."
+    "note": "Daily target provided by Kmo; dinner options are portioned to support it, not consume the full day. Meals use 4-6 oz protein per person, vegetables, complex carbs, and under-30-minute prep."
   },
   "dealsSource": {
-    "harrisTeeter": "Belmont Harris Teeter official weekly-ad page was checked but did not expose item details through lightweight fetch; Jun 3-Jun 9, 2026 protein deals were read from current public weekly-ad mirror images/OCR. Confirm local availability in the HT app/store.",
-    "aldi": "Belmont ALDI 6402 Wilkinson Blvd weekly ads for Jun 3-Jun 9, 2026 were checked via current public weekly-ad listing and flyer images/OCR; item availability can vary by store."
+    "harrisTeeter": "Belmont Harris Teeter official weekly-ad page for 905 South Point Rd was checked on Jun 13 but lightweight fetch did not expose full item cards/prices. Current public weekly-ad mirrors for Jun 10-Jun 16, 2026 list meat/seafood features including fish fillets, rotisserie chicken, and USDA Choice beef; confirm exact local price in HT app/store.",
+    "aldi": "Belmont ALDI 6402 Wilkinson Blvd current weekly ad for Jun 10-Jun 16, 2026 was checked through ALDI weekly specials and a Belmont-specific public ad listing. ALDI exposed Kirkwood family-pack chicken breasts at $2.19/lb; public/current listing also surfaced chicken drumsticks and Fremont Fish Market salmon burgers, with store availability still worth confirming."
   },
   "topDeals": {
     "harristeeter": [
       {
-        "item": "Harris Teeter Boneless Chicken Breast, value pack",
-        "price": "$2.49/lb",
+        "item": "Harris Teeter weekly-ad fish fillets",
+        "price": "Weekly ad feature; price not exposed via lightweight fetch",
+        "type": "seafood"
+      },
+      {
+        "item": "Harris Teeter rotisserie chicken",
+        "price": "Weekly ad feature; price not exposed via lightweight fetch",
         "type": "poultry"
       },
       {
-        "item": "Smithfield Marinated Pork Loin Filets & Tenderloins, 18.4-23 oz",
-        "price": "BOGO",
-        "type": "pork"
-      },
-      {
-        "item": "Wild Caught Argentine Shrimp, peeled & deveined, 16-25 ct",
-        "price": "$9.99/lb",
-        "type": "seafood"
-      },
-      {
-        "item": "Wild Caught Dungeness Crab Clusters",
-        "price": "$9.99/lb",
-        "type": "seafood"
-      },
-      {
-        "item": "Boneless New York Strip Steak",
-        "price": "$9.99/lb",
-        "type": "beef"
-      },
-      {
-        "item": "PRE Grass-Fed Ground Beef, 16 oz",
-        "price": "$6.99",
+        "item": "Harris Teeter USDA Choice beef",
+        "price": "Weekly ad feature; price not exposed via lightweight fetch",
         "type": "beef"
       }
     ],
     "aldi": [
       {
-        "item": "Fresh Family Pack Thin-Sliced Pork Chops",
-        "price": "$2.99/lb",
-        "type": "pork"
-      },
-      {
-        "item": "Fresh Diced Marinated Chicken Breast, 16 oz",
-        "price": "$3.99",
+        "item": "Kirkwood Family Pack Chicken Breasts",
+        "price": "$2.19/lb, about 5 lb pack",
         "type": "poultry"
       },
       {
-        "item": "Morton's of Omaha Petite Beef Tender, rosemary or steakhouse",
-        "price": "$6.99/lb",
-        "type": "beef"
-      },
-      {
-        "item": "Never Any! Italian or Spinach & Feta Chicken Sausage, 12 oz",
-        "price": "$2.99",
+        "item": "Kirkwood Fresh Family Pack Chicken Drumsticks",
+        "price": "$0.99/lb surfaced in current weekly-ad listing; confirm locally",
         "type": "poultry"
       },
       {
-        "item": "Northern Catch Assorted Pouch Tuna, 2.5 oz",
-        "price": "$0.79",
+        "item": "Fremont Fish Market Wild Caught Chipotle or Teriyaki Alaska Salmon Burgers, 4 ct",
+        "price": "Current weekly-ad item; price not exposed via lightweight fetch",
         "type": "seafood"
-      },
-      {
-        "item": "Appleton Farms Thick Cut Bacon, 16 oz",
-        "price": "$3.99",
-        "type": "pork"
       }
     ]
   },
   "freezerRecommendations": [
     {
-      "item": "Harris Teeter chicken breast value packs",
-      "reason": "Lean, flexible protein for bowls, sheet-pan dinners, and salads; freeze flat in 2-lb family dinner packs.",
-      "pricePerLb": "$2.49"
+      "item": "ALDI Kirkwood family-pack chicken breasts",
+      "reason": "Best confirmed lean-protein price found this week; freeze flat in 2-lb dinner packs for bowls, stir-fries, and sheet-pan meals.",
+      "pricePerLb": "$2.19"
     },
     {
-      "item": "Aldi family pack thin-sliced pork chops",
-      "reason": "Fast-cooking whole-food protein at a strong price; portion into 1.75-2 lb packs for 25-minute dinners.",
-      "pricePerLb": "$2.99"
+      "item": "ALDI family-pack chicken drumsticks",
+      "reason": "Very low-cost family protein if the Belmont ad/app confirms stock; remove skin after cooking for a cleaner plate.",
+      "pricePerLb": "$0.99, confirm locally"
     },
     {
-      "item": "Smithfield pork loin/tenderloin BOGO",
-      "reason": "Good weeknight backup if ingredients are clean enough for your preference; trim sauce portions and pair with vegetables/grains.",
-      "pricePerLb": "BOGO"
+      "item": "Harris Teeter weekly-ad fish fillets",
+      "reason": "Fast 12-minute protein for clean bowls/tacos; buy if the HT app/store price is competitive and ingredient list is plain fish.",
+      "pricePerLb": "Ad feature, confirm price"
     }
   ],
   "meals": [
     {
       "id": "meal-001",
-      "name": "HT Chicken Breast Greek Quinoa Bowls",
+      "name": "ALDI Lemon-Herb Chicken Quinoa Bowls",
       "image": "https://source.unsplash.com/900x675/?grilled,chicken,quinoa,bowl",
       "proteinType": "chicken",
-      "protein": "Harris Teeter Boneless Chicken Breast",
+      "protein": "Kirkwood Family Pack Chicken Breasts",
       "proteinOzPerServing": 5,
-      "vegetable": "Romaine + Cucumber + Tomatoes",
-      "carb": "Quinoa + Chickpeas",
+      "vegetable": "Roasted peppers + cucumber + spinach",
+      "carb": "Quinoa + chickpeas",
       "prepTime": 25,
       "servings": 5,
-      "estimatedCost": 15,
-      "store": "Harris Teeter",
-      "salePrice": "$2.49/lb value pack",
-      "dealHighlight": "\ud83e\udd57 Lean value-pack staple",
+      "estimatedCost": 16,
+      "store": "Aldi",
+      "salePrice": "$2.19/lb family pack",
+      "dealHighlight": "🥇 Best confirmed lean-protein deal",
       "macroPerServing": {
         "calories": 455,
-        "protein": 43,
-        "carbs": 46,
-        "fat": 13
+        "protein": 44,
+        "carbs": 47,
+        "fat": 12
       },
-      "macroFit": "Lean 5 oz chicken portions with high-fiber carbs and a yogurt-lemon sauce.",
+      "macroFit": "5 oz lean chicken with high-fiber quinoa/chickpeas and lots of vegetables.",
       "ingredients": [
-        {
-          "name": "Boneless Chicken Breast",
-          "quantity": 2,
-          "unit": "lbs"
-        },
-        {
-          "name": "Quinoa",
-          "quantity": 1.75,
-          "unit": "cups dry"
-        },
-        {
-          "name": "Chickpeas",
-          "quantity": 2,
-          "unit": "cans"
-        },
-        {
-          "name": "Romaine",
-          "quantity": 2,
-          "unit": "heads"
-        },
-        {
-          "name": "Cucumbers",
-          "quantity": 3,
-          "unit": "medium"
-        },
-        {
-          "name": "Cherry Tomatoes",
-          "quantity": 1.5,
-          "unit": "pints"
-        },
-        {
-          "name": "Plain Greek Yogurt",
-          "quantity": 1,
-          "unit": "cup"
-        },
-        {
-          "name": "Lemon",
-          "quantity": 2,
-          "unit": "whole"
-        }
+        { "name": "Kirkwood Family Pack Chicken Breasts", "quantity": 2, "unit": "lbs" },
+        { "name": "Quinoa", "quantity": 1.75, "unit": "cups dry" },
+        { "name": "Chickpeas", "quantity": 2, "unit": "cans" },
+        { "name": "Multi-Colored Peppers", "quantity": 2, "unit": "packages" },
+        { "name": "Baby Spinach", "quantity": 1, "unit": "large tub" },
+        { "name": "Cucumbers", "quantity": 3, "unit": "medium" },
+        { "name": "Lemons", "quantity": 2, "unit": "whole" },
+        { "name": "Plain Greek Yogurt", "quantity": 1, "unit": "cup" }
       ],
       "instructions": [
-        "Cook quinoa and rinse/drain chickpeas.",
-        "Slice chicken thin, season with garlic, oregano, salt, pepper, and lemon.",
+        "Cook quinoa while the chicken cooks.",
+        "Slice chicken thin and season with lemon juice, garlic, oregano, pepper, and a small pinch of salt.",
         "Sear chicken 4 to 5 minutes per side until cooked through.",
-        "Mix Greek yogurt with lemon juice, dill or oregano, garlic powder, salt, and pepper.",
-        "Build bowls with quinoa, chickpeas, chopped vegetables, chicken, and yogurt sauce."
+        "Quick-roast or sauté peppers; chop cucumber and spinach.",
+        "Build bowls with quinoa, chickpeas, vegetables, chicken, and lemon-yogurt sauce."
       ]
     },
     {
       "id": "meal-002",
-      "name": "Aldi Thin-Cut Pork Chop Apple Slaw Plates",
-      "image": "https://source.unsplash.com/900x675/?pork,chops,slaw,sweet,potato",
-      "proteinType": "pork",
-      "protein": "Fresh Family Pack Thin-Sliced Pork Chops",
+      "name": "ALDI Sheet-Pan Drumsticks with Sweet Potatoes",
+      "image": "https://source.unsplash.com/900x675/?chicken,drumsticks,sweet,potato",
+      "proteinType": "chicken",
+      "protein": "Kirkwood Fresh Family Pack Chicken Drumsticks",
       "proteinOzPerServing": 5,
-      "vegetable": "Cabbage Apple Slaw + Green Beans",
-      "carb": "Sweet Potatoes",
-      "prepTime": 27,
+      "vegetable": "Green beans + side salad",
+      "carb": "Roasted sweet potatoes",
+      "prepTime": 10,
       "servings": 5,
-      "estimatedCost": 16,
+      "estimatedCost": 15,
       "store": "Aldi",
-      "salePrice": "$2.99/lb",
-      "dealHighlight": "\ud83d\udcb8 Best Aldi family-pack deal",
+      "salePrice": "$0.99/lb surfaced in current listing; confirm locally",
+      "dealHighlight": "🍗 Budget family protein",
       "macroPerServing": {
-        "calories": 490,
-        "protein": 39,
-        "carbs": 48,
-        "fat": 17
+        "calories": 485,
+        "protein": 36,
+        "carbs": 42,
+        "fat": 18
       },
-      "macroFit": "Thin chops cook quickly; slaw and sweet potatoes keep the plate clean and filling.",
+      "macroFit": "Use two smaller drumsticks per adult-equivalent serving, pull skin after cooking, and keep the carb clean with sweet potatoes.",
       "ingredients": [
-        {
-          "name": "Thin-Sliced Pork Chops",
-          "quantity": 2,
-          "unit": "lbs"
-        },
-        {
-          "name": "Sweet Potatoes",
-          "quantity": 2.5,
-          "unit": "lbs"
-        },
-        {
-          "name": "Green Beans",
-          "quantity": 1.75,
-          "unit": "lbs"
-        },
-        {
-          "name": "Shredded Cabbage or Slaw Mix",
-          "quantity": 2,
-          "unit": "bags"
-        },
-        {
-          "name": "Apples",
-          "quantity": 3,
-          "unit": "medium"
-        },
-        {
-          "name": "Dijon Mustard",
-          "quantity": 2,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Apple Cider Vinegar",
-          "quantity": 3,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Olive Oil",
-          "quantity": 2,
-          "unit": "tbsp"
-        }
+        { "name": "Family Pack Chicken Drumsticks", "quantity": 4, "unit": "lbs" },
+        { "name": "Sweet Potatoes", "quantity": 5, "unit": "medium" },
+        { "name": "Green Beans", "quantity": 2, "unit": "lbs" },
+        { "name": "Mixed Greens", "quantity": 1, "unit": "large tub" },
+        { "name": "Avocado Oil", "quantity": 2, "unit": "tbsp" },
+        { "name": "Smoked Paprika", "quantity": 2, "unit": "tsp" }
       ],
       "instructions": [
-        "Microwave cubed sweet potatoes 5 to 6 minutes, then crisp in an air fryer or skillet.",
-        "Toss slaw mix with thin-sliced apples, cider vinegar, Dijon, salt, pepper, and a little olive oil.",
-        "Steam or saut\u00e9 green beans until tender-crisp.",
-        "Season pork chops with garlic, paprika, salt, and pepper; sear 2 to 3 minutes per side.",
-        "Serve pork with sweet potatoes, green beans, and apple slaw."
+        "Heat oven to 425°F and line two sheet pans.",
+        "Season drumsticks with paprika, garlic, pepper, and a little salt; cube sweet potatoes small.",
+        "Roast chicken and sweet potatoes 25 to 30 minutes, flipping once.",
+        "Microwave-steam or sauté green beans while the sheet pan finishes.",
+        "Serve with mixed greens; remove chicken skin for a leaner plate."
       ]
     },
     {
       "id": "meal-003",
-      "name": "HT Shrimp Brown Rice Taco Bowls",
-      "image": "https://source.unsplash.com/900x675/?shrimp,taco,bowl,cabbage",
+      "name": "HT Fish Fillet Brown Rice Taco Bowls",
+      "image": "https://source.unsplash.com/900x675/?fish,taco,bowl,rice",
       "proteinType": "seafood",
-      "protein": "Wild Caught Argentine Shrimp",
-      "proteinOzPerServing": 6,
-      "vegetable": "Cabbage Slaw + Bell Peppers",
-      "carb": "Brown Rice + Black Beans",
+      "protein": "Harris Teeter weekly-ad fish fillets",
+      "proteinOzPerServing": 5,
+      "vegetable": "Cabbage slaw + pico-style tomatoes",
+      "carb": "Brown rice + black beans",
       "prepTime": 22,
       "servings": 5,
-      "estimatedCost": 24,
+      "estimatedCost": 22,
       "store": "Harris Teeter",
-      "salePrice": "$9.99/lb",
-      "dealHighlight": "\ud83c\udf64 Fast seafood pick",
+      "salePrice": "Weekly ad fish-fillets feature; exact Belmont price not exposed",
+      "dealHighlight": "🐟 Fast clean seafood night",
       "macroPerServing": {
         "calories": 430,
-        "protein": 42,
+        "protein": 37,
         "carbs": 50,
-        "fat": 9
+        "fat": 10
       },
-      "macroFit": "Very lean seafood with beans and brown rice for fiber-rich complex carbs.",
+      "macroFit": "Lean fish plus beans/rice gives a balanced, high-protein bowl without heavy sauces.",
       "ingredients": [
-        {
-          "name": "Argentine Shrimp",
-          "quantity": 2,
-          "unit": "lbs"
-        },
-        {
-          "name": "Brown Rice",
-          "quantity": 1.75,
-          "unit": "cups dry"
-        },
-        {
-          "name": "Black Beans",
-          "quantity": 2,
-          "unit": "cans"
-        },
-        {
-          "name": "Shredded Cabbage or Slaw Mix",
-          "quantity": 2,
-          "unit": "bags"
-        },
-        {
-          "name": "Bell Peppers",
-          "quantity": 3,
-          "unit": "large"
-        },
-        {
-          "name": "Lime",
-          "quantity": 4,
-          "unit": "whole"
-        },
-        {
-          "name": "Avocado",
-          "quantity": 2,
-          "unit": "whole"
-        },
-        {
-          "name": "Taco Seasoning",
-          "quantity": 2,
-          "unit": "tbsp"
-        }
+        { "name": "Fish Fillets", "quantity": 2, "unit": "lbs" },
+        { "name": "Microwave Brown Rice", "quantity": 3, "unit": "pouches" },
+        { "name": "Black Beans", "quantity": 2, "unit": "cans" },
+        { "name": "Shredded Cabbage or Slaw Mix", "quantity": 2, "unit": "bags" },
+        { "name": "Tomatoes", "quantity": 5, "unit": "medium" },
+        { "name": "Limes", "quantity": 3, "unit": "whole" },
+        { "name": "Plain Greek Yogurt", "quantity": 1, "unit": "cup" }
       ],
       "instructions": [
-        "Cook brown rice and warm drained black beans.",
-        "Toss cabbage with lime juice, salt, and diced avocado.",
-        "Saut\u00e9 sliced bell peppers until tender-crisp.",
-        "Cook shrimp with taco seasoning, garlic, and lime for 2 to 3 minutes per side.",
-        "Serve shrimp over rice and beans with peppers and slaw."
+        "Season fish with cumin, chili powder, garlic, lime, and pepper.",
+        "Pan-sear or air-fry fish until flaky, usually 8 to 12 minutes depending on thickness.",
+        "Warm brown rice and rinsed black beans.",
+        "Toss slaw with lime juice and a spoonful of Greek yogurt.",
+        "Build bowls with rice, beans, slaw, tomatoes, and fish."
       ]
     },
     {
       "id": "meal-004",
-      "name": "BOGO Pork Tenderloin Farro Skillet",
-      "image": "https://source.unsplash.com/900x675/?pork,tenderloin,farro,vegetables",
-      "proteinType": "pork",
-      "protein": "Smithfield Marinated Pork Loin Filets & Tenderloins",
-      "proteinOzPerServing": 5,
-      "vegetable": "Zucchini + Spinach + Mushrooms",
-      "carb": "Farro",
-      "prepTime": 29,
+      "name": "ALDI Salmon Burger Power Plates",
+      "image": "https://source.unsplash.com/900x675/?salmon,burger,salad,plate",
+      "proteinType": "seafood",
+      "protein": "Fremont Fish Market Wild Caught Alaska Salmon Burgers",
+      "proteinOzPerServing": 4,
+      "vegetable": "Broccoli + spinach salad",
+      "carb": "Farro or brown rice",
+      "prepTime": 20,
       "servings": 5,
-      "estimatedCost": 17,
-      "store": "Harris Teeter",
-      "salePrice": "BOGO, 18.4-23 oz",
-      "dealHighlight": "\ud83d\udd25 BOGO pork shortcut",
+      "estimatedCost": 20,
+      "store": "Aldi",
+      "salePrice": "Current weekly-ad item; price not exposed via lightweight fetch",
+      "dealHighlight": "🍣 No-prep omega-3 option",
       "macroPerServing": {
-        "calories": 485,
-        "protein": 40,
-        "carbs": 47,
-        "fat": 16
+        "calories": 465,
+        "protein": 32,
+        "carbs": 45,
+        "fat": 17
       },
-      "macroFit": "Use sauce-light slices with a big vegetable skillet and chewy whole-grain farro.",
+      "macroFit": "Pre-portioned salmon patties make a quick 4 oz protein plate; choose the cleaner flavor/ingredient list available.",
       "ingredients": [
-        {
-          "name": "Pork Tenderloin or Loin Filet",
-          "quantity": 2,
-          "unit": "packages"
-        },
-        {
-          "name": "Farro",
-          "quantity": 1.75,
-          "unit": "cups dry"
-        },
-        {
-          "name": "Zucchini",
-          "quantity": 4,
-          "unit": "medium"
-        },
-        {
-          "name": "Mushrooms",
-          "quantity": 16,
-          "unit": "oz"
-        },
-        {
-          "name": "Baby Spinach",
-          "quantity": 10,
-          "unit": "oz"
-        },
-        {
-          "name": "Lemon",
-          "quantity": 2,
-          "unit": "whole"
-        },
-        {
-          "name": "Olive Oil",
-          "quantity": 2,
-          "unit": "tbsp"
-        }
+        { "name": "Fremont Fish Market Salmon Burgers", "quantity": 2, "unit": "boxes" },
+        { "name": "Farro or Brown Rice", "quantity": 1.75, "unit": "cups dry" },
+        { "name": "Broccoli Florets", "quantity": 2, "unit": "lbs" },
+        { "name": "Baby Spinach", "quantity": 1, "unit": "large tub" },
+        { "name": "Avocados", "quantity": 2, "unit": "whole" },
+        { "name": "Lemons", "quantity": 2, "unit": "whole" }
       ],
       "instructions": [
-        "Cook quick farro according to package directions.",
-        "Slice pork into medallions so it cooks fast.",
-        "Sear pork medallions 3 to 4 minutes per side until cooked through; rest briefly.",
-        "Saut\u00e9 zucchini and mushrooms, then wilt in spinach with lemon juice.",
-        "Serve pork over farro with the vegetable skillet."
+        "Cook farro or brown rice.",
+        "Air-fry or skillet-cook salmon burgers according to package directions.",
+        "Steam broccoli until bright green and tender-crisp.",
+        "Toss spinach with lemon juice, pepper, and sliced avocado.",
+        "Plate grains, broccoli, salad, and salmon burgers."
       ]
     },
     {
       "id": "meal-005",
-      "name": "Aldi Petite Beef Tender Fajita Bowls",
-      "image": "https://source.unsplash.com/900x675/?beef,fajita,rice,bowl",
-      "proteinType": "beef",
-      "protein": "Morton's of Omaha Petite Beef Tender",
-      "proteinOzPerServing": 4,
-      "vegetable": "Peppers + Onions + Romaine",
-      "carb": "Brown Rice + Black Beans",
-      "prepTime": 28,
+      "name": "HT Rotisserie Chicken Mediterranean Pitas",
+      "image": "https://source.unsplash.com/900x675/?rotisserie,chicken,pita,vegetables",
+      "proteinType": "chicken",
+      "protein": "Harris Teeter rotisserie chicken",
+      "proteinOzPerServing": 5,
+      "vegetable": "Romaine + cucumber + tomato + red onion",
+      "carb": "Whole-wheat pita + lentil salad",
+      "prepTime": 18,
       "servings": 5,
-      "estimatedCost": 22,
-      "store": "Aldi",
-      "salePrice": "$6.99/lb",
-      "dealHighlight": "\ud83e\udd69 Clean steak night",
+      "estimatedCost": 19,
+      "store": "Harris Teeter",
+      "salePrice": "Weekly ad rotisserie feature; exact Belmont price not exposed",
+      "dealHighlight": "⏱️ Lowest-prep night",
       "macroPerServing": {
-        "calories": 515,
-        "protein": 38,
-        "carbs": 55,
-        "fat": 17
+        "calories": 475,
+        "protein": 40,
+        "carbs": 49,
+        "fat": 14
       },
-      "macroFit": "Portion steak at 4 oz/person and lean on beans/rice for a balanced family bowl.",
+      "macroFit": "Pull mostly breast meat and pair with whole-grain pita, lentils, and fresh vegetables.",
       "ingredients": [
-        {
-          "name": "Petite Beef Tender",
-          "quantity": 1.75,
-          "unit": "lbs"
-        },
-        {
-          "name": "Brown Rice",
-          "quantity": 1.5,
-          "unit": "cups dry"
-        },
-        {
-          "name": "Black Beans",
-          "quantity": 2,
-          "unit": "cans"
-        },
-        {
-          "name": "Bell Peppers",
-          "quantity": 4,
-          "unit": "large"
-        },
-        {
-          "name": "Yellow Onion",
-          "quantity": 2,
-          "unit": "medium"
-        },
-        {
-          "name": "Romaine",
-          "quantity": 2,
-          "unit": "heads"
-        },
-        {
-          "name": "Lime",
-          "quantity": 3,
-          "unit": "whole"
-        },
-        {
-          "name": "Fajita Seasoning",
-          "quantity": 2,
-          "unit": "tbsp"
-        }
+        { "name": "Rotisserie Chicken", "quantity": 2, "unit": "whole chickens" },
+        { "name": "Whole-Wheat Pitas", "quantity": 10, "unit": "small pitas" },
+        { "name": "Cooked Lentils", "quantity": 2, "unit": "pouches or cans" },
+        { "name": "Romaine", "quantity": 2, "unit": "heads" },
+        { "name": "Cucumbers", "quantity": 3, "unit": "medium" },
+        { "name": "Tomatoes", "quantity": 5, "unit": "medium" },
+        { "name": "Plain Greek Yogurt", "quantity": 1, "unit": "cup" }
       ],
       "instructions": [
-        "Cook rice and warm drained black beans.",
-        "Season beef with fajita seasoning and lime juice.",
-        "Sear beef 3 to 4 minutes per side depending on thickness; rest before slicing.",
-        "Saut\u00e9 peppers and onions in the same skillet.",
-        "Build bowls with rice, beans, romaine, vegetables, sliced beef, and lime."
+        "Pull rotisserie chicken meat and remove skin for a cleaner plate.",
+        "Warm pitas and lentils.",
+        "Chop romaine, cucumbers, tomatoes, and red onion if using.",
+        "Mix Greek yogurt with lemon juice, garlic, dill, and pepper.",
+        "Stuff pitas with chicken and vegetables; serve lentils on the side or tucked in."
       ]
     },
     {
       "id": "meal-006",
-      "name": "Chicken Sausage Sweet Potato Sheet Pan",
-      "image": "https://source.unsplash.com/900x675/?chicken,sausage,sweet,potato,broccoli",
-      "proteinType": "chicken",
-      "protein": "Never Any! Chicken Sausage",
+      "name": "HT USDA Choice Beef & Broccoli Soba Stir-Fry",
+      "image": "https://source.unsplash.com/900x675/?beef,broccoli,stir,fry",
+      "proteinType": "beef",
+      "protein": "Harris Teeter USDA Choice beef weekly-ad feature",
       "proteinOzPerServing": 4,
-      "vegetable": "Broccoli + Brussels Sprouts",
-      "carb": "Sweet Potatoes",
-      "prepTime": 26,
+      "vegetable": "Broccoli + snap peas + carrots",
+      "carb": "Buckwheat soba noodles",
+      "prepTime": 25,
       "servings": 5,
-      "estimatedCost": 18,
-      "store": "Aldi",
-      "salePrice": "$2.99/12 oz",
-      "dealHighlight": "\u23f1\ufe0f Easiest weeknight prep",
+      "estimatedCost": 24,
+      "store": "Harris Teeter",
+      "salePrice": "Weekly ad USDA Choice beef feature; exact Belmont price not exposed",
+      "dealHighlight": "🥩 Beef night, portion-controlled",
       "macroPerServing": {
-        "calories": 475,
-        "protein": 34,
+        "calories": 500,
+        "protein": 35,
         "carbs": 52,
         "fat": 16
       },
-      "macroFit": "The convenience pick: keep sausage portions moderate and load the tray with vegetables.",
+      "macroFit": "Keeps beef at 4 oz/person and stretches the meal with vegetables and buckwheat noodles.",
       "ingredients": [
-        {
-          "name": "Chicken Sausage",
-          "quantity": 3,
-          "unit": "packs"
-        },
-        {
-          "name": "Sweet Potatoes",
-          "quantity": 2.5,
-          "unit": "lbs"
-        },
-        {
-          "name": "Broccoli Crowns",
-          "quantity": 2,
-          "unit": "lbs"
-        },
-        {
-          "name": "Brussels Sprouts",
-          "quantity": 1.5,
-          "unit": "lbs"
-        },
-        {
-          "name": "Red Onion",
-          "quantity": 2,
-          "unit": "medium"
-        },
-        {
-          "name": "Olive Oil",
-          "quantity": 2,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Italian Seasoning",
-          "quantity": 2,
-          "unit": "tbsp"
-        }
+        { "name": "USDA Choice Beef", "quantity": 1.5, "unit": "lbs" },
+        { "name": "Buckwheat Soba Noodles", "quantity": 16, "unit": "oz" },
+        { "name": "Broccoli Florets", "quantity": 2, "unit": "lbs" },
+        { "name": "Snap Peas", "quantity": 1, "unit": "lb" },
+        { "name": "Carrots", "quantity": 5, "unit": "medium" },
+        { "name": "Low-Sodium Tamari", "quantity": 0.33, "unit": "cup" },
+        { "name": "Ginger", "quantity": 1, "unit": "knob" }
       ],
       "instructions": [
-        "Dice sweet potatoes small and microwave 4 minutes to jump-start cooking.",
-        "Slice sausage, broccoli, Brussels sprouts, and onion.",
-        "Toss everything with olive oil, Italian seasoning, garlic powder, salt, and pepper.",
-        "Roast or air-fry at 425\u00b0F for 18 to 22 minutes, stirring once.",
-        "Serve as sheet-pan plates with extra greens if desired."
+        "Cook soba noodles and rinse briefly.",
+        "Slice beef thin across the grain; season with ginger, garlic, pepper, and low-sodium tamari.",
+        "Stir-fry beef quickly in a hot skillet, then remove to a plate.",
+        "Stir-fry broccoli, snap peas, and carrots until crisp-tender.",
+        "Toss noodles, vegetables, and beef together; add extra tamari only as needed."
       ]
     }
   ]
