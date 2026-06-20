@@ -1,6 +1,6 @@
 {
-  "weekOf": "June 10, 2026",
-  "lastUpdated": "2026-06-13T07:00:00-04:00",
+  "weekOf": "June 17, 2026",
+  "lastUpdated": "2026-06-20T07:00:00-04:00",
   "macroTarget": {
     "calories": 1400,
     "protein": 110,
@@ -9,281 +9,117 @@
     "note": "Daily target provided by Kmo; dinner options are portioned to support it, not consume the full day. Meals use 4-6 oz protein per person, vegetables, complex carbs, and under-30-minute prep."
   },
   "dealsSource": {
-    "harrisTeeter": "Belmont Harris Teeter official weekly-ad page for 905 South Point Rd was checked on Jun 13 but lightweight fetch did not expose full item cards/prices. Current public weekly-ad mirrors for Jun 10-Jun 16, 2026 list meat/seafood features including fish fillets, rotisserie chicken, and USDA Choice beef; confirm exact local price in HT app/store.",
-    "aldi": "Belmont ALDI 6402 Wilkinson Blvd current weekly ad for Jun 10-Jun 16, 2026 was checked through ALDI weekly specials and a Belmont-specific public ad listing. ALDI exposed Kirkwood family-pack chicken breasts at $2.19/lb; public/current listing also surfaced chicken drumsticks and Fremont Fish Market salmon burgers, with store availability still worth confirming."
+    "harrisTeeter": "Belmont Harris Teeter official weekly-ad page for 905 South Point Rd was checked on Jun 20, 2026, but lightweight fetch exposed only the store location, not full item cards. Current public weekly-ad mirror WeeklyAdHub for Jun 17-Jun 23, 2026 listed protein features: 80% lean ground chuck $5.49/lb, wild caught North Atlantic lobster tails $6.99 each, boneless New York strip steak $10.99/lb, and Kentucky Legend bacon BOGO. Confirm exact local availability in the HT app/store.",
+    "aldi": "Belmont ALDI 6402 Wilkinson Blvd current weekly ad for Jun 17-Jun 23, 2026 was checked through the official ALDI weekly-specials/weekly-ad pages and a Belmont-specific public ad listing. The official ALDI weekly-ad product feed exposed Black Angus Choice Beef Petite Sirloin Steaks at $8.99/lb, 10% off, about 1.3 lb/package. Other ad items may be image/app-only, so confirm local stock in the ALDI app/store."
   },
   "topDeals": {
     "harristeeter": [
       {
-        "item": "Harris Teeter weekly-ad fish fillets",
-        "price": "Weekly ad feature; price not exposed via lightweight fetch",
+        "item": "80% Lean Ground Chuck",
+        "price": "$5.49/lb",
+        "type": "beef"
+      },
+      {
+        "item": "Wild Caught North Atlantic Lobster Tails",
+        "price": "$6.99 each",
         "type": "seafood"
       },
       {
-        "item": "Harris Teeter rotisserie chicken",
-        "price": "Weekly ad feature; price not exposed via lightweight fetch",
-        "type": "poultry"
-      },
-      {
-        "item": "Harris Teeter USDA Choice beef",
-        "price": "Weekly ad feature; price not exposed via lightweight fetch",
+        "item": "Boneless New York Strip Steak",
+        "price": "$10.99/lb",
         "type": "beef"
       }
     ],
     "aldi": [
       {
-        "item": "Kirkwood Family Pack Chicken Breasts",
-        "price": "$2.19/lb, about 5 lb pack",
-        "type": "poultry"
-      },
-      {
-        "item": "Kirkwood Fresh Family Pack Chicken Drumsticks",
-        "price": "$0.99/lb surfaced in current weekly-ad listing; confirm locally",
-        "type": "poultry"
-      },
-      {
-        "item": "Fremont Fish Market Wild Caught Chipotle or Teriyaki Alaska Salmon Burgers, 4 ct",
-        "price": "Current weekly-ad item; price not exposed via lightweight fetch",
-        "type": "seafood"
+        "item": "Black Angus Choice Beef Petite Sirloin Steaks",
+        "price": "$8.99/lb, 10% off, about 1.3 lb/package",
+        "type": "beef"
       }
     ]
   },
   "freezerRecommendations": [
     {
-      "item": "ALDI Kirkwood family-pack chicken breasts",
-      "reason": "Best confirmed lean-protein price found this week; freeze flat in 2-lb dinner packs for bowls, stir-fries, and sheet-pan meals.",
-      "pricePerLb": "$2.19"
+      "item": "HT 80% lean ground chuck",
+      "reason": "Most flexible confirmed protein deal this cycle; portion into 1.5 to 2 lb freezer packs for taco bowls, skillet dinners, or stuffed peppers.",
+      "pricePerLb": "$5.49"
     },
     {
-      "item": "ALDI family-pack chicken drumsticks",
-      "reason": "Very low-cost family protein if the Belmont ad/app confirms stock; remove skin after cooking for a cleaner plate.",
-      "pricePerLb": "$0.99, confirm locally"
+      "item": "ALDI Black Angus petite sirloin steaks",
+      "reason": "Best confirmed ALDI protein sale found; slice thin before freezing for fast stir-fries and fajita-style bowls.",
+      "pricePerLb": "$8.99"
     },
     {
-      "item": "Harris Teeter weekly-ad fish fillets",
-      "reason": "Fast 12-minute protein for clean bowls/tacos; buy if the HT app/store price is competitive and ingredient list is plain fish.",
-      "pricePerLb": "Ad feature, confirm price"
+      "item": "HT lobster tails",
+      "reason": "Good special-occasion seafood price if locally available; buy only what you will cook within 1-2 days or freeze immediately.",
+      "pricePerLb": "$6.99 each"
     }
   ],
   "meals": [
     {
       "id": "meal-001",
-      "name": "ALDI Lemon-Herb Chicken Quinoa Bowls",
-      "image": "https://source.unsplash.com/900x675/?grilled,chicken,quinoa,bowl",
-      "proteinType": "chicken",
-      "protein": "Kirkwood Family Pack Chicken Breasts",
+      "name": "HT Ground Chuck Taco Quinoa Bowls",
+      "image": "https://source.unsplash.com/900x675/?beef,taco,bowl,quinoa",
+      "proteinType": "beef",
+      "protein": "80% Lean Ground Chuck",
       "proteinOzPerServing": 5,
-      "vegetable": "Roasted peppers + cucumber + spinach",
-      "carb": "Quinoa + chickpeas",
+      "vegetable": "Romaine, peppers, corn, tomatoes",
+      "carb": "Quinoa + black beans",
       "prepTime": 25,
       "servings": 5,
-      "estimatedCost": 16,
-      "store": "Aldi",
-      "salePrice": "$2.19/lb family pack",
-      "dealHighlight": "🥇 Best confirmed lean-protein deal",
+      "estimatedCost": 21,
+      "store": "Harris Teeter",
+      "salePrice": "$5.49/lb",
+      "dealHighlight": "🥘 Best flexible beef deal",
       "macroPerServing": {
-        "calories": 455,
-        "protein": 44,
-        "carbs": 47,
-        "fat": 12
+        "calories": 505,
+        "protein": 38,
+        "carbs": 52,
+        "fat": 17
       },
-      "macroFit": "5 oz lean chicken with high-fiber quinoa/chickpeas and lots of vegetables.",
+      "macroFit": "Drain the beef well and keep the portion to 5 oz cooked with high-fiber quinoa, beans, and crunchy vegetables.",
       "ingredients": [
-        { "name": "Kirkwood Family Pack Chicken Breasts", "quantity": 2, "unit": "lbs" },
+        { "name": "80% Lean Ground Chuck", "quantity": 2, "unit": "lbs" },
         { "name": "Quinoa", "quantity": 1.75, "unit": "cups dry" },
-        { "name": "Chickpeas", "quantity": 2, "unit": "cans" },
-        { "name": "Multi-Colored Peppers", "quantity": 2, "unit": "packages" },
-        { "name": "Baby Spinach", "quantity": 1, "unit": "large tub" },
-        { "name": "Cucumbers", "quantity": 3, "unit": "medium" },
-        { "name": "Lemons", "quantity": 2, "unit": "whole" },
-        { "name": "Plain Greek Yogurt", "quantity": 1, "unit": "cup" }
+        { "name": "Black Beans", "quantity": 2, "unit": "cans" },
+        { "name": "Romaine", "quantity": 2, "unit": "heads" },
+        { "name": "Bell Peppers", "quantity": 4, "unit": "medium" },
+        { "name": "Corn", "quantity": 5, "unit": "ears" },
+        { "name": "Tomatoes", "quantity": 5, "unit": "medium" },
+        { "name": "Limes", "quantity": 3, "unit": "whole" }
       ],
       "instructions": [
-        "Cook quinoa while the chicken cooks.",
-        "Slice chicken thin and season with lemon juice, garlic, oregano, pepper, and a small pinch of salt.",
-        "Sear chicken 4 to 5 minutes per side until cooked through.",
-        "Quick-roast or sauté peppers; chop cucumber and spinach.",
-        "Build bowls with quinoa, chickpeas, vegetables, chicken, and lemon-yogurt sauce."
+        "Cook quinoa while the beef browns.",
+        "Brown ground chuck with chili powder, cumin, garlic, and pepper; drain thoroughly.",
+        "Char or microwave corn, then cut kernels from the cob.",
+        "Chop romaine, peppers, and tomatoes; rinse black beans.",
+        "Build bowls with quinoa, beans, vegetables, beef, lime, and salsa or Greek yogurt if desired."
       ]
     },
     {
       "id": "meal-002",
-      "name": "ALDI Sheet-Pan Drumsticks with Sweet Potatoes",
-      "image": "https://source.unsplash.com/900x675/?chicken,drumsticks,sweet,potato",
-      "proteinType": "chicken",
-      "protein": "Kirkwood Fresh Family Pack Chicken Drumsticks",
-      "proteinOzPerServing": 5,
-      "vegetable": "Green beans + side salad",
-      "carb": "Roasted sweet potatoes",
-      "prepTime": 10,
-      "servings": 5,
-      "estimatedCost": 15,
-      "store": "Aldi",
-      "salePrice": "$0.99/lb surfaced in current listing; confirm locally",
-      "dealHighlight": "🍗 Budget family protein",
-      "macroPerServing": {
-        "calories": 485,
-        "protein": 36,
-        "carbs": 42,
-        "fat": 18
-      },
-      "macroFit": "Use two smaller drumsticks per adult-equivalent serving, pull skin after cooking, and keep the carb clean with sweet potatoes.",
-      "ingredients": [
-        { "name": "Family Pack Chicken Drumsticks", "quantity": 4, "unit": "lbs" },
-        { "name": "Sweet Potatoes", "quantity": 5, "unit": "medium" },
-        { "name": "Green Beans", "quantity": 2, "unit": "lbs" },
-        { "name": "Mixed Greens", "quantity": 1, "unit": "large tub" },
-        { "name": "Avocado Oil", "quantity": 2, "unit": "tbsp" },
-        { "name": "Smoked Paprika", "quantity": 2, "unit": "tsp" }
-      ],
-      "instructions": [
-        "Heat oven to 425°F and line two sheet pans.",
-        "Season drumsticks with paprika, garlic, pepper, and a little salt; cube sweet potatoes small.",
-        "Roast chicken and sweet potatoes 25 to 30 minutes, flipping once.",
-        "Microwave-steam or sauté green beans while the sheet pan finishes.",
-        "Serve with mixed greens; remove chicken skin for a leaner plate."
-      ]
-    },
-    {
-      "id": "meal-003",
-      "name": "HT Fish Fillet Brown Rice Taco Bowls",
-      "image": "https://source.unsplash.com/900x675/?fish,taco,bowl,rice",
-      "proteinType": "seafood",
-      "protein": "Harris Teeter weekly-ad fish fillets",
-      "proteinOzPerServing": 5,
-      "vegetable": "Cabbage slaw + pico-style tomatoes",
-      "carb": "Brown rice + black beans",
-      "prepTime": 22,
-      "servings": 5,
-      "estimatedCost": 22,
-      "store": "Harris Teeter",
-      "salePrice": "Weekly ad fish-fillets feature; exact Belmont price not exposed",
-      "dealHighlight": "🐟 Fast clean seafood night",
-      "macroPerServing": {
-        "calories": 430,
-        "protein": 37,
-        "carbs": 50,
-        "fat": 10
-      },
-      "macroFit": "Lean fish plus beans/rice gives a balanced, high-protein bowl without heavy sauces.",
-      "ingredients": [
-        { "name": "Fish Fillets", "quantity": 2, "unit": "lbs" },
-        { "name": "Microwave Brown Rice", "quantity": 3, "unit": "pouches" },
-        { "name": "Black Beans", "quantity": 2, "unit": "cans" },
-        { "name": "Shredded Cabbage or Slaw Mix", "quantity": 2, "unit": "bags" },
-        { "name": "Tomatoes", "quantity": 5, "unit": "medium" },
-        { "name": "Limes", "quantity": 3, "unit": "whole" },
-        { "name": "Plain Greek Yogurt", "quantity": 1, "unit": "cup" }
-      ],
-      "instructions": [
-        "Season fish with cumin, chili powder, garlic, lime, and pepper.",
-        "Pan-sear or air-fry fish until flaky, usually 8 to 12 minutes depending on thickness.",
-        "Warm brown rice and rinsed black beans.",
-        "Toss slaw with lime juice and a spoonful of Greek yogurt.",
-        "Build bowls with rice, beans, slaw, tomatoes, and fish."
-      ]
-    },
-    {
-      "id": "meal-004",
-      "name": "ALDI Salmon Burger Power Plates",
-      "image": "https://source.unsplash.com/900x675/?salmon,burger,salad,plate",
-      "proteinType": "seafood",
-      "protein": "Fremont Fish Market Wild Caught Alaska Salmon Burgers",
-      "proteinOzPerServing": 4,
-      "vegetable": "Broccoli + spinach salad",
-      "carb": "Farro or brown rice",
-      "prepTime": 20,
-      "servings": 5,
-      "estimatedCost": 20,
-      "store": "Aldi",
-      "salePrice": "Current weekly-ad item; price not exposed via lightweight fetch",
-      "dealHighlight": "🍣 No-prep omega-3 option",
-      "macroPerServing": {
-        "calories": 465,
-        "protein": 32,
-        "carbs": 45,
-        "fat": 17
-      },
-      "macroFit": "Pre-portioned salmon patties make a quick 4 oz protein plate; choose the cleaner flavor/ingredient list available.",
-      "ingredients": [
-        { "name": "Fremont Fish Market Salmon Burgers", "quantity": 2, "unit": "boxes" },
-        { "name": "Farro or Brown Rice", "quantity": 1.75, "unit": "cups dry" },
-        { "name": "Broccoli Florets", "quantity": 2, "unit": "lbs" },
-        { "name": "Baby Spinach", "quantity": 1, "unit": "large tub" },
-        { "name": "Avocados", "quantity": 2, "unit": "whole" },
-        { "name": "Lemons", "quantity": 2, "unit": "whole" }
-      ],
-      "instructions": [
-        "Cook farro or brown rice.",
-        "Air-fry or skillet-cook salmon burgers according to package directions.",
-        "Steam broccoli until bright green and tender-crisp.",
-        "Toss spinach with lemon juice, pepper, and sliced avocado.",
-        "Plate grains, broccoli, salad, and salmon burgers."
-      ]
-    },
-    {
-      "id": "meal-005",
-      "name": "HT Rotisserie Chicken Mediterranean Pitas",
-      "image": "https://source.unsplash.com/900x675/?rotisserie,chicken,pita,vegetables",
-      "proteinType": "chicken",
-      "protein": "Harris Teeter rotisserie chicken",
-      "proteinOzPerServing": 5,
-      "vegetable": "Romaine + cucumber + tomato + red onion",
-      "carb": "Whole-wheat pita + lentil salad",
-      "prepTime": 18,
-      "servings": 5,
-      "estimatedCost": 19,
-      "store": "Harris Teeter",
-      "salePrice": "Weekly ad rotisserie feature; exact Belmont price not exposed",
-      "dealHighlight": "⏱️ Lowest-prep night",
-      "macroPerServing": {
-        "calories": 475,
-        "protein": 40,
-        "carbs": 49,
-        "fat": 14
-      },
-      "macroFit": "Pull mostly breast meat and pair with whole-grain pita, lentils, and fresh vegetables.",
-      "ingredients": [
-        { "name": "Rotisserie Chicken", "quantity": 2, "unit": "whole chickens" },
-        { "name": "Whole-Wheat Pitas", "quantity": 10, "unit": "small pitas" },
-        { "name": "Cooked Lentils", "quantity": 2, "unit": "pouches or cans" },
-        { "name": "Romaine", "quantity": 2, "unit": "heads" },
-        { "name": "Cucumbers", "quantity": 3, "unit": "medium" },
-        { "name": "Tomatoes", "quantity": 5, "unit": "medium" },
-        { "name": "Plain Greek Yogurt", "quantity": 1, "unit": "cup" }
-      ],
-      "instructions": [
-        "Pull rotisserie chicken meat and remove skin for a cleaner plate.",
-        "Warm pitas and lentils.",
-        "Chop romaine, cucumbers, tomatoes, and red onion if using.",
-        "Mix Greek yogurt with lemon juice, garlic, dill, and pepper.",
-        "Stuff pitas with chicken and vegetables; serve lentils on the side or tucked in."
-      ]
-    },
-    {
-      "id": "meal-006",
-      "name": "HT USDA Choice Beef & Broccoli Soba Stir-Fry",
-      "image": "https://source.unsplash.com/900x675/?beef,broccoli,stir,fry",
+      "name": "ALDI Petite Sirloin Broccoli Soba Stir-Fry",
+      "image": "https://source.unsplash.com/900x675/?sirloin,broccoli,soba,stirfry",
       "proteinType": "beef",
-      "protein": "Harris Teeter USDA Choice beef weekly-ad feature",
+      "protein": "Black Angus Choice Beef Petite Sirloin Steaks",
       "proteinOzPerServing": 4,
-      "vegetable": "Broccoli + snap peas + carrots",
+      "vegetable": "Broccoli, snap peas, carrots",
       "carb": "Buckwheat soba noodles",
       "prepTime": 25,
       "servings": 5,
-      "estimatedCost": 24,
-      "store": "Harris Teeter",
-      "salePrice": "Weekly ad USDA Choice beef feature; exact Belmont price not exposed",
-      "dealHighlight": "🥩 Beef night, portion-controlled",
+      "estimatedCost": 25,
+      "store": "Aldi",
+      "salePrice": "$8.99/lb, 10% off",
+      "dealHighlight": "🥩 Best confirmed ALDI protein sale",
       "macroPerServing": {
-        "calories": 500,
-        "protein": 35,
-        "carbs": 52,
-        "fat": 16
+        "calories": 490,
+        "protein": 37,
+        "carbs": 51,
+        "fat": 15
       },
-      "macroFit": "Keeps beef at 4 oz/person and stretches the meal with vegetables and buckwheat noodles.",
+      "macroFit": "Thin-sliced sirloin keeps portions controlled while soba and vegetables make the plate filling.",
       "ingredients": [
-        { "name": "USDA Choice Beef", "quantity": 1.5, "unit": "lbs" },
+        { "name": "Black Angus Petite Sirloin Steaks", "quantity": 1.5, "unit": "lbs" },
         { "name": "Buckwheat Soba Noodles", "quantity": 16, "unit": "oz" },
         { "name": "Broccoli Florets", "quantity": 2, "unit": "lbs" },
         { "name": "Snap Peas", "quantity": 1, "unit": "lb" },
@@ -293,10 +129,167 @@
       ],
       "instructions": [
         "Cook soba noodles and rinse briefly.",
-        "Slice beef thin across the grain; season with ginger, garlic, pepper, and low-sodium tamari.",
-        "Stir-fry beef quickly in a hot skillet, then remove to a plate.",
+        "Slice sirloin very thin and season with ginger, garlic, pepper, and a little low-sodium tamari.",
+        "Stir-fry beef in a hot skillet for 2 to 3 minutes, then remove.",
         "Stir-fry broccoli, snap peas, and carrots until crisp-tender.",
-        "Toss noodles, vegetables, and beef together; add extra tamari only as needed."
+        "Toss noodles, vegetables, and beef together; finish with lime or rice vinegar."
+      ]
+    },
+    {
+      "id": "meal-003",
+      "name": "HT New York Strip Fajita Rice Plates",
+      "image": "https://source.unsplash.com/900x675/?steak,fajita,rice,vegetables",
+      "proteinType": "beef",
+      "protein": "Boneless New York Strip Steak",
+      "proteinOzPerServing": 4,
+      "vegetable": "Peppers, onions, romaine, tomatoes",
+      "carb": "Brown rice + pinto beans",
+      "prepTime": 28,
+      "servings": 5,
+      "estimatedCost": 30,
+      "store": "Harris Teeter",
+      "salePrice": "$10.99/lb",
+      "dealHighlight": "🔥 Steak night, portion-controlled",
+      "macroPerServing": {
+        "calories": 520,
+        "protein": 39,
+        "carbs": 50,
+        "fat": 18
+      },
+      "macroFit": "A 4 oz steak portion plus beans, brown rice, and lots of fajita vegetables keeps the premium cut balanced.",
+      "ingredients": [
+        { "name": "Boneless New York Strip Steak", "quantity": 1.5, "unit": "lbs" },
+        { "name": "Microwave Brown Rice", "quantity": 3, "unit": "pouches" },
+        { "name": "Pinto Beans", "quantity": 2, "unit": "cans" },
+        { "name": "Bell Peppers", "quantity": 5, "unit": "medium" },
+        { "name": "Yellow Onions", "quantity": 2, "unit": "medium" },
+        { "name": "Romaine", "quantity": 1, "unit": "head" },
+        { "name": "Tomatoes", "quantity": 4, "unit": "medium" },
+        { "name": "Limes", "quantity": 3, "unit": "whole" }
+      ],
+      "instructions": [
+        "Slice peppers and onions; warm rice and rinsed beans.",
+        "Season steak with cumin, chili powder, garlic, pepper, and lime.",
+        "Sear steak 3 to 4 minutes per side, rest, then slice thin.",
+        "Sauté peppers and onions in the same pan until tender-crisp.",
+        "Plate rice, beans, vegetables, romaine, tomato, and sliced steak."
+      ]
+    },
+    {
+      "id": "meal-004",
+      "name": "HT Lobster Tail Summer Corn Bowls",
+      "image": "https://source.unsplash.com/900x675/?lobster,corn,bowl,summer",
+      "proteinType": "seafood",
+      "protein": "Wild Caught North Atlantic Lobster Tails",
+      "proteinOzPerServing": 4,
+      "vegetable": "Corn, zucchini, spinach, tomatoes",
+      "carb": "Farro",
+      "prepTime": 24,
+      "servings": 5,
+      "estimatedCost": 38,
+      "store": "Harris Teeter",
+      "salePrice": "$6.99 each",
+      "dealHighlight": "🦞 Seafood special",
+      "macroPerServing": {
+        "calories": 455,
+        "protein": 34,
+        "carbs": 54,
+        "fat": 10
+      },
+      "macroFit": "Lean lobster makes a lighter high-protein bowl; farro and vegetables add fiber without heavy sauces.",
+      "ingredients": [
+        { "name": "Lobster Tails", "quantity": 5, "unit": "tails" },
+        { "name": "Farro", "quantity": 1.75, "unit": "cups dry" },
+        { "name": "Corn", "quantity": 5, "unit": "ears" },
+        { "name": "Zucchini", "quantity": 4, "unit": "medium" },
+        { "name": "Baby Spinach", "quantity": 1, "unit": "large tub" },
+        { "name": "Cherry Tomatoes", "quantity": 2, "unit": "pints" },
+        { "name": "Lemons", "quantity": 3, "unit": "whole" }
+      ],
+      "instructions": [
+        "Cook farro according to package directions.",
+        "Split lobster shells and broil or air-fry tails with lemon, pepper, and a small brush of olive oil until opaque.",
+        "Sauté zucchini and corn kernels until just tender.",
+        "Toss spinach and tomatoes with lemon juice.",
+        "Serve lobster over farro with the warm vegetables and salad."
+      ]
+    },
+    {
+      "id": "meal-005",
+      "name": "HT Ground Chuck Stuffed Pepper Skillet",
+      "image": "https://source.unsplash.com/900x675/?stuffed,peppers,beef,rice",
+      "proteinType": "beef",
+      "protein": "80% Lean Ground Chuck",
+      "proteinOzPerServing": 5,
+      "vegetable": "Bell peppers, spinach, tomatoes",
+      "carb": "Brown rice + lentils",
+      "prepTime": 27,
+      "servings": 5,
+      "estimatedCost": 22,
+      "store": "Harris Teeter",
+      "salePrice": "$5.49/lb",
+      "dealHighlight": "🍅 One-pan family dinner",
+      "macroPerServing": {
+        "calories": 515,
+        "protein": 39,
+        "carbs": 53,
+        "fat": 17
+      },
+      "macroFit": "Classic stuffed-pepper flavor without the long bake; lentils and brown rice stretch the beef cleanly.",
+      "ingredients": [
+        { "name": "80% Lean Ground Chuck", "quantity": 2, "unit": "lbs" },
+        { "name": "Microwave Brown Rice", "quantity": 3, "unit": "pouches" },
+        { "name": "Cooked Lentils", "quantity": 2, "unit": "pouches or cans" },
+        { "name": "Bell Peppers", "quantity": 6, "unit": "medium" },
+        { "name": "Baby Spinach", "quantity": 1, "unit": "large tub" },
+        { "name": "Crushed Tomatoes", "quantity": 1, "unit": "large can" },
+        { "name": "Italian Seasoning", "quantity": 2, "unit": "tsp" }
+      ],
+      "instructions": [
+        "Brown ground chuck in a large skillet; drain thoroughly.",
+        "Add chopped bell peppers, garlic, Italian seasoning, and crushed tomatoes.",
+        "Simmer 8 to 10 minutes while the brown rice warms.",
+        "Stir in lentils, rice, and spinach until spinach wilts.",
+        "Serve as bowls; add a small sprinkle of cheese only if desired."
+      ]
+    },
+    {
+      "id": "meal-006",
+      "name": "ALDI Petite Sirloin Chimichurri Sweet Potato Plates",
+      "image": "https://source.unsplash.com/900x675/?sirloin,sweet,potato,broccoli",
+      "proteinType": "beef",
+      "protein": "Black Angus Choice Beef Petite Sirloin Steaks",
+      "proteinOzPerServing": 4,
+      "vegetable": "Broccoli + cucumber tomato salad",
+      "carb": "Microwave sweet potatoes",
+      "prepTime": 25,
+      "servings": 5,
+      "estimatedCost": 27,
+      "store": "Aldi",
+      "salePrice": "$8.99/lb, 10% off",
+      "dealHighlight": "🌿 Clean steak plate",
+      "macroPerServing": {
+        "calories": 500,
+        "protein": 38,
+        "carbs": 48,
+        "fat": 16
+      },
+      "macroFit": "Lean sirloin, sweet potatoes, and two vegetables make a simple balanced plate with no heavy sauce.",
+      "ingredients": [
+        { "name": "Black Angus Petite Sirloin Steaks", "quantity": 1.5, "unit": "lbs" },
+        { "name": "Sweet Potatoes", "quantity": 5, "unit": "medium" },
+        { "name": "Broccoli Florets", "quantity": 2, "unit": "lbs" },
+        { "name": "Cucumbers", "quantity": 3, "unit": "medium" },
+        { "name": "Tomatoes", "quantity": 5, "unit": "medium" },
+        { "name": "Parsley", "quantity": 1, "unit": "bunch" },
+        { "name": "Red Wine Vinegar", "quantity": 0.25, "unit": "cup" }
+      ],
+      "instructions": [
+        "Microwave sweet potatoes until tender, then split.",
+        "Steam or sauté broccoli until bright green.",
+        "Season sirloin with pepper, garlic, and a little salt; sear 3 to 4 minutes per side and rest.",
+        "Mix quick chimichurri with parsley, vinegar, garlic, pepper, and a small amount of olive oil.",
+        "Slice steak thin and serve with sweet potatoes, broccoli, cucumber-tomato salad, and chimichurri."
       ]
     }
   ]
