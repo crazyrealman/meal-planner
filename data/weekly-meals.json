@@ -1,6 +1,6 @@
 {
-  "weekOf": "June 24, 2026",
-  "lastUpdated": "2026-06-27T07:00:00-04:00",
+  "weekOf": "July 1, 2026",
+  "lastUpdated": "2026-07-04T07:00:00-04:00",
   "macroTarget": {
     "calories": 1400,
     "protein": 110,
@@ -9,52 +9,57 @@
     "note": "Daily target provided by Kmo; dinner options are portioned to support it, not consume the full day. Meals use 4-6 oz protein per person, vegetables, complex carbs, and under-30-minute prep."
   },
   "dealsSource": {
-    "harrisTeeter": "Belmont Harris Teeter official weekly-ad pages were checked on Jun 27, 2026, but lightweight fetch exposed only the shell/location flow, not full item cards. Current public weekly-ad mirror WeeklyAdHub for Jun 24-Jun 30, 2026 listed protein features: Whole Boston Butt $0.79/lb, T-Bone or Porterhouse Steaks $9.99/lb, Wild Caught Argentine Shrimp Buy 1 Get 2 Free, and Boneless Chicken Breast $2.99/lb. Confirm exact local e-VIC availability in the HT app/store.",
-    "aldi": "Belmont ALDI 6402 Wilkinson Blvd current weekly ad for Jun 24-Jun 30, 2026 was checked through the official ALDI weekly-ad product feed and a Belmont-specific public ad listing. Official ALDI feed exposed Black Angus Choice Petite Sirloin Steaks at $8.99/lb. Belmont flyer image/source showed additional protein features including family-pack chicken breasts $2.19/lb, family-pack chicken thighs $1.55/lb, 5 lb ground beef chub $2.99/lb, fresh Atlantic salmon $8.99/lb, and thick-cut boneless pork chops $3.49/lb. Confirm local stock in the ALDI app/store."
+    "harrisTeeter": "Belmont Harris Teeter official weekly-ad page was checked on Jul 4, 2026 and confirmed the local store shell/location at 905 South Point Rd, but lightweight fetch did not expose full item cards. Current public weekly-ad mirror WeeklyAdHub for Jul 1-Jul 7, 2026 listed protein features: 80% Lean Ground Chuck $5.49/lb, Ribeye Steaks $9.99/lb, Farm Raised EZ Peel White Shrimp 2 lb bag Buy 1 Get 2 Free, Miami Kobe Pure Brick Ground Beef Buy 1 Get 1 Free, Prime Pub Burgers $6.99, and Wild Caught American Shrimp Buy 1 Get 1 Free. Confirm exact local e-VIC availability in the HT app/store.",
+    "aldi": "Belmont ALDI 6402 Wilkinson Blvd current weekly ad for Jul 1-Jul 7, 2026 was checked through a Belmont-specific public ad listing plus current flyer images. Readable protein features included family-pack chicken breasts $2.19/lb, family-pack chicken thighs $1.55/lb, fresh Atlantic salmon side $8.29/lb, fresh Atlantic salmon $8.99/lb, fresh thick-cut boneless pork chops $3.49/lb, fresh pork spareribs $1.99/lb, fresh seasoned pork shoulder roast $2.39/lb, Fresh Black Angus USDA Choice Petite Sirloin Steaks $8.99/lb, fresh Wagyu ground beef 1 lb $4.99, and fresh 80% lean ground beef patties $4.99/lb. Confirm local stock in the ALDI app/store."
   },
   "topDeals": {
     "harristeeter": [
       {
-        "item": "Whole Boston Butt",
-        "price": "$0.79/lb",
-        "type": "pork"
-      },
-      {
-        "item": "Wild Caught Argentine Shrimp",
+        "item": "Farm Raised EZ Peel White Shrimp, 2 lb bag",
         "price": "Buy 1 Get 2 Free",
         "type": "seafood"
       },
       {
-        "item": "Boneless Chicken Breast",
-        "price": "$2.99/lb",
-        "type": "chicken"
-      },
-      {
-        "item": "T-Bone or Porterhouse Steaks",
+        "item": "Ribeye Steaks",
         "price": "$9.99/lb",
         "type": "beef"
+      },
+      {
+        "item": "80% Lean Ground Chuck",
+        "price": "$5.49/lb",
+        "type": "beef"
+      },
+      {
+        "item": "Wild Caught American Shrimp",
+        "price": "Buy 1 Get 1 Free",
+        "type": "seafood"
       }
     ],
     "aldi": [
-      {
-        "item": "Family Pack Chicken Breasts",
-        "price": "$2.19/lb",
-        "type": "chicken"
-      },
       {
         "item": "Family Pack Chicken Thighs",
         "price": "$1.55/lb",
         "type": "chicken"
       },
       {
-        "item": "Fresh Ground Beef Chub, 5 lb package",
-        "price": "$2.99/lb",
-        "type": "beef"
+        "item": "Family Pack Chicken Breasts",
+        "price": "$2.19/lb",
+        "type": "chicken"
       },
       {
-        "item": "Fresh Atlantic Salmon",
-        "price": "$8.99/lb",
+        "item": "Fresh Pork Spareribs",
+        "price": "$1.99/lb",
+        "type": "pork"
+      },
+      {
+        "item": "Fresh Atlantic Salmon Side",
+        "price": "$8.29/lb",
         "type": "seafood"
+      },
+      {
+        "item": "Fresh Thick-Cut Boneless Pork Chops",
+        "price": "$3.49/lb",
+        "type": "pork"
       },
       {
         "item": "Black Angus Petite Sirloin Steaks",
@@ -70,14 +75,14 @@
       "pricePerLb": "$1.55"
     },
     {
-      "item": "ALDI 5 lb ground beef chub",
-      "reason": "Strong flexible stock-up price; divide into 1 to 1.5 lb packs for taco bowls, skillet meals, and stuffed sweet potatoes.",
-      "pricePerLb": "$2.99"
+      "item": "HT EZ Peel White Shrimp 2 lb bag",
+      "reason": "Strong seafood stock-up if the Buy 1 Get 2 Free promo is available locally; freeze extra bags flat for fast skillet dinners.",
+      "pricePerLb": "Buy 1 Get 2 Free"
     },
     {
-      "item": "HT Wild Caught Argentine Shrimp",
-      "reason": "Best seafood promo if local packs are available; freeze extra packs immediately and use for 10-minute skillet meals.",
-      "pricePerLb": "BOGO-style promo"
+      "item": "ALDI fresh Atlantic salmon side",
+      "reason": "Best salmon price found this cycle; cut into 5 oz portions and freeze individually for quick air-fryer or skillet meals.",
+      "pricePerLb": "$8.29"
     }
   ],
   "meals": [
@@ -123,19 +128,19 @@
     },
     {
       "id": "meal-002",
-      "name": "HT Argentine Shrimp Brown Rice Skillet",
+      "name": "HT EZ Peel Shrimp Brown Rice Skillet",
       "image": "https://source.unsplash.com/900x675/?shrimp,rice,vegetables,skillet",
       "proteinType": "seafood",
-      "protein": "Wild Caught Argentine Shrimp",
+      "protein": "Farm Raised EZ Peel White Shrimp, 2 lb bag",
       "proteinOzPerServing": 5,
       "vegetable": "Zucchini, peppers, spinach, tomatoes",
       "carb": "Brown rice",
       "prepTime": 20,
       "servings": 5,
-      "estimatedCost": 27,
+      "estimatedCost": 26,
       "store": "Harris Teeter",
       "salePrice": "Buy 1 Get 2 Free",
-      "dealHighlight": "🦐 Best seafood promo",
+      "dealHighlight": "🦐 Best seafood stock-up",
       "macroPerServing": {
         "calories": 455,
         "protein": 36,
@@ -144,7 +149,7 @@
       },
       "macroFit": "Shrimp is lean, so the plate stays macro-friendly with brown rice and a large vegetable base.",
       "ingredients": [
-        { "name": "Wild Caught Argentine Shrimp", "quantity": 2, "unit": "lbs" },
+        { "name": "EZ Peel White Shrimp", "quantity": 2, "unit": "lbs" },
         { "name": "Microwave Brown Rice", "quantity": 3, "unit": "pouches" },
         { "name": "Zucchini", "quantity": 4, "unit": "medium" },
         { "name": "Bell Peppers", "quantity": 4, "unit": "medium" },
@@ -153,7 +158,7 @@
         { "name": "Limes", "quantity": 3, "unit": "whole" }
       ],
       "instructions": [
-        "Thaw shrimp if frozen and pat dry.",
+        "Thaw and peel shrimp if needed; pat dry.",
         "Warm brown rice pouches while chopping vegetables.",
         "Sauté zucchini and peppers with garlic, smoked paprika, and pepper until crisp-tender.",
         "Add shrimp and cook 2 to 3 minutes per side until opaque; fold in spinach and tomatoes.",
@@ -162,59 +167,19 @@
     },
     {
       "id": "meal-003",
-      "name": "ALDI Ground Beef Taco Sweet Potatoes",
-      "image": "https://source.unsplash.com/900x675/?ground-beef,sweet-potato,taco",
-      "proteinType": "beef",
-      "protein": "Fresh Ground Beef Chub",
-      "proteinOzPerServing": 5,
-      "vegetable": "Romaine, peppers, tomatoes, corn salsa",
-      "carb": "Sweet potatoes + black beans",
-      "prepTime": 28,
-      "servings": 5,
-      "estimatedCost": 24,
-      "store": "Aldi",
-      "salePrice": "$2.99/lb",
-      "dealHighlight": "🥘 Best beef stock-up",
-      "macroPerServing": {
-        "calories": 520,
-        "protein": 38,
-        "carbs": 58,
-        "fat": 16
-      },
-      "macroFit": "Drain the beef well and stretch it with black beans, vegetables, and sweet potatoes for a balanced plate.",
-      "ingredients": [
-        { "name": "Fresh Ground Beef Chub", "quantity": 2, "unit": "lbs" },
-        { "name": "Sweet Potatoes", "quantity": 5, "unit": "medium" },
-        { "name": "Black Beans", "quantity": 2, "unit": "cans" },
-        { "name": "Romaine", "quantity": 2, "unit": "heads" },
-        { "name": "Bell Peppers", "quantity": 4, "unit": "medium" },
-        { "name": "Corn", "quantity": 2, "unit": "cups" },
-        { "name": "Tomatoes", "quantity": 5, "unit": "medium" },
-        { "name": "Limes", "quantity": 3, "unit": "whole" }
-      ],
-      "instructions": [
-        "Microwave sweet potatoes until tender, about 7 to 9 minutes, turning once.",
-        "Brown ground beef with chili powder, cumin, garlic, and pepper; drain thoroughly.",
-        "Warm black beans and corn, then toss with lime and tomatoes.",
-        "Slice potatoes open and top with beef, beans, corn salsa, romaine, and peppers.",
-        "Finish with salsa or plain Greek yogurt instead of heavy toppings."
-      ]
-    },
-    {
-      "id": "meal-004",
-      "name": "HT Boneless Chicken Breast Quinoa Primavera",
+      "name": "ALDI Chicken Breast Quinoa Primavera",
       "image": "https://source.unsplash.com/900x675/?chicken,quinoa,vegetables",
       "proteinType": "chicken",
-      "protein": "Boneless Chicken Breast",
+      "protein": "Family Pack Chicken Breasts",
       "proteinOzPerServing": 5,
       "vegetable": "Broccoli, zucchini, carrots, spinach",
       "carb": "Quinoa",
       "prepTime": 25,
       "servings": 5,
-      "estimatedCost": 25,
-      "store": "Harris Teeter",
-      "salePrice": "$2.99/lb",
-      "dealHighlight": "🐔 Lean HT staple",
+      "estimatedCost": 23,
+      "store": "Aldi",
+      "salePrice": "$2.19/lb",
+      "dealHighlight": "🐔 Lean chicken value",
       "macroPerServing": {
         "calories": 480,
         "protein": 43,
@@ -223,7 +188,7 @@
       },
       "macroFit": "Chicken breast is lean enough to support a higher-protein dinner while quinoa and vegetables keep carbs complex.",
       "ingredients": [
-        { "name": "Boneless Chicken Breast", "quantity": 2, "unit": "lbs" },
+        { "name": "Family Pack Chicken Breasts", "quantity": 2, "unit": "lbs" },
         { "name": "Quinoa", "quantity": 1.75, "unit": "cups dry" },
         { "name": "Broccoli Florets", "quantity": 2, "unit": "lbs" },
         { "name": "Zucchini", "quantity": 3, "unit": "medium" },
@@ -240,20 +205,59 @@
       ]
     },
     {
+      "id": "meal-004",
+      "name": "ALDI Pork Chop Apple Sweet Potato Plates",
+      "image": "https://source.unsplash.com/900x675/?pork-chop,sweet-potato,green-beans",
+      "proteinType": "pork",
+      "protein": "Fresh Thick-Cut Boneless Pork Chops",
+      "proteinOzPerServing": 5,
+      "vegetable": "Green beans, kale, cabbage slaw",
+      "carb": "Microwaved sweet potatoes + apples",
+      "prepTime": 28,
+      "servings": 5,
+      "estimatedCost": 25,
+      "store": "Aldi",
+      "salePrice": "$3.49/lb",
+      "dealHighlight": "🐖 Quick pork dinner",
+      "macroPerServing": {
+        "calories": 500,
+        "protein": 40,
+        "carbs": 54,
+        "fat": 13
+      },
+      "macroFit": "Use trimmed 5 oz pork portions and build the plate around green vegetables and sweet potatoes instead of heavy sauces.",
+      "ingredients": [
+        { "name": "Fresh Thick-Cut Boneless Pork Chops", "quantity": 2, "unit": "lbs" },
+        { "name": "Sweet Potatoes", "quantity": 5, "unit": "medium" },
+        { "name": "Green Beans", "quantity": 2, "unit": "lbs" },
+        { "name": "Baby Kale", "quantity": 10, "unit": "oz" },
+        { "name": "Cabbage Slaw Mix", "quantity": 1, "unit": "bag" },
+        { "name": "Apples", "quantity": 3, "unit": "medium" },
+        { "name": "Dijon Mustard", "quantity": 1, "unit": "small jar" }
+      ],
+      "instructions": [
+        "Microwave sweet potatoes until tender, turning once halfway through.",
+        "Pat pork dry and season with garlic, pepper, smoked paprika, and a thin swipe of Dijon.",
+        "Sear pork chops 4 to 5 minutes per side until cooked through; rest and slice into portions.",
+        "Sauté green beans and kale until crisp-tender.",
+        "Serve pork with sweet potatoes, greens, sliced apples, and a quick vinegar-Dijon slaw."
+      ]
+    },
+    {
       "id": "meal-005",
-      "name": "ALDI Atlantic Salmon Lentil Veggie Plates",
+      "name": "ALDI Salmon Lentil Veggie Plates",
       "image": "https://source.unsplash.com/900x675/?salmon,lentils,vegetables",
       "proteinType": "seafood",
-      "protein": "Fresh Atlantic Salmon",
+      "protein": "Fresh Atlantic Salmon Side",
       "proteinOzPerServing": 5,
       "vegetable": "Asparagus or green beans, spinach, tomatoes",
-      "carb": "Lentils + roasted baby potatoes",
+      "carb": "Lentils + baby potatoes",
       "prepTime": 25,
       "servings": 5,
-      "estimatedCost": 34,
+      "estimatedCost": 33,
       "store": "Aldi",
-      "salePrice": "$8.99/lb",
-      "dealHighlight": "🐟 Salmon night",
+      "salePrice": "$8.29/lb",
+      "dealHighlight": "🐟 Best salmon price",
       "macroPerServing": {
         "calories": 535,
         "protein": 40,
@@ -262,7 +266,7 @@
       },
       "macroFit": "A 5 oz salmon portion brings omega-3 fats; lentils and potatoes keep the carb side whole-food and filling.",
       "ingredients": [
-        { "name": "Fresh Atlantic Salmon", "quantity": 2, "unit": "lbs" },
+        { "name": "Fresh Atlantic Salmon Side", "quantity": 2, "unit": "lbs" },
         { "name": "Cooked Lentils", "quantity": 3, "unit": "cups" },
         { "name": "Baby Potatoes", "quantity": 2, "unit": "lbs" },
         { "name": "Green Beans", "quantity": 2, "unit": "lbs" },
@@ -272,7 +276,7 @@
       ],
       "instructions": [
         "Microwave or air-fry halved baby potatoes until tender and browned.",
-        "Season salmon with lemon, pepper, garlic, and dill or parsley.",
+        "Cut salmon side into portions and season with lemon, pepper, garlic, and dill or parsley.",
         "Sear salmon skin-side down, then flip and cook until just opaque, about 8 to 10 minutes total.",
         "Steam or sauté green beans; warm lentils with spinach and tomatoes.",
         "Plate lentils, potatoes, vegetables, and salmon with lemon."
@@ -280,10 +284,10 @@
     },
     {
       "id": "meal-006",
-      "name": "HT Porterhouse Steak Fajita Rice Bowls",
-      "image": "https://source.unsplash.com/900x675/?steak,fajita,bowl,brown-rice",
+      "name": "HT Ribeye Fajita Brown Rice Bowls",
+      "image": "https://source.unsplash.com/900x675/?ribeye,steak,fajita,bowl",
       "proteinType": "beef",
-      "protein": "T-Bone or Porterhouse Steaks",
+      "protein": "Ribeye Steaks",
       "proteinOzPerServing": 4,
       "vegetable": "Peppers, onions, romaine, tomatoes",
       "carb": "Brown rice + pinto beans",
@@ -294,14 +298,14 @@
       "salePrice": "$9.99/lb",
       "dealHighlight": "🥩 Steak deal, portion-controlled",
       "macroPerServing": {
-        "calories": 525,
+        "calories": 535,
         "protein": 39,
         "carbs": 51,
-        "fat": 18
+        "fat": 20
       },
       "macroFit": "Use 4 oz sliced steak per person and make the bowl mostly vegetables, beans, and brown rice.",
       "ingredients": [
-        { "name": "T-Bone or Porterhouse Steaks", "quantity": 1.75, "unit": "lbs" },
+        { "name": "Ribeye Steaks", "quantity": 1.75, "unit": "lbs" },
         { "name": "Microwave Brown Rice", "quantity": 3, "unit": "pouches" },
         { "name": "Pinto Beans", "quantity": 2, "unit": "cans" },
         { "name": "Bell Peppers", "quantity": 5, "unit": "medium" },
@@ -313,7 +317,7 @@
       "instructions": [
         "Slice peppers and onions; warm brown rice and rinsed pinto beans.",
         "Season steak with cumin, chili powder, garlic, pepper, and lime.",
-        "Sear steak 3 to 4 minutes per side, rest, then slice thin around the bone.",
+        "Sear steak 3 to 4 minutes per side, rest, then slice thin.",
         "Sauté peppers and onions in the same pan until tender-crisp.",
         "Build bowls with rice, beans, fajita vegetables, romaine, tomatoes, and sliced steak."
       ]
