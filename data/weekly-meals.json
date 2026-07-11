@@ -1,6 +1,6 @@
 {
-  "weekOf": "July 1, 2026",
-  "lastUpdated": "2026-07-04T07:00:00-04:00",
+  "weekOf": "July 8, 2026",
+  "lastUpdated": "2026-07-11T07:00:00-04:00",
   "macroTarget": {
     "calories": 1400,
     "protein": 110,
@@ -9,186 +9,97 @@
     "note": "Daily target provided by Kmo; dinner options are portioned to support it, not consume the full day. Meals use 4-6 oz protein per person, vegetables, complex carbs, and under-30-minute prep."
   },
   "dealsSource": {
-    "harrisTeeter": "Belmont Harris Teeter official weekly-ad page was checked on Jul 4, 2026 and confirmed the local store shell/location at 905 South Point Rd, but lightweight fetch did not expose full item cards. Current public weekly-ad mirror WeeklyAdHub for Jul 1-Jul 7, 2026 listed protein features: 80% Lean Ground Chuck $5.49/lb, Ribeye Steaks $9.99/lb, Farm Raised EZ Peel White Shrimp 2 lb bag Buy 1 Get 2 Free, Miami Kobe Pure Brick Ground Beef Buy 1 Get 1 Free, Prime Pub Burgers $6.99, and Wild Caught American Shrimp Buy 1 Get 1 Free. Confirm exact local e-VIC availability in the HT app/store.",
-    "aldi": "Belmont ALDI 6402 Wilkinson Blvd current weekly ad for Jul 1-Jul 7, 2026 was checked through a Belmont-specific public ad listing plus current flyer images. Readable protein features included family-pack chicken breasts $2.19/lb, family-pack chicken thighs $1.55/lb, fresh Atlantic salmon side $8.29/lb, fresh Atlantic salmon $8.99/lb, fresh thick-cut boneless pork chops $3.49/lb, fresh pork spareribs $1.99/lb, fresh seasoned pork shoulder roast $2.39/lb, Fresh Black Angus USDA Choice Petite Sirloin Steaks $8.99/lb, fresh Wagyu ground beef 1 lb $4.99, and fresh 80% lean ground beef patties $4.99/lb. Confirm local stock in the ALDI app/store."
+    "harrisTeeter": "Belmont Harris Teeter official weekly-ad shell was checked for the Jul 8-Jul 14, 2026 cycle; lightweight fetch did not expose local item cards directly, so current public flyer images were used and should be treated as current ad intel with local e-VIC/stock confirmation needed. Protein features read from the flyer included 93% Lean Ground Chuck $6.99/lb, T-Bone or Porterhouse Steaks $9.99/lb, Small Pack Harris Teeter Chicken Breast or Chicken Tenderloins Buy 1 Get 1 Free, Fresh Farm Raised Salmon Fillets or Wild Caught Peeled & Deveined 16-25 ct Argentine Shrimp $9.99/lb, Chicken Leg Quarters $1.49/lb, Smithfield Half Boneless Pork Loin $2.49/lb, Chuck Tender Steak $8.99/lb, and 12 oz 30-40 ct Scallops $10.",
+    "aldi": "Belmont ALDI current ad was checked through ALDI's weekly-ad page and a current public Aldi Reviewer listing for the Jul 8, 2026 ad cycle. Readable protein features included Farmer Focus Whole Chicken Wings $2.29/lb, Kirkwood Mediterranean or Zesty Mediterranean Chicken Kabobs $5.99/16 oz, Texas Meat Company Street Tacos Diced Marinated Chicken $3.99/16 oz, Fremont Fish Market Wild Alaska Sockeye Salmon $7.99/16 oz, Atlantic Salmon with Greek Herbs $10.99/lb, and Never Any Rosemary and Garlic Seasoned Lamb Shank $5.99/lb. Confirm local stock in the ALDI app/store."
   },
   "topDeals": {
     "harristeeter": [
       {
-        "item": "Farm Raised EZ Peel White Shrimp, 2 lb bag",
-        "price": "Buy 1 Get 2 Free",
-        "type": "seafood"
-      },
-      {
-        "item": "Ribeye Steaks",
-        "price": "$9.99/lb",
-        "type": "beef"
-      },
-      {
-        "item": "80% Lean Ground Chuck",
-        "price": "$5.49/lb",
-        "type": "beef"
-      },
-      {
-        "item": "Wild Caught American Shrimp",
+        "item": "Small Pack Harris Teeter Chicken Breast or Chicken Tenderloins",
         "price": "Buy 1 Get 1 Free",
+        "type": "chicken"
+      },
+      {
+        "item": "Smithfield Half Boneless Pork Loin",
+        "price": "$2.49/lb",
+        "type": "pork"
+      },
+      {
+        "item": "Chicken Leg Quarters",
+        "price": "$1.49/lb",
+        "type": "chicken"
+      },
+      {
+        "item": "Fresh Farm Raised Salmon Fillets or Argentine Shrimp",
+        "price": "$9.99/lb",
         "type": "seafood"
       }
     ],
     "aldi": [
       {
-        "item": "Family Pack Chicken Thighs",
-        "price": "$1.55/lb",
+        "item": "Farmer Focus Whole Chicken Wings",
+        "price": "$2.29/lb",
         "type": "chicken"
       },
       {
-        "item": "Family Pack Chicken Breasts",
-        "price": "$2.19/lb",
+        "item": "Texas Meat Company Diced Marinated Chicken",
+        "price": "$3.99/16 oz",
         "type": "chicken"
       },
       {
-        "item": "Fresh Pork Spareribs",
-        "price": "$1.99/lb",
-        "type": "pork"
-      },
-      {
-        "item": "Fresh Atlantic Salmon Side",
-        "price": "$8.29/lb",
+        "item": "Fremont Fish Market Wild Alaska Sockeye Salmon",
+        "price": "$7.99/16 oz",
         "type": "seafood"
       },
       {
-        "item": "Fresh Thick-Cut Boneless Pork Chops",
-        "price": "$3.49/lb",
-        "type": "pork"
-      },
-      {
-        "item": "Black Angus Petite Sirloin Steaks",
-        "price": "$8.99/lb",
-        "type": "beef"
+        "item": "Atlantic Salmon with Greek Herbs",
+        "price": "$10.99/lb",
+        "type": "seafood"
       }
     ]
   },
   "freezerRecommendations": [
     {
-      "item": "ALDI family-pack chicken thighs",
-      "reason": "Lowest easy weeknight protein found this cycle; portion into 1.5 to 2 lb freezer packs for sheet-pan dinners, bowls, and stir-fries.",
-      "pricePerLb": "$1.55"
+      "item": "HT BOGO chicken breast or tenderloins",
+      "reason": "Best lean weeknight protein from the ad; split into 2 lb freezer packs for quick skillets, bowls, and sheet-pan meals.",
+      "pricePerLb": "Buy 1 Get 1 Free"
     },
     {
-      "item": "HT EZ Peel White Shrimp 2 lb bag",
-      "reason": "Strong seafood stock-up if the Buy 1 Get 2 Free promo is available locally; freeze extra bags flat for fast skillet dinners.",
-      "pricePerLb": "Buy 1 Get 2 Free"
+      "item": "HT Smithfield half boneless pork loin",
+      "reason": "Low-cost lean pork option; slice part into quick cutlets and freeze the rest in dinner-size packs.",
+      "pricePerLb": "$2.49"
     },
     {
-      "item": "ALDI fresh Atlantic salmon side",
-      "reason": "Best salmon price found this cycle; cut into 5 oz portions and freeze individually for quick air-fryer or skillet meals.",
-      "pricePerLb": "$8.29"
+      "item": "ALDI Fremont wild Alaska sockeye salmon",
+      "reason": "A solid seafood freezer option at $7.99 per 16 oz; buy three packs for five 5 oz portions plus a little cushion.",
+      "pricePerLb": "$7.99/16 oz"
     }
   ],
   "meals": [
     {
       "id": "meal-001",
-      "name": "ALDI Chicken Thigh Greek Farro Bowls",
-      "image": "https://source.unsplash.com/900x675/?chicken,farro,bowl,vegetables",
-      "proteinType": "chicken",
-      "protein": "Family Pack Chicken Thighs",
-      "proteinOzPerServing": 5,
-      "vegetable": "Cucumber, tomatoes, spinach, red onion",
-      "carb": "Quick-cook farro + chickpeas",
-      "prepTime": 25,
-      "servings": 5,
-      "estimatedCost": 22,
-      "store": "Aldi",
-      "salePrice": "$1.55/lb",
-      "dealHighlight": "🍗 Best value protein",
-      "macroPerServing": {
-        "calories": 505,
-        "protein": 39,
-        "carbs": 52,
-        "fat": 16
-      },
-      "macroFit": "Trim visible fat and keep chicken to about 5 oz per person; farro, chickpeas, and vegetables add fiber without heavy sauces.",
-      "ingredients": [
-        { "name": "Family Pack Chicken Thighs", "quantity": 2, "unit": "lbs" },
-        { "name": "Quick-Cook Farro", "quantity": 1.75, "unit": "cups dry" },
-        { "name": "Chickpeas", "quantity": 2, "unit": "cans" },
-        { "name": "Baby Spinach", "quantity": 10, "unit": "oz" },
-        { "name": "Cucumbers", "quantity": 3, "unit": "medium" },
-        { "name": "Grape Tomatoes", "quantity": 2, "unit": "pints" },
-        { "name": "Red Onion", "quantity": 1, "unit": "medium" },
-        { "name": "Lemons", "quantity": 3, "unit": "whole" }
-      ],
-      "instructions": [
-        "Cook farro according to package directions while chicken cooks.",
-        "Trim chicken thighs and season with oregano, garlic, pepper, paprika, and lemon.",
-        "Sear chicken in a hot skillet 5 to 6 minutes per side until cooked through; rest and slice.",
-        "Chop cucumber, tomatoes, onion, and spinach; rinse chickpeas.",
-        "Build bowls with farro, chickpeas, vegetables, chicken, lemon juice, and a spoon of Greek yogurt if desired."
-      ]
-    },
-    {
-      "id": "meal-002",
-      "name": "HT EZ Peel Shrimp Brown Rice Skillet",
-      "image": "https://source.unsplash.com/900x675/?shrimp,rice,vegetables,skillet",
-      "proteinType": "seafood",
-      "protein": "Farm Raised EZ Peel White Shrimp, 2 lb bag",
-      "proteinOzPerServing": 5,
-      "vegetable": "Zucchini, peppers, spinach, tomatoes",
-      "carb": "Brown rice",
-      "prepTime": 20,
-      "servings": 5,
-      "estimatedCost": 26,
-      "store": "Harris Teeter",
-      "salePrice": "Buy 1 Get 2 Free",
-      "dealHighlight": "🦐 Best seafood stock-up",
-      "macroPerServing": {
-        "calories": 455,
-        "protein": 36,
-        "carbs": 55,
-        "fat": 9
-      },
-      "macroFit": "Shrimp is lean, so the plate stays macro-friendly with brown rice and a large vegetable base.",
-      "ingredients": [
-        { "name": "EZ Peel White Shrimp", "quantity": 2, "unit": "lbs" },
-        { "name": "Microwave Brown Rice", "quantity": 3, "unit": "pouches" },
-        { "name": "Zucchini", "quantity": 4, "unit": "medium" },
-        { "name": "Bell Peppers", "quantity": 4, "unit": "medium" },
-        { "name": "Baby Spinach", "quantity": 10, "unit": "oz" },
-        { "name": "Grape Tomatoes", "quantity": 2, "unit": "pints" },
-        { "name": "Limes", "quantity": 3, "unit": "whole" }
-      ],
-      "instructions": [
-        "Thaw and peel shrimp if needed; pat dry.",
-        "Warm brown rice pouches while chopping vegetables.",
-        "Sauté zucchini and peppers with garlic, smoked paprika, and pepper until crisp-tender.",
-        "Add shrimp and cook 2 to 3 minutes per side until opaque; fold in spinach and tomatoes.",
-        "Serve over brown rice with lime and parsley or cilantro."
-      ]
-    },
-    {
-      "id": "meal-003",
-      "name": "ALDI Chicken Breast Quinoa Primavera",
+      "name": "HT BOGO Chicken Tenderloin Quinoa Primavera",
       "image": "https://source.unsplash.com/900x675/?chicken,quinoa,vegetables",
       "proteinType": "chicken",
-      "protein": "Family Pack Chicken Breasts",
+      "protein": "Harris Teeter Chicken Breast or Chicken Tenderloins",
       "proteinOzPerServing": 5,
       "vegetable": "Broccoli, zucchini, carrots, spinach",
       "carb": "Quinoa",
       "prepTime": 25,
       "servings": 5,
       "estimatedCost": 23,
-      "store": "Aldi",
-      "salePrice": "$2.19/lb",
-      "dealHighlight": "🐔 Lean chicken value",
+      "store": "Harris Teeter",
+      "salePrice": "Buy 1 Get 1 Free",
+      "dealHighlight": "🐔 Best lean protein deal",
       "macroPerServing": {
         "calories": 480,
         "protein": 43,
         "carbs": 50,
         "fat": 11
       },
-      "macroFit": "Chicken breast is lean enough to support a higher-protein dinner while quinoa and vegetables keep carbs complex.",
+      "macroFit": "Chicken tenderloins cook fast and keep the plate lean; quinoa and vegetables add fiber without a heavy sauce.",
       "ingredients": [
-        { "name": "Family Pack Chicken Breasts", "quantity": 2, "unit": "lbs" },
+        { "name": "Chicken Breast or Chicken Tenderloins", "quantity": 2, "unit": "lbs" },
         { "name": "Quinoa", "quantity": 1.75, "unit": "cups dry" },
         { "name": "Broccoli Florets", "quantity": 2, "unit": "lbs" },
         { "name": "Zucchini", "quantity": 3, "unit": "medium" },
@@ -198,36 +109,75 @@
       ],
       "instructions": [
         "Cook quinoa while prepping the chicken and vegetables.",
-        "Slice chicken thin and season with garlic, Italian seasoning, pepper, and lemon zest.",
-        "Sear chicken strips 5 to 6 minutes until cooked through; remove from pan.",
+        "Season chicken with garlic, Italian seasoning, pepper, lemon zest, and a light drizzle of olive oil.",
+        "Sear chicken 4 to 5 minutes per side until cooked through; rest and slice.",
         "Sauté broccoli, zucchini, and carrots until crisp-tender, then wilt in spinach.",
-        "Toss quinoa, vegetables, chicken, lemon juice, and a drizzle of olive oil."
+        "Toss quinoa, vegetables, chicken, and lemon juice; add parsley or basil if available."
       ]
     },
     {
-      "id": "meal-004",
-      "name": "ALDI Pork Chop Apple Sweet Potato Plates",
-      "image": "https://source.unsplash.com/900x675/?pork-chop,sweet-potato,green-beans",
+      "id": "meal-002",
+      "name": "HT Argentine Shrimp Brown Rice Skillet",
+      "image": "https://source.unsplash.com/900x675/?shrimp,rice,vegetables,skillet",
+      "proteinType": "seafood",
+      "protein": "Wild Caught Peeled & Deveined Argentine Shrimp",
+      "proteinOzPerServing": 5,
+      "vegetable": "Zucchini, peppers, spinach, tomatoes",
+      "carb": "Brown rice",
+      "prepTime": 20,
+      "servings": 5,
+      "estimatedCost": 28,
+      "store": "Harris Teeter",
+      "salePrice": "$9.99/lb",
+      "dealHighlight": "🦐 Fast seafood dinner",
+      "macroPerServing": {
+        "calories": 455,
+        "protein": 36,
+        "carbs": 55,
+        "fat": 9
+      },
+      "macroFit": "Shrimp is lean and quick; brown rice and a large vegetable base make it filling without much added fat.",
+      "ingredients": [
+        { "name": "Argentine Shrimp", "quantity": 2, "unit": "lbs" },
+        { "name": "Microwave Brown Rice", "quantity": 3, "unit": "pouches" },
+        { "name": "Zucchini", "quantity": 4, "unit": "medium" },
+        { "name": "Bell Peppers", "quantity": 4, "unit": "medium" },
+        { "name": "Baby Spinach", "quantity": 10, "unit": "oz" },
+        { "name": "Grape Tomatoes", "quantity": 2, "unit": "pints" },
+        { "name": "Limes", "quantity": 3, "unit": "whole" }
+      ],
+      "instructions": [
+        "Thaw shrimp if needed and pat dry.",
+        "Warm brown rice pouches while chopping vegetables.",
+        "Sauté zucchini and peppers with garlic, smoked paprika, and pepper until crisp-tender.",
+        "Add shrimp and cook 2 to 3 minutes per side until opaque; fold in spinach and tomatoes.",
+        "Serve over brown rice with lime and cilantro or parsley."
+      ]
+    },
+    {
+      "id": "meal-003",
+      "name": "HT Pork Loin Sweet Potato Green Bean Plates",
+      "image": "https://source.unsplash.com/900x675/?pork-loin,sweet-potato,green-beans",
       "proteinType": "pork",
-      "protein": "Fresh Thick-Cut Boneless Pork Chops",
+      "protein": "Smithfield Half Boneless Pork Loin",
       "proteinOzPerServing": 5,
       "vegetable": "Green beans, kale, cabbage slaw",
-      "carb": "Microwaved sweet potatoes + apples",
+      "carb": "Sweet potatoes + apples",
       "prepTime": 28,
       "servings": 5,
-      "estimatedCost": 25,
-      "store": "Aldi",
-      "salePrice": "$3.49/lb",
-      "dealHighlight": "🐖 Quick pork dinner",
+      "estimatedCost": 24,
+      "store": "Harris Teeter",
+      "salePrice": "$2.49/lb",
+      "dealHighlight": "🐖 Best pork value",
       "macroPerServing": {
         "calories": 500,
         "protein": 40,
         "carbs": 54,
         "fat": 13
       },
-      "macroFit": "Use trimmed 5 oz pork portions and build the plate around green vegetables and sweet potatoes instead of heavy sauces.",
+      "macroFit": "Slice the pork loin into quick 5 oz cutlets and keep the plate centered on green vegetables and sweet potatoes.",
       "ingredients": [
-        { "name": "Fresh Thick-Cut Boneless Pork Chops", "quantity": 2, "unit": "lbs" },
+        { "name": "Smithfield Half Boneless Pork Loin", "quantity": 2, "unit": "lbs" },
         { "name": "Sweet Potatoes", "quantity": 5, "unit": "medium" },
         { "name": "Green Beans", "quantity": 2, "unit": "lbs" },
         { "name": "Baby Kale", "quantity": 10, "unit": "oz" },
@@ -237,89 +187,127 @@
       ],
       "instructions": [
         "Microwave sweet potatoes until tender, turning once halfway through.",
-        "Pat pork dry and season with garlic, pepper, smoked paprika, and a thin swipe of Dijon.",
-        "Sear pork chops 4 to 5 minutes per side until cooked through; rest and slice into portions.",
+        "Slice pork loin into thin cutlets and season with garlic, pepper, paprika, and a thin swipe of Dijon.",
+        "Sear pork 3 to 4 minutes per side until cooked through; rest and slice.",
         "Sauté green beans and kale until crisp-tender.",
         "Serve pork with sweet potatoes, greens, sliced apples, and a quick vinegar-Dijon slaw."
       ]
     },
     {
-      "id": "meal-005",
-      "name": "ALDI Salmon Lentil Veggie Plates",
-      "image": "https://source.unsplash.com/900x675/?salmon,lentils,vegetables",
-      "proteinType": "seafood",
-      "protein": "Fresh Atlantic Salmon Side",
+      "id": "meal-004",
+      "name": "HT 93% Lean Ground Chuck Taco Farro Bowls",
+      "image": "https://source.unsplash.com/900x675/?beef,taco,bowl,vegetables",
+      "proteinType": "beef",
+      "protein": "93% Lean Ground Chuck",
       "proteinOzPerServing": 5,
-      "vegetable": "Asparagus or green beans, spinach, tomatoes",
-      "carb": "Lentils + baby potatoes",
+      "vegetable": "Romaine, peppers, onions, tomatoes",
+      "carb": "Farro + black beans",
       "prepTime": 25,
       "servings": 5,
-      "estimatedCost": 33,
-      "store": "Aldi",
-      "salePrice": "$8.29/lb",
-      "dealHighlight": "🐟 Best salmon price",
-      "macroPerServing": {
-        "calories": 535,
-        "protein": 40,
-        "carbs": 48,
-        "fat": 20
-      },
-      "macroFit": "A 5 oz salmon portion brings omega-3 fats; lentils and potatoes keep the carb side whole-food and filling.",
-      "ingredients": [
-        { "name": "Fresh Atlantic Salmon Side", "quantity": 2, "unit": "lbs" },
-        { "name": "Cooked Lentils", "quantity": 3, "unit": "cups" },
-        { "name": "Baby Potatoes", "quantity": 2, "unit": "lbs" },
-        { "name": "Green Beans", "quantity": 2, "unit": "lbs" },
-        { "name": "Baby Spinach", "quantity": 10, "unit": "oz" },
-        { "name": "Grape Tomatoes", "quantity": 2, "unit": "pints" },
-        { "name": "Lemons", "quantity": 3, "unit": "whole" }
-      ],
-      "instructions": [
-        "Microwave or air-fry halved baby potatoes until tender and browned.",
-        "Cut salmon side into portions and season with lemon, pepper, garlic, and dill or parsley.",
-        "Sear salmon skin-side down, then flip and cook until just opaque, about 8 to 10 minutes total.",
-        "Steam or sauté green beans; warm lentils with spinach and tomatoes.",
-        "Plate lentils, potatoes, vegetables, and salmon with lemon."
-      ]
-    },
-    {
-      "id": "meal-006",
-      "name": "HT Ribeye Fajita Brown Rice Bowls",
-      "image": "https://source.unsplash.com/900x675/?ribeye,steak,fajita,bowl",
-      "proteinType": "beef",
-      "protein": "Ribeye Steaks",
-      "proteinOzPerServing": 4,
-      "vegetable": "Peppers, onions, romaine, tomatoes",
-      "carb": "Brown rice + pinto beans",
-      "prepTime": 28,
-      "servings": 5,
-      "estimatedCost": 32,
+      "estimatedCost": 27,
       "store": "Harris Teeter",
-      "salePrice": "$9.99/lb",
-      "dealHighlight": "🥩 Steak deal, portion-controlled",
+      "salePrice": "$6.99/lb",
+      "dealHighlight": "🥩 Lean beef option",
       "macroPerServing": {
-        "calories": 535,
-        "protein": 39,
-        "carbs": 51,
-        "fat": 20
+        "calories": 515,
+        "protein": 42,
+        "carbs": 53,
+        "fat": 14
       },
-      "macroFit": "Use 4 oz sliced steak per person and make the bowl mostly vegetables, beans, and brown rice.",
+      "macroFit": "The 93% lean beef keeps fat controlled; farro, beans, and vegetables make the bowl more balanced than tortillas alone.",
       "ingredients": [
-        { "name": "Ribeye Steaks", "quantity": 1.75, "unit": "lbs" },
-        { "name": "Microwave Brown Rice", "quantity": 3, "unit": "pouches" },
-        { "name": "Pinto Beans", "quantity": 2, "unit": "cans" },
-        { "name": "Bell Peppers", "quantity": 5, "unit": "medium" },
+        { "name": "93% Lean Ground Chuck", "quantity": 2, "unit": "lbs" },
+        { "name": "Quick-Cook Farro", "quantity": 1.75, "unit": "cups dry" },
+        { "name": "Black Beans", "quantity": 2, "unit": "cans" },
+        { "name": "Bell Peppers", "quantity": 4, "unit": "medium" },
         { "name": "Yellow Onions", "quantity": 2, "unit": "medium" },
         { "name": "Romaine", "quantity": 1, "unit": "head" },
         { "name": "Tomatoes", "quantity": 4, "unit": "medium" },
         { "name": "Limes", "quantity": 3, "unit": "whole" }
       ],
       "instructions": [
-        "Slice peppers and onions; warm brown rice and rinsed pinto beans.",
-        "Season steak with cumin, chili powder, garlic, pepper, and lime.",
-        "Sear steak 3 to 4 minutes per side, rest, then slice thin.",
-        "Sauté peppers and onions in the same pan until tender-crisp.",
-        "Build bowls with rice, beans, fajita vegetables, romaine, tomatoes, and sliced steak."
+        "Cook farro according to package directions.",
+        "Brown ground chuck with chili powder, cumin, garlic, smoked paprika, and pepper; drain if needed.",
+        "Sauté peppers and onions until tender-crisp.",
+        "Warm rinsed black beans and chop romaine and tomatoes.",
+        "Build bowls with farro, beans, vegetables, beef, lime, and salsa."
+      ]
+    },
+    {
+      "id": "meal-005",
+      "name": "ALDI Sockeye Salmon Quinoa Veggie Plates",
+      "image": "https://source.unsplash.com/900x675/?salmon,quinoa,vegetables",
+      "proteinType": "seafood",
+      "protein": "Fremont Fish Market Wild Alaska Sockeye Salmon",
+      "proteinOzPerServing": 5,
+      "vegetable": "Quinoa veggie blend, spinach, tomatoes",
+      "carb": "Quinoa veggie blend + baby potatoes",
+      "prepTime": 25,
+      "servings": 5,
+      "estimatedCost": 34,
+      "store": "Aldi",
+      "salePrice": "$7.99/16 oz",
+      "dealHighlight": "🐟 Best ALDI seafood buy",
+      "macroPerServing": {
+        "calories": 535,
+        "protein": 40,
+        "carbs": 48,
+        "fat": 20
+      },
+      "macroFit": "A 5 oz salmon portion brings healthy fats; the quinoa blend and potatoes keep the carb side whole-food and filling.",
+      "ingredients": [
+        { "name": "Fremont Wild Alaska Sockeye Salmon", "quantity": 3, "unit": "16 oz packs" },
+        { "name": "Aldi Quinoa Veggie Blend", "quantity": 3, "unit": "bags" },
+        { "name": "Baby Potatoes", "quantity": 2, "unit": "lbs" },
+        { "name": "Baby Spinach", "quantity": 10, "unit": "oz" },
+        { "name": "Grape Tomatoes", "quantity": 2, "unit": "pints" },
+        { "name": "Lemons", "quantity": 3, "unit": "whole" }
+      ],
+      "instructions": [
+        "Microwave or air-fry halved baby potatoes until tender and browned.",
+        "Cook salmon according to package directions, pulling it when just opaque.",
+        "Warm quinoa veggie blend in a skillet.",
+        "Fold spinach and tomatoes into the hot quinoa blend to soften.",
+        "Plate quinoa vegetables, potatoes, and salmon with lemon."
+      ]
+    },
+    {
+      "id": "meal-006",
+      "name": "ALDI Lemon Pepper Chicken Wing Rice Bowls",
+      "image": "https://source.unsplash.com/900x675/?chicken-wings,rice,bowl,vegetables",
+      "proteinType": "chicken",
+      "protein": "Farmer Focus Whole Chicken Wings",
+      "proteinOzPerServing": 5,
+      "vegetable": "Broccoli, cabbage slaw, cucumbers",
+      "carb": "Brown rice + edamame",
+      "prepTime": 28,
+      "servings": 5,
+      "estimatedCost": 25,
+      "store": "Aldi",
+      "salePrice": "$2.29/lb",
+      "dealHighlight": "🍗 ALDI chicken stock-up",
+      "macroPerServing": {
+        "calories": 520,
+        "protein": 39,
+        "carbs": 54,
+        "fat": 17
+      },
+      "macroFit": "Use baked or air-fried wings without sugary sauce and round out the bowl with brown rice, edamame, and crunchy vegetables.",
+      "ingredients": [
+        { "name": "Farmer Focus Whole Chicken Wings", "quantity": 4, "unit": "lbs" },
+        { "name": "Microwave Brown Rice", "quantity": 3, "unit": "pouches" },
+        { "name": "Shelled Edamame", "quantity": 2, "unit": "bags" },
+        { "name": "Broccoli Florets", "quantity": 2, "unit": "lbs" },
+        { "name": "Cabbage Slaw Mix", "quantity": 2, "unit": "bags" },
+        { "name": "Cucumbers", "quantity": 3, "unit": "medium" },
+        { "name": "Lemons", "quantity": 3, "unit": "whole" }
+      ],
+      "instructions": [
+        "Air-fry or convection-bake wings with lemon pepper, garlic, and paprika until crisp and cooked through.",
+        "Warm brown rice and edamame.",
+        "Steam or sauté broccoli until crisp-tender.",
+        "Toss cabbage slaw and cucumbers with lemon juice and a small drizzle of olive oil.",
+        "Build bowls with rice, edamame, broccoli, slaw, and portioned wings."
       ]
     }
   ]
