@@ -13,8 +13,8 @@
         <header class="hero">
             <div class="hero-copy">
                 <span class="eyebrow">Weekly food board</span>
-                <h1>🍽️ This Week's Dinners</h1>
-                <p class="subtitle">Clean, sale-aware meals for the family — fast enough for real weeknights.</p>
+                <h1>Jmo's Meal Tracker</h1>
+                <p class="subtitle">Trainer-aligned meals, grocery planning, and daily check-ins for the 2100 calorie plan.</p>
                 <p class="week-info" id="weekInfo"></p>
             </div>
             <div class="hero-card" aria-label="Planner summary">
@@ -23,6 +23,27 @@
                 <span id="selectedCost">$0 planned</span>
             </div>
         </header>
+
+        <section class="plan-board" aria-label="Nutrition target and daily tracker">
+            <div class="target-panel" id="targetPanel"></div>
+            <div class="tracker-panel" id="dailyTracker"></div>
+        </section>
+
+        <section class="library-section" aria-label="Trainer recipe library">
+            <div class="section-heading">
+                <div>
+                    <span class="section-kicker">Trainer library</span>
+                    <h2>Fast macro-friendly recipes</h2>
+                </div>
+                <div class="library-tabs" id="recipeTabs"></div>
+            </div>
+            <div class="recipe-library" id="recipeLibrary"></div>
+        </section>
+
+        <section class="approved-section" aria-label="Approved foods and protein swaps">
+            <div class="approved-foods" id="approvedFoods"></div>
+            <div class="protein-swaps" id="proteinSwaps"></div>
+        </section>
 
         <section class="deal-board" id="dealBoard" aria-label="Best weekly deals"></section>
 

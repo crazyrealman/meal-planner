@@ -91,7 +91,7 @@ header h1 {
     color: var(--primary-dark);
     font-size: clamp(2rem, 5vw, 4rem);
     line-height: 1.02;
-    letter-spacing: -0.055em;
+    letter-spacing: 0;
 }
 
 .subtitle {
@@ -145,9 +145,22 @@ header h1 {
     margin-bottom: 22px;
 }
 
+.plan-board,
+.approved-section {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.35fr);
+    gap: 18px;
+    margin-bottom: 22px;
+}
+
 .deal-panel,
 .freezer-panel,
-.shopping-list-section {
+.shopping-list-section,
+.target-panel,
+.tracker-panel,
+.library-section,
+.approved-foods,
+.protein-swaps {
     border: 1px solid rgba(255, 255, 255, 0.75);
     border-radius: 24px;
     background: var(--card-bg);
@@ -156,8 +169,341 @@ header h1 {
 }
 
 .deal-panel,
-.freezer-panel {
+.freezer-panel,
+.target-panel,
+.tracker-panel,
+.library-section,
+.approved-foods,
+.protein-swaps {
     padding: 22px;
+}
+
+.target-panel h2,
+.tracker-panel h2,
+.library-section h2,
+.approved-foods h2,
+.protein-swaps h2 {
+    color: var(--primary-dark);
+    font-size: 1.25rem;
+    letter-spacing: 0;
+}
+
+.target-macros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.target-macros div {
+    padding: 13px 10px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: #fff;
+}
+
+.target-macros strong,
+.target-macros span {
+    display: block;
+}
+
+.target-macros strong {
+    color: var(--primary);
+    font-size: 1.45rem;
+    line-height: 1;
+}
+
+.target-macros span {
+    color: var(--text-light);
+    font-size: 0.78rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.goal-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 13px;
+}
+
+.goal-row span,
+.date-pill {
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: #8a5200;
+    font-size: 0.78rem;
+    font-weight: 900;
+}
+
+.habit-list {
+    display: grid;
+    gap: 8px;
+    padding-left: 18px;
+    color: var(--text-light);
+    font-size: 0.92rem;
+    font-weight: 650;
+}
+
+.tracker-head,
+.library-card-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.meal-checks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 9px;
+    margin: 14px 0;
+}
+
+.meal-checks label,
+.workout-check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    padding: 10px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: #fff;
+    color: var(--text);
+    font-size: 0.86rem;
+    font-weight: 850;
+}
+
+.meal-checks input,
+.workout-check input {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--primary);
+}
+
+.tracker-inputs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.tracker-field {
+    display: grid;
+    gap: 5px;
+}
+
+.tracker-field > span {
+    color: var(--text-light);
+    font-size: 0.75rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.tracker-field div {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0 10px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: #fff;
+}
+
+.tracker-field input {
+    width: 100%;
+    min-width: 0;
+    padding: 10px 0;
+    border: 0;
+    background: transparent;
+    color: var(--primary-dark);
+    font: inherit;
+    font-weight: 900;
+    outline: none;
+}
+
+.tracker-field div span {
+    color: var(--text-light);
+    font-size: 0.78rem;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.workout-check {
+    margin-top: 12px;
+}
+
+.tracker-progress {
+    display: grid;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+.progress-row {
+    display: grid;
+    gap: 6px;
+}
+
+.progress-row > div:first-child {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    color: var(--text-light);
+    font-size: 0.82rem;
+    font-weight: 850;
+}
+
+.progress-row strong {
+    color: var(--primary-dark);
+}
+
+.progress-track {
+    overflow: hidden;
+    height: 9px;
+    border-radius: 999px;
+    background: #e3eadf;
+}
+
+.progress-track span {
+    display: block;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, var(--primary), var(--accent));
+}
+
+.library-section {
+    margin-bottom: 22px;
+}
+
+.library-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+.library-tab {
+    padding: 8px 11px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: #fff;
+    color: var(--text);
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.library-tab.active {
+    border-color: transparent;
+    background: var(--primary-dark);
+    color: #fff;
+}
+
+.recipe-library {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 14px;
+    margin-top: 15px;
+}
+
+.library-card {
+    display: grid;
+    gap: 10px;
+    padding: 15px;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: #fff;
+}
+
+.library-card-head span,
+.library-card-head strong {
+    padding: 4px 8px;
+    border-radius: 999px;
+    background: #eff6f0;
+    color: var(--primary);
+    font-size: 0.72rem;
+    font-weight: 900;
+}
+
+.library-card h3 {
+    color: var(--primary-dark);
+    font-size: 1.05rem;
+    line-height: 1.2;
+    letter-spacing: 0;
+}
+
+.library-card p {
+    color: var(--text-light);
+    font-size: 0.82rem;
+    font-weight: 750;
+}
+
+.macro-card.compact {
+    margin: 0;
+}
+
+.library-card details {
+    color: var(--text-light);
+    font-size: 0.86rem;
+}
+
+.library-card summary {
+    color: var(--primary);
+    cursor: pointer;
+    font-weight: 950;
+}
+
+.library-card ul,
+.library-card ol {
+    margin-top: 8px;
+    padding-left: 18px;
+}
+
+.food-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    margin-top: 12px;
+}
+
+.food-columns h3 {
+    margin-bottom: 6px;
+    color: var(--primary);
+    font-size: 0.86rem;
+    text-transform: capitalize;
+}
+
+.food-columns ul,
+.swap-list {
+    list-style: none;
+    display: grid;
+    gap: 6px;
+}
+
+.food-columns li,
+.swap-list div {
+    padding: 8px 10px;
+    border-radius: 12px;
+    background: rgba(246, 243, 234, 0.7);
+    color: var(--text);
+    font-size: 0.84rem;
+    font-weight: 750;
+}
+
+.swap-list {
+    margin-top: 12px;
+    max-height: 420px;
+    overflow: auto;
+}
+
+.swap-list strong,
+.swap-list span {
+    display: block;
+}
+
+.swap-list span {
+    color: var(--text-light);
+    font-size: 0.78rem;
 }
 
 .section-heading {
@@ -450,7 +796,7 @@ header h1 {
     color: var(--primary-dark);
     font-size: 1.32rem;
     line-height: 1.15;
-    letter-spacing: -0.03em;
+    letter-spacing: 0;
 }
 
 .meal-card .store-badge {
@@ -690,7 +1036,9 @@ footer {
 /* Responsive */
 @media (max-width: 920px) {
     .hero,
-    .deal-board {
+    .deal-board,
+    .plan-board,
+    .approved-section {
         grid-template-columns: 1fr;
     }
 
@@ -732,19 +1080,30 @@ footer {
     }
 
     .deal-chips,
-    .meals-grid {
+    .meals-grid,
+    .meal-checks,
+    .tracker-inputs,
+    .food-columns {
         grid-template-columns: 1fr;
     }
 
     .meal-card .header,
-    .shopping-list-header {
+    .shopping-list-header,
+    .section-heading,
+    .tracker-head {
         align-items: flex-start;
         flex-direction: column;
     }
 
+    .target-macros,
     .macro-card,
-    .meal-meta {
-        grid-template-columns: 1fr;
+    .meal-meta,
+    .macro-card.compact {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .library-tabs {
+        justify-content: flex-start;
     }
 
     .price-tag {

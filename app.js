@@ -2,14 +2,20 @@
 
 let mealsData = [];
 let selectedMeals = new Set();
+let planData = {};
 
 // Load meals data
 async function loadMeals() {
     try {
         const response = await fetch('data/weekly-meals.json');
         const data = await response.json();
+        planData = data;
         mealsData = data.meals;
         document.getElementById('weekInfo').textContent = `Week of ${data.weekOf}`;
+        renderNutritionPlan(data);
+        renderDailyTracker(data);
+        renderRecipeLibrary(data.recipeLibrary || []);
+        renderApprovedFoods(data);
         renderDealBoard(data);
         updatePlannerSummary();
         renderMeals(mealsData);
@@ -21,6 +27,242 @@ async function loadMeals() {
             </div>
         `;
     }
+}
+
+function renderNutritionPlan(data) {
+    const panel = document.getElementById('targetPanel');
+    if (!panel) return;
+
+    const target = data.macroTarget || {};
+    const goals = data.nutritionPlan?.goals || [];
+    const habits = data.nutritionPlan?.dailyHabits || [];
+
+    panel.innerHTML = `
+        <span class="section-kicker">Daily target</span>
+        <h2>${target.calories || 0} calories</h2>
+        <div class="target-macros">
+            <div><strong>${target.protein || 0}g</strong><span>Protein</span></div>
+            <div><strong>${target.carbs || 0}g</strong><span>Carbs</span></div>
+            <div><strong>${target.fat || 0}g</strong><span>Fat</span></div>
+        </div>
+        <div class="goal-row">
+            ${goals.map(goal => `<span>${goal}</span>`).join('')}
+        </div>
+        <ul class="habit-list">
+            ${habits.slice(0, 4).map(habit => `<li>${habit}</li>`).join('')}
+        </ul>
+    `;
+}
+
+function todayKey() {
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = String(now.getMonth() + 1).padStart(2, '0');
+    const day = String(now.getDate()).padStart(2, '0');
+    return `${year}-${month}-${day}`;
+}
+
+function trackerStorageKey(date = todayKey()) {
+    return `dailyTracker:${date}`;
+}
+
+function getTrackerState() {
+    const saved = localStorage.getItem(trackerStorageKey());
+    if (saved) return JSON.parse(saved);
+
+    return {
+        calories: 0,
+        protein: 0,
+        carbs: 0,
+        fat: 0,
+        water: 0,
+        weight: '',
+        workout: false,
+        meals: {}
+    };
+}
+
+function saveTrackerState(state) {
+    localStorage.setItem(trackerStorageKey(), JSON.stringify(state));
+}
+
+function renderDailyTracker(data) {
+    const panel = document.getElementById('dailyTracker');
+    if (!panel) return;
+
+    const target = data.macroTarget || {};
+    const defaults = data.trackerDefaults || {};
+    const slots = defaults.mealSlots || ['Breakfast', 'Lunch', 'Dinner', 'High-protein snack'];
+    const state = getTrackerState();
+
+    panel.innerHTML = `
+        <div class="tracker-head">
+            <div>
+                <span class="section-kicker">Today</span>
+                <h2>Daily check-in</h2>
+            </div>
+            <span class="date-pill">${todayKey()}</span>
+        </div>
+        <div class="meal-checks">
+            ${slots.map(slot => `
+                <label>
+                    <input type="checkbox" data-tracker-meal="${slot}" ${state.meals?.[slot] ? 'checked' : ''}>
+                    <span>${slot}</span>
+                </label>
+            `).join('')}
+        </div>
+        <div class="tracker-inputs">
+            ${trackerInput('calories', 'Calories', state.calories, target.calories)}
+            ${trackerInput('protein', 'Protein', state.protein, target.protein, 'g')}
+            ${trackerInput('carbs', 'Carbs', state.carbs, target.carbs, 'g')}
+            ${trackerInput('fat', 'Fat', state.fat, target.fat, 'g')}
+            ${trackerInput('water', 'Water', state.water, defaults.waterGoalOz || 100, 'oz')}
+            ${trackerInput('weight', 'Weight', state.weight, null, 'lb')}
+        </div>
+        <label class="workout-check">
+            <input type="checkbox" id="workoutDone" ${state.workout ? 'checked' : ''}>
+            <span>${defaults.workoutGoal || 'Complete planned workout'}</span>
+        </label>
+        <div class="tracker-progress" id="trackerProgress"></div>
+    `;
+
+    panel.querySelectorAll('input').forEach(input => {
+        input.addEventListener('input', updateTrackerFromInputs);
+        input.addEventListener('change', updateTrackerFromInputs);
+    });
+    updateTrackerProgress(state, target, defaults);
+}
+
+function trackerInput(key, label, value, target, unit = '') {
+    const targetText = target ? `<span>/${target}${unit}</span>` : '';
+    return `
+        <label class="tracker-field">
+            <span>${label}</span>
+            <div>
+                <input type="number" min="0" step="${key === 'weight' ? '0.1' : '1'}" data-tracker="${key}" value="${value ?? ''}">
+                ${targetText}
+            </div>
+        </label>
+    `;
+}
+
+function updateTrackerFromInputs() {
+    const panel = document.getElementById('dailyTracker');
+    const state = getTrackerState();
+
+    panel.querySelectorAll('[data-tracker]').forEach(input => {
+        const key = input.dataset.tracker;
+        state[key] = key === 'weight' ? input.value : Number(input.value || 0);
+    });
+
+    panel.querySelectorAll('[data-tracker-meal]').forEach(input => {
+        state.meals[input.dataset.trackerMeal] = input.checked;
+    });
+
+    state.workout = document.getElementById('workoutDone')?.checked || false;
+    saveTrackerState(state);
+    updateTrackerProgress(state, planData.macroTarget || {}, planData.trackerDefaults || {});
+}
+
+function updateTrackerProgress(state, target, defaults) {
+    const progress = document.getElementById('trackerProgress');
+    if (!progress) return;
+
+    const rows = [
+        ['Calories', state.calories || 0, target.calories || 0, ''],
+        ['Protein', state.protein || 0, target.protein || 0, 'g'],
+        ['Carbs', state.carbs || 0, target.carbs || 0, 'g'],
+        ['Fat', state.fat || 0, target.fat || 0, 'g'],
+        ['Water', state.water || 0, defaults.waterGoalOz || 100, 'oz']
+    ];
+
+    progress.innerHTML = rows.map(([label, value, goal, unit]) => {
+        const pct = goal ? Math.min(100, Math.round((value / goal) * 100)) : 0;
+        return `
+            <div class="progress-row">
+                <div><span>${label}</span><strong>${value}${unit} / ${goal}${unit}</strong></div>
+                <div class="progress-track"><span style="width: ${pct}%"></span></div>
+            </div>
+        `;
+    }).join('');
+}
+
+function renderRecipeLibrary(recipes) {
+    const tabs = document.getElementById('recipeTabs');
+    const library = document.getElementById('recipeLibrary');
+    if (!tabs || !library) return;
+
+    const categories = ['All', ...new Set(recipes.map(recipe => recipe.category))];
+    tabs.innerHTML = categories.map(category => `
+        <button class="library-tab ${category === 'All' ? 'active' : ''}" data-category="${category}">${category}</button>
+    `).join('');
+
+    tabs.querySelectorAll('.library-tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+            tabs.querySelectorAll('.library-tab').forEach(item => item.classList.remove('active'));
+            tab.classList.add('active');
+            renderRecipeCards(recipes, tab.dataset.category);
+        });
+    });
+
+    renderRecipeCards(recipes, 'All');
+}
+
+function renderRecipeCards(recipes, category) {
+    const library = document.getElementById('recipeLibrary');
+    const filtered = category === 'All' ? recipes : recipes.filter(recipe => recipe.category === category);
+
+    library.innerHTML = filtered.map(recipe => `
+        <article class="library-card">
+            <div class="library-card-head">
+                <span>${recipe.category}</span>
+                <strong>${recipe.prepTime} min</strong>
+            </div>
+            <h3>${recipe.name}</h3>
+            <p>${recipe.source}</p>
+            <div class="macro-card compact">
+                <span><strong>${recipe.macroPerServing.calories}</strong> cal</span>
+                <span><strong>${recipe.macroPerServing.protein}g</strong> protein</span>
+                <span><strong>${recipe.macroPerServing.carbs}g</strong> carbs</span>
+                <span><strong>${recipe.macroPerServing.fat}g</strong> fat</span>
+            </div>
+            <details>
+                <summary>Ingredients and steps</summary>
+                <ul>${recipe.ingredients.map(item => `<li>${item}</li>`).join('')}</ul>
+                <ol>${recipe.instructions.map(step => `<li>${step}</li>`).join('')}</ol>
+            </details>
+        </article>
+    `).join('');
+}
+
+function renderApprovedFoods(data) {
+    const approved = document.getElementById('approvedFoods');
+    const swaps = document.getElementById('proteinSwaps');
+    if (!approved || !swaps) return;
+
+    const foods = data.approvedFoods || {};
+    approved.innerHTML = `
+        <span class="section-kicker">Approved foods</span>
+        <h2>Build-a-plate list</h2>
+        <div class="food-columns">
+            ${Object.entries(foods).map(([group, items]) => `
+                <div>
+                    <h3>${group}</h3>
+                    <ul>${items.slice(0, 12).map(item => `<li>${item}</li>`).join('')}</ul>
+                </div>
+            `).join('')}
+        </div>
+    `;
+
+    swaps.innerHTML = `
+        <span class="section-kicker">Protein swaps</span>
+        <h2>30g quick picks</h2>
+        <div class="swap-list">
+            ${(data.proteinEquivalents || []).map(item => `
+                <div><strong>${item.food}</strong><span>${item.serving}</span></div>
+            `).join('')}
+        </div>
+    `;
 }
 
 // Render weekly deals and freezer recommendations
