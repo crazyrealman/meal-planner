@@ -1,6 +1,6 @@
 {
-  "weekOf": "July 15, 2026",
-  "lastUpdated": "2026-07-18T07:00:00-04:00",
+  "weekOf": "July 22, 2026",
+  "lastUpdated": "2026-07-25T07:10:00-04:00",
   "macroTarget": {
     "calories": 2100,
     "protein": 160,
@@ -458,180 +458,118 @@
     }
   ],
   "dealsSource": {
-    "harrisTeeter": "Checked Harris Teeter official weekly ad/specials plus current public flyer pages for the Jul 15-Jul 21, 2026 cycle. Official product pages exposed Belmont-adjacent pricing for boneless chicken breast value pack $2.49/lb and Fishermans Market 21/30 raw shrimp B1G2 free; flyer pages showed 80% lean ground chuck $5.49/lb, boneless chicken breast $2.49/lb, New York strip steak $11.99/lb value pack, Smithfield marinated pork loins/tenderloin BOGO, pork chops/ribeye chops $2.49/lb, EZ peel white shrimp $7.99/lb, farm-raised trout $9.99/lb, swordfish $12.99/lb, and wild tuna steaks $11.99/lb. Confirm e-VIC and Belmont shelf tags in store.",
-    "aldi": "Checked ALDI official weekly-ad shell and current public ad roundups for the Jul 15-Jul 21, 2026 cycle. Official ALDI page required ZIP/location interaction and did not expose item cards through lightweight fetch, so public ad listings were used. Protein features included boneless skinless chicken thighs family pack $2.49/lb, MSC certified sockeye salmon $7.49/lb, ahi tuna steaks $8.99/lb, Argentine red shrimp 16 oz $9.99, fresh organic 85/15 grass-fed ground beef $5.99/lb, plus Kirkwood fresh chicken tenderloins, thin-sliced boneless pork chops, and Cattlemens Ranch flat-cut corned beef brisket as ad features with local confirmation recommended."
+    "harrisTeeter": "Checked the Harris Teeter Jul 22-Jul 28, 2026 weekly ad through the official weekly-ad shell and current public flyer images. The official page confirms the current ad cycle but item details were image/app driven in lightweight access, so WeeklyAdHub flyer pages were used for item-level prices. Protein highlights: BOGO small-pack Harris Teeter chicken breast/tenderloins, 93% lean ground beef $6.99/lb, sirloin tip steak value pack $7.99/lb, farm-raised coho salmon fillets $7.99/lb, farm-raised salmon steaks $8.99/lb, whole chicken $1.59/lb, pork chops $3.99/lb, Smithfield pork tenderloin or baby back ribs BOGO, cooked shrimp $6.99/lb, tuna medallions $7.99/lb, and snow crab clusters or 13-15 ct Argentine shrimp $9.99/lb. Confirm e-VIC and Belmont shelf tags in store.",
+    "aldi": "Checked ALDI official weekly-ad page and current public ad listings for the Jul 22-Jul 28, 2026 cycle. Official ALDI page required location/app interaction for item cards through lightweight fetch, so FlyerMatrix and Aldi Reviewer were used for item-level planning. Protein highlights: Smithfield pork spareribs $1.99/lb, Farmer Focus whole chicken wings $2.29/lb, fresh family-pack organic grass-fed 93/7 ground beef $5.99/lb, 85/15 grass-fed beef patties $5.99/lb, turkey burgers 32 oz $6.99, shrimp skewers 12 oz $6.99, fresh Atlantic salmon side $8.29/lb, lamb leg steaks $8.99/lb, and organic chicken/chicken cheddar bratwurst 12 oz $4.95. Local availability may vary."
   },
   "topDeals": {
     "harristeeter": [
       {
-        "item": "Harris Teeter Boneless Chicken Breast Value Pack",
-        "price": "$2.49/lb",
+        "item": "Harris Teeter Chicken Breast or Chicken Tenderloins, small pack",
+        "price": "Buy 1 Get 1 Free",
         "type": "chicken"
       },
       {
-        "item": "Fishermans Market 21/30 ct Raw Shrimp, 2 lb bag",
-        "price": "Buy 1 Get 2 Free",
+        "item": "Farm-Raised Coho Salmon Fillets",
+        "price": "$7.99/lb",
         "type": "seafood"
       },
       {
-        "item": "Smithfield Marinated Pork Loins or Tenderloin",
+        "item": "Harris Teeter Reserve Angus Sirloin Tip Steak, value pack",
+        "price": "$7.99/lb",
+        "type": "beef"
+      },
+      {
+        "item": "93% Lean Ground Beef",
+        "price": "$6.99/lb",
+        "type": "beef"
+      },
+      {
+        "item": "Wild Caught Tuna Medallions",
+        "price": "$7.99/lb",
+        "type": "seafood"
+      },
+      {
+        "item": "Smithfield Boneless Pork Tenderloin or Baby Back Ribs",
         "price": "Buy 1 Get 1 Free",
         "type": "pork"
-      },
-      {
-        "item": "Harris Teeter Pork Chops or Ribeye Chops",
-        "price": "$2.49/lb",
-        "type": "pork"
-      },
-      {
-        "item": "Farm-Raised Trout Fillets",
-        "price": "$9.99/lb",
-        "type": "seafood"
-      },
-      {
-        "item": "80% Lean Ground Chuck",
-        "price": "$5.49/lb",
-        "type": "beef"
       }
     ],
     "aldi": [
       {
-        "item": "Boneless Skinless Chicken Thighs, Family Pack",
-        "price": "$2.49/lb",
+        "item": "Fresh Family Pack Organic Grass-Fed 93/7 Ground Beef",
+        "price": "$5.99/lb",
+        "type": "beef"
+      },
+      {
+        "item": "Fresh Atlantic Salmon Side",
+        "price": "$8.29/lb",
+        "type": "seafood"
+      },
+      {
+        "item": "Kirkwood Seasoned Turkey Burgers, 32 oz",
+        "price": "$6.99",
+        "type": "turkey"
+      },
+      {
+        "item": "Fremont Fish Market Shrimp Skewers, 12 oz",
+        "price": "$6.99",
+        "type": "seafood"
+      },
+      {
+        "item": "Farmer Focus Fresh Antibiotic Free Whole Chicken Wings",
+        "price": "$2.29/lb",
         "type": "chicken"
       },
       {
-        "item": "MSC Certified Sockeye Salmon",
-        "price": "$7.49/lb",
-        "type": "seafood"
-      },
-      {
-        "item": "Ahi Tuna Steaks",
-        "price": "$8.99/lb",
-        "type": "seafood"
-      },
-      {
-        "item": "Fremont Fish Market Argentine Red Shrimp",
-        "price": "$9.99/16 oz",
-        "type": "seafood"
-      },
-      {
-        "item": "Fresh Organic 85/15 Grass-Fed Ground Beef",
-        "price": "$5.99/lb",
-        "type": "beef"
+        "item": "Smithfield Fresh Pork Spareribs",
+        "price": "$1.99/lb",
+        "type": "pork"
       }
     ]
   },
   "freezerRecommendations": [
     {
-      "item": "HT boneless chicken breast value pack",
-      "reason": "Best clean lean protein anchor this week; portion into 2 lb freezer bags for bowls, sheet pans, and lunch prep.",
-      "pricePerLb": "$2.49"
+      "item": "HT BOGO chicken breast/tenderloins",
+      "reason": "Best lean bulk protein of the week; portion into 1.5-2 lb freezer bags for quick bowls, salads, and sheet-pan dinners.",
+      "pricePerLb": "Buy 1 Get 1 Free"
     },
     {
-      "item": "HT Fishermans Market 21/30 raw shrimp",
-      "reason": "B1G2 free makes this the strongest quick-cooking seafood buy; freeze flat and thaw only what is needed for 20 minute dinners.",
-      "pricePerLb": "Buy 1 Get 2 Free"
+      "item": "ALDI 93/7 organic grass-fed ground beef",
+      "reason": "Cleaner beef option than most ad ground-beef buys; freeze in 1 lb packs for taco bowls, stuffed peppers, and quick skillet meals.",
+      "pricePerLb": "$5.99"
     },
     {
-      "item": "ALDI MSC certified sockeye salmon",
-      "reason": "Good freezer seafood for trainer-friendly plates when chicken fatigue hits; buy 3 lb for five 5-6 oz portions plus cushion.",
-      "pricePerLb": "$7.49"
+      "item": "HT coho salmon or ALDI Atlantic salmon side",
+      "reason": "Good seafood rotation for high-protein dinners without another chicken night; portion into 5-6 oz fillets before freezing.",
+      "pricePerLb": "$7.99-$8.29"
     }
   ],
   "meals": [
     {
       "id": "meal-001",
-      "name": "HT Lemon Chicken Brown Rice Primavera",
-      "image": "https://source.unsplash.com/900x675/?grilled-chicken,brown-rice,vegetables",
+      "name": "HT BOGO Chicken Tenderloin Quinoa Primavera",
+      "image": "https://source.unsplash.com/900x675/?grilled-chicken,quinoa,vegetables",
       "proteinType": "chicken",
-      "protein": "Harris Teeter Boneless Chicken Breast Value Pack",
+      "protein": "Harris Teeter Chicken Breast or Chicken Tenderloins",
       "proteinOzPerServing": 5,
       "vegetable": "Broccoli, zucchini, carrots, spinach",
-      "carb": "Brown rice",
+      "carb": "Quinoa",
       "prepTime": 25,
       "servings": 5,
-      "estimatedCost": 22,
+      "estimatedCost": 21,
       "store": "Harris Teeter",
-      "salePrice": "$2.49/lb",
-      "dealHighlight": "Best lean protein deal",
+      "salePrice": "Buy 1 Get 1 Free",
+      "dealHighlight": "Best lean protein anchor",
       "macroPerServing": {
-        "calories": 475,
-        "protein": 44,
-        "carbs": 52,
-        "fat": 8
+        "calories": 465,
+        "protein": 45,
+        "carbs": 47,
+        "fat": 9
       },
-      "macroFit": "Lean chicken keeps protein high without pushing fat; brown rice and vegetables make this an easy trainer-aligned dinner base.",
+      "macroFit": "High-protein, moderate-carb dinner that keeps fat controlled and works cleanly with the trainer target.",
       "ingredients": [
         {
-          "name": "Boneless Chicken Breast Value Pack",
-          "quantity": 2,
-          "unit": "lbs"
-        },
-        {
-          "name": "Brown Rice",
-          "quantity": 1.75,
-          "unit": "cups dry"
-        },
-        {
-          "name": "Broccoli Florets",
-          "quantity": 2,
-          "unit": "lbs"
-        },
-        {
-          "name": "Zucchini",
-          "quantity": 3,
-          "unit": "medium"
-        },
-        {
-          "name": "Carrots",
-          "quantity": 5,
-          "unit": "medium"
-        },
-        {
-          "name": "Baby Spinach",
-          "quantity": 10,
-          "unit": "oz"
-        },
-        {
-          "name": "Lemons",
-          "quantity": 3,
-          "unit": "whole"
-        }
-      ],
-      "instructions": [
-        "Cook brown rice while prepping the chicken and vegetables.",
-        "Season chicken with garlic, pepper, Italian seasoning, lemon zest, and a light spray or drizzle of olive oil.",
-        "Sear chicken 4 to 5 minutes per side until cooked through; rest and slice.",
-        "Saute broccoli, zucchini, and carrots until crisp-tender, then wilt in spinach.",
-        "Serve chicken over rice and vegetables with lemon juice and herbs."
-      ]
-    },
-    {
-      "id": "meal-002",
-      "name": "HT B1G2 Shrimp Quinoa Skillet",
-      "image": "https://source.unsplash.com/900x675/?shrimp,quinoa,vegetables,skillet",
-      "proteinType": "seafood",
-      "protein": "Fishermans Market 21/30 ct Raw Shrimp",
-      "proteinOzPerServing": 5,
-      "vegetable": "Zucchini, bell peppers, spinach, tomatoes",
-      "carb": "Quinoa",
-      "prepTime": 20,
-      "servings": 5,
-      "estimatedCost": 25,
-      "store": "Harris Teeter",
-      "salePrice": "Buy 1 Get 2 Free",
-      "dealHighlight": "Fast seafood stock-up",
-      "macroPerServing": {
-        "calories": 430,
-        "protein": 38,
-        "carbs": 48,
-        "fat": 8
-      },
-      "macroFit": "Shrimp is very lean and quick, so this adds a high-protein seafood night without using up much of the daily fat target.",
-      "ingredients": [
-        {
-          "name": "Fishermans Market Raw Shrimp",
+          "name": "Chicken Breast or Tenderloins",
           "quantity": 2,
           "unit": "lbs"
         },
@@ -641,13 +579,18 @@
           "unit": "cups dry"
         },
         {
+          "name": "Broccoli Florets",
+          "quantity": 2,
+          "unit": "lbs"
+        },
+        {
           "name": "Zucchini",
-          "quantity": 4,
+          "quantity": 3,
           "unit": "medium"
         },
         {
-          "name": "Bell Peppers",
-          "quantity": 4,
+          "name": "Carrots",
+          "quantity": 5,
           "unit": "medium"
         },
         {
@@ -656,49 +599,168 @@
           "unit": "oz"
         },
         {
-          "name": "Grape Tomatoes",
-          "quantity": 2,
-          "unit": "pints"
-        },
-        {
-          "name": "Limes",
+          "name": "Lemons",
           "quantity": 3,
           "unit": "whole"
         }
       ],
       "instructions": [
-        "Thaw shrimp if needed, peel if necessary, and pat dry.",
-        "Cook quinoa according to package directions.",
-        "Saute zucchini and peppers with garlic, smoked paprika, and pepper until crisp-tender.",
-        "Add shrimp and cook 2 to 3 minutes per side until opaque; fold in spinach and tomatoes.",
-        "Serve over quinoa with lime juice and cilantro or parsley."
+        "Cook quinoa while prepping chicken and vegetables.",
+        "Season chicken with garlic, pepper, Italian seasoning, lemon zest, and a light drizzle of olive oil.",
+        "Sear chicken 4 to 5 minutes per side until cooked through; rest and slice.",
+        "Saute broccoli, zucchini, and carrots until crisp-tender, then wilt in spinach.",
+        "Serve chicken over quinoa and vegetables with lemon juice and herbs."
+      ]
+    },
+    {
+      "id": "meal-002",
+      "name": "HT Coho Salmon Brown Rice Green Bean Plates",
+      "image": "https://source.unsplash.com/900x675/?salmon,brown-rice,green-beans",
+      "proteinType": "seafood",
+      "protein": "Farm-Raised Coho Salmon Fillets",
+      "proteinOzPerServing": 5.5,
+      "vegetable": "Green beans and spinach salad",
+      "carb": "Brown rice",
+      "prepTime": 24,
+      "servings": 5,
+      "estimatedCost": 31,
+      "store": "Harris Teeter",
+      "salePrice": "$7.99/lb",
+      "dealHighlight": "Best HT seafood price for clean plates",
+      "macroPerServing": {
+        "calories": 510,
+        "protein": 39,
+        "carbs": 49,
+        "fat": 18
+      },
+      "macroFit": "Salmon adds healthy fats while the rice and green beans keep the plate balanced and repeatable.",
+      "ingredients": [
+        {
+          "name": "Coho Salmon Fillets",
+          "quantity": 1.75,
+          "unit": "lbs"
+        },
+        {
+          "name": "Brown Rice",
+          "quantity": 1.75,
+          "unit": "cups dry"
+        },
+        {
+          "name": "Green Beans",
+          "quantity": 2,
+          "unit": "lbs"
+        },
+        {
+          "name": "Baby Spinach",
+          "quantity": 8,
+          "unit": "oz"
+        },
+        {
+          "name": "Cucumbers",
+          "quantity": 2,
+          "unit": "medium"
+        },
+        {
+          "name": "Lemons",
+          "quantity": 2,
+          "unit": "whole"
+        }
+      ],
+      "instructions": [
+        "Cook brown rice according to package directions.",
+        "Season salmon with lemon, garlic, pepper, and paprika.",
+        "Roast or air-fry salmon at 400 F until flaky, about 10 to 12 minutes.",
+        "Steam or saute green beans until crisp-tender.",
+        "Serve salmon with rice, green beans, and a simple spinach cucumber salad."
       ]
     },
     {
       "id": "meal-003",
-      "name": "HT Pork Tenderloin Sweet Potato Plates",
-      "image": "https://source.unsplash.com/900x675/?pork-tenderloin,sweet-potato,green-beans",
-      "proteinType": "pork",
-      "protein": "Smithfield Marinated Pork Loin or Tenderloin",
+      "name": "HT Sirloin Tip Steak Fajita Farro Bowls",
+      "image": "https://source.unsplash.com/900x675/?steak,fajita,bowl",
+      "proteinType": "beef",
+      "protein": "Harris Teeter Reserve Angus Sirloin Tip Steak Value Pack",
       "proteinOzPerServing": 5,
-      "vegetable": "Green beans, kale, cabbage slaw",
-      "carb": "Sweet potatoes",
+      "vegetable": "Bell peppers, onions, romaine",
+      "carb": "Farro",
       "prepTime": 28,
       "servings": 5,
-      "estimatedCost": 24,
+      "estimatedCost": 30,
       "store": "Harris Teeter",
-      "salePrice": "Buy 1 Get 1 Free",
-      "dealHighlight": "Budget family protein",
+      "salePrice": "$7.99/lb",
+      "dealHighlight": "Lean steak option under $8/lb",
       "macroPerServing": {
-        "calories": 495,
-        "protein": 39,
-        "carbs": 54,
-        "fat": 13
+        "calories": 535,
+        "protein": 43,
+        "carbs": 50,
+        "fat": 17
       },
-      "macroFit": "Pork tenderloin is the leanest pork choice in the ad; pair it with sweet potatoes and green vegetables and keep added oil minimal.",
+      "macroFit": "Sirloin gives a higher-satiety beef meal without turning dinner into a heavy steakhouse plate.",
       "ingredients": [
         {
-          "name": "Smithfield Pork Tenderloin or Pork Loin",
+          "name": "Sirloin Tip Steak",
+          "quantity": 2,
+          "unit": "lbs"
+        },
+        {
+          "name": "Farro",
+          "quantity": 1.75,
+          "unit": "cups dry"
+        },
+        {
+          "name": "Bell Peppers",
+          "quantity": 5,
+          "unit": "large"
+        },
+        {
+          "name": "Yellow Onions",
+          "quantity": 2,
+          "unit": "large"
+        },
+        {
+          "name": "Romaine Hearts",
+          "quantity": 2,
+          "unit": "heads"
+        },
+        {
+          "name": "Avocados",
+          "quantity": 2,
+          "unit": "whole"
+        }
+      ],
+      "instructions": [
+        "Cook farro until tender and drain well.",
+        "Slice steak thinly and season with chili powder, cumin, garlic, pepper, and lime.",
+        "Sear steak quickly in a hot pan, then remove to rest.",
+        "Cook peppers and onions in the same pan until browned at the edges.",
+        "Serve steak and vegetables over farro with chopped romaine and a small avocado portion."
+      ]
+    },
+    {
+      "id": "meal-004",
+      "name": "HT 93% Beef Sweet Potato Taco Skillet",
+      "image": "https://source.unsplash.com/900x675/?ground-beef,sweet-potato,taco-bowl",
+      "proteinType": "beef",
+      "protein": "93% Lean Ground Beef",
+      "proteinOzPerServing": 5,
+      "vegetable": "Peppers, onions, spinach, salsa",
+      "carb": "Roasted sweet potatoes",
+      "prepTime": 27,
+      "servings": 5,
+      "estimatedCost": 25,
+      "store": "Harris Teeter",
+      "salePrice": "$6.99/lb",
+      "dealHighlight": "Lean ground beef for fast family bowls",
+      "macroPerServing": {
+        "calories": 500,
+        "protein": 41,
+        "carbs": 52,
+        "fat": 13
+      },
+      "macroFit": "Uses lean beef and sweet potatoes for a filling dinner that still fits a high-protein day.",
+      "ingredients": [
+        {
+          "name": "93% Lean Ground Beef",
           "quantity": 2,
           "unit": "lbs"
         },
@@ -708,133 +770,19 @@
           "unit": "medium"
         },
         {
-          "name": "Green Beans",
-          "quantity": 2,
-          "unit": "lbs"
+          "name": "Bell Peppers",
+          "quantity": 4,
+          "unit": "large"
         },
         {
-          "name": "Baby Kale",
-          "quantity": 10,
-          "unit": "oz"
-        },
-        {
-          "name": "Cabbage Slaw Mix",
+          "name": "Yellow Onion",
           "quantity": 1,
-          "unit": "bag"
-        },
-        {
-          "name": "Apples",
-          "quantity": 3,
-          "unit": "medium"
-        },
-        {
-          "name": "Dijon Mustard",
-          "quantity": 1,
-          "unit": "small jar"
-        }
-      ],
-      "instructions": [
-        "Microwave sweet potatoes until tender, turning once halfway through.",
-        "Slice pork into medallions or thin cutlets if using loin; scrape off excess sugary marinade if needed.",
-        "Sear pork 3 to 4 minutes per side until cooked through; rest before slicing.",
-        "Saute green beans and kale until crisp-tender.",
-        "Serve pork with sweet potatoes, greens, apple slices, and vinegar-Dijon slaw."
-      ]
-    },
-    {
-      "id": "meal-004",
-      "name": "ALDI Sockeye Salmon Potato Spinach Plates",
-      "image": "https://source.unsplash.com/900x675/?sockeye-salmon,potatoes,spinach",
-      "proteinType": "seafood",
-      "protein": "MSC Certified Sockeye Salmon",
-      "proteinOzPerServing": 5,
-      "vegetable": "Spinach, tomatoes, Brussels sprouts",
-      "carb": "Baby potatoes",
-      "prepTime": 25,
-      "servings": 5,
-      "estimatedCost": 34,
-      "store": "Aldi",
-      "salePrice": "$7.49/lb",
-      "dealHighlight": "Best Aldi seafood buy",
-      "macroPerServing": {
-        "calories": 520,
-        "protein": 39,
-        "carbs": 45,
-        "fat": 20
-      },
-      "macroFit": "Salmon brings more fat than chicken or shrimp, so keep breakfast/lunch lean and let this cover healthy fats for the day.",
-      "ingredients": [
-        {
-          "name": "MSC Certified Sockeye Salmon",
-          "quantity": 2,
-          "unit": "lbs"
-        },
-        {
-          "name": "Baby Potatoes",
-          "quantity": 2.5,
-          "unit": "lbs"
+          "unit": "large"
         },
         {
           "name": "Baby Spinach",
-          "quantity": 10,
+          "quantity": 8,
           "unit": "oz"
-        },
-        {
-          "name": "Brussels Sprouts",
-          "quantity": 2,
-          "unit": "lbs"
-        },
-        {
-          "name": "Grape Tomatoes",
-          "quantity": 2,
-          "unit": "pints"
-        },
-        {
-          "name": "Lemons",
-          "quantity": 3,
-          "unit": "whole"
-        }
-      ],
-      "instructions": [
-        "Halve baby potatoes and microwave or air-fry until tender and browned.",
-        "Season salmon with lemon, garlic, pepper, and dill or parsley.",
-        "Bake or air-fry salmon until just opaque.",
-        "Saute Brussels sprouts, spinach, and tomatoes until tender.",
-        "Plate salmon with potatoes and vegetables; finish with lemon."
-      ]
-    },
-    {
-      "id": "meal-005",
-      "name": "ALDI Chicken Thigh Black Bean Fajita Bowls",
-      "image": "https://source.unsplash.com/900x675/?chicken-fajita,brown-rice,black-beans",
-      "proteinType": "chicken",
-      "protein": "Boneless Skinless Chicken Thighs, Family Pack",
-      "proteinOzPerServing": 5,
-      "vegetable": "Bell peppers, onions, romaine, tomatoes",
-      "carb": "Brown rice + black beans",
-      "prepTime": 25,
-      "servings": 5,
-      "estimatedCost": 23,
-      "store": "Aldi",
-      "salePrice": "$2.49/lb",
-      "dealHighlight": "Aldi chicken value",
-      "macroPerServing": {
-        "calories": 535,
-        "protein": 42,
-        "carbs": 57,
-        "fat": 16
-      },
-      "macroFit": "Skinless thighs are a little richer than breast, but the bowl still lands well when oil and cheese are skipped.",
-      "ingredients": [
-        {
-          "name": "Boneless Skinless Chicken Thighs",
-          "quantity": 2,
-          "unit": "lbs"
-        },
-        {
-          "name": "Brown Rice",
-          "quantity": 1.5,
-          "unit": "cups dry"
         },
         {
           "name": "Black Beans",
@@ -842,109 +790,146 @@
           "unit": "cans"
         },
         {
-          "name": "Bell Peppers",
-          "quantity": 5,
-          "unit": "medium"
-        },
-        {
-          "name": "Yellow Onions",
-          "quantity": 2,
-          "unit": "medium"
-        },
-        {
-          "name": "Romaine",
+          "name": "Salsa",
           "quantity": 1,
-          "unit": "head"
-        },
-        {
-          "name": "Tomatoes",
-          "quantity": 4,
-          "unit": "medium"
-        },
-        {
-          "name": "Limes",
-          "quantity": 3,
-          "unit": "whole"
+          "unit": "jar"
         }
       ],
       "instructions": [
-        "Cook brown rice while prepping the vegetables.",
-        "Trim visible fat from chicken thighs and season with chili powder, cumin, garlic, smoked paprika, and lime.",
-        "Sear chicken until cooked through; rest and slice.",
-        "Saute peppers and onions, then warm rinsed black beans.",
-        "Build bowls with rice, beans, vegetables, chicken, romaine, tomato, salsa, and lime."
+        "Dice sweet potatoes and roast or air-fry until browned and tender.",
+        "Brown ground beef with taco seasoning, then drain if needed.",
+        "Add peppers and onions; cook until softened.",
+        "Stir in black beans and spinach until hot and wilted.",
+        "Serve over sweet potatoes with salsa."
       ]
     },
     {
-      "id": "meal-006",
-      "name": "ALDI Ahi Tuna Ginger Rice Stir-Fry",
-      "image": "https://source.unsplash.com/900x675/?ahi-tuna,rice,stir-fry,vegetables",
+      "id": "meal-005",
+      "name": "ALDI Salmon Side Potato Spinach Plates",
+      "image": "https://source.unsplash.com/900x675/?salmon,potatoes,spinach",
       "proteinType": "seafood",
-      "protein": "Ahi Tuna Steaks",
-      "proteinOzPerServing": 5,
-      "vegetable": "Broccoli, snap peas, carrots, bok choy",
-      "carb": "Jasmine rice",
-      "prepTime": 22,
+      "protein": "Fresh Atlantic Salmon Side",
+      "proteinOzPerServing": 5.5,
+      "vegetable": "Organic baby spinach and carrots",
+      "carb": "Baby potatoes",
+      "prepTime": 25,
       "servings": 5,
-      "estimatedCost": 31,
+      "estimatedCost": 32,
       "store": "Aldi",
-      "salePrice": "$8.99/lb",
-      "dealHighlight": "Lean seafood option",
+      "salePrice": "$8.29/lb",
+      "dealHighlight": "Good ALDI seafood bulk buy",
       "macroPerServing": {
-        "calories": 455,
-        "protein": 43,
-        "carbs": 55,
-        "fat": 7
+        "calories": 520,
+        "protein": 39,
+        "carbs": 46,
+        "fat": 20
       },
-      "macroFit": "Ahi tuna is very lean, so this is a strong high-protein dinner for days when fats are already used earlier.",
+      "macroFit": "A simple fish-and-potatoes plate with enough carbs for training days and vegetables built in.",
       "ingredients": [
         {
-          "name": "Ahi Tuna Steaks",
-          "quantity": 2,
-          "unit": "lbs"
-        },
-        {
-          "name": "Jasmine Rice",
+          "name": "Fresh Atlantic Salmon Side",
           "quantity": 1.75,
-          "unit": "cups dry"
-        },
-        {
-          "name": "Broccoli Florets",
-          "quantity": 2,
           "unit": "lbs"
         },
         {
-          "name": "Snap Peas",
+          "name": "Baby Potatoes",
+          "quantity": 3,
+          "unit": "lbs"
+        },
+        {
+          "name": "Organic Baby Spinach",
+          "quantity": 10,
+          "unit": "oz"
+        },
+        {
+          "name": "Organic Baby Carrots",
           "quantity": 1,
           "unit": "lb"
         },
         {
-          "name": "Carrots",
-          "quantity": 5,
-          "unit": "medium"
+          "name": "Lemons",
+          "quantity": 2,
+          "unit": "whole"
         },
         {
-          "name": "Bok Choy",
-          "quantity": 3,
-          "unit": "heads"
-        },
-        {
-          "name": "Low-Sodium Soy Sauce",
+          "name": "Plain Greek Yogurt",
           "quantity": 1,
-          "unit": "bottle"
-        },
-        {
-          "name": "Fresh Ginger",
-          "quantity": 1,
-          "unit": "knob"
+          "unit": "cup"
         }
       ],
       "instructions": [
-        "Cook jasmine rice while vegetables are chopped.",
-        "Season tuna with pepper, garlic, ginger, and a small splash of low-sodium soy sauce.",
-        "Sear tuna 1 to 2 minutes per side for medium or cook through if preferred; rest and slice.",
-        "Stir-fry broccoli, snap peas, carrots, and bok choy with ginger and garlic.",
-        "Serve tuna over rice and vegetables with extra low-sodium soy sauce and lime if desired."
+        "Halve potatoes and roast or air-fry with pepper, garlic, and a light oil spray.",
+        "Cut salmon side into five portions and season with lemon, dill, garlic, and pepper.",
+        "Bake salmon at 400 F for 10 to 12 minutes.",
+        "Saute spinach and steam carrots while salmon cooks.",
+        "Serve with a quick lemon Greek-yogurt sauce."
+      ]
+    },
+    {
+      "id": "meal-006",
+      "name": "ALDI Turkey Burger Greek Rice Bowls",
+      "image": "https://source.unsplash.com/900x675/?turkey-burger,rice,greek-bowl",
+      "proteinType": "turkey",
+      "protein": "Kirkwood Seasoned Turkey Burgers",
+      "proteinOzPerServing": 6,
+      "vegetable": "Cucumber, tomato, spinach, peppers",
+      "carb": "Brown rice",
+      "prepTime": 20,
+      "servings": 5,
+      "estimatedCost": 24,
+      "store": "Aldi",
+      "salePrice": "$6.99/32 oz",
+      "dealHighlight": "Fastest high-protein ALDI option",
+      "macroPerServing": {
+        "calories": 485,
+        "protein": 38,
+        "carbs": 48,
+        "fat": 15
+      },
+      "macroFit": "A very fast dinner using a freezer-friendly protein while keeping the plate mostly whole-food and balanced.",
+      "ingredients": [
+        {
+          "name": "Kirkwood Seasoned Turkey Burgers",
+          "quantity": 2,
+          "unit": "lbs"
+        },
+        {
+          "name": "Brown Rice",
+          "quantity": 1.75,
+          "unit": "cups dry"
+        },
+        {
+          "name": "Cucumbers",
+          "quantity": 3,
+          "unit": "medium"
+        },
+        {
+          "name": "Grape Tomatoes",
+          "quantity": 2,
+          "unit": "pints"
+        },
+        {
+          "name": "Baby Spinach",
+          "quantity": 8,
+          "unit": "oz"
+        },
+        {
+          "name": "Bell Peppers",
+          "quantity": 3,
+          "unit": "large"
+        },
+        {
+          "name": "Plain Greek Yogurt",
+          "quantity": 1,
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        "Cook brown rice while the turkey burgers cook.",
+        "Pan-sear or grill turkey burgers, then slice into strips.",
+        "Chop cucumber, tomatoes, peppers, and spinach for the bowl base.",
+        "Mix Greek yogurt with lemon juice, garlic, pepper, and dill for sauce.",
+        "Build bowls with rice, turkey, vegetables, and sauce."
       ]
     }
   ]
