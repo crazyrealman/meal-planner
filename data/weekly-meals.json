@@ -1,6 +1,6 @@
 {
-  "weekOf": "July 29, 2026",
-  "lastUpdated": "2026-08-01T14:30:00-04:00",
+  "weekOf": "August 5, 2026",
+  "lastUpdated": "2026-08-08T07:12:00-04:00",
   "macroTarget": {
     "calories": 2100,
     "protein": 160,
@@ -458,457 +458,313 @@
     }
   ],
   "dealsSource": {
-    "harrisTeeter": "Checked Harris Teeter Jul 29-Aug 4, 2026 weekly ad. Official Harris Teeter weekly-ad page confirms the store-specific ad shell; item-level prices came from the current public flyer image pages. Protein highlights used for planning: 80% lean ground chuck $5.49/lb, boneless New York strip steak $11.99/lb, wild-caught tuna steaks $9.99/lb, peeled/deveined shrimp $9.99/lb, Smithfield Boston butt pork roast $1.49/lb, and hot/cold double-dipped chicken $7.99 each. Confirm e-VIC and Belmont shelf tags before relying on exact price.",
-    "aldi": "Checked ALDI Jul 29-Aug 4, 2026 flyer deals via current public Instacart ALDI listing. Protein and produce highlights used for planning: Kirkwood 85/15 ground turkey 3 lb $7.99, Sea Queen Atlantic salmon portions $8.99/lb, sweet chili lime or pollo asado chicken breast skewers $7.49, Simply Nature organic chicken breasts $4.99/lb, boneless skinless chicken thighs $2.99/lb, sweet potatoes 3 lb $3.29, multi-colored peppers $2.99/3 ct, spinach $2.09/8 oz, and cucumbers $0.85 each. Local availability may vary."
+    "harrisTeeter": "Checked Harris Teeter Aug 5-11, 2026 public weekly-ad sources. WRAL Smart Shopper lists participating NC Harris Teeter meat deals including fresh whole chicken $1.59/lb, Perdue boneless chicken breasts BOGO for about $3.49/lb, assorted pork chops $3.99/lb, 93% lean ground beef value pack $6.99/lb, 93% lean ground turkey 20.8 oz $6.99, white shrimp 16-20 ct $7.99/lb, ranch steak value pack $8.49/lb, T-bone/porterhouse $8.99/lb, wild caught American shrimp BOGO, Hatfield marinated pork loin/tenderloin BOGO, and white shrimp 2 lb bag BOGO. Harris Teeter official weekly-ad page confirms store-specific weekly ads; verify Belmont shelf tags/e-VIC before relying on exact pricing.",
+    "aldi": "Checked ALDI Aug 5-11, 2026 public weekly-ad sources. WRAL Smart Shopper lists participating NC ALDI meat deals including Perdue fresh chicken wings $1.69/lb, Simply Nature Organic Turkey 6 oz $4.79, and fresh lamb shoulder chops $6.99/lb, plus useful produce such as avocados $0.59, red grapes $1.29/lb, sliced mushrooms $1.29, mini cucumbers $1.69, cantaloupe $1.95, and blueberries $1.99. ALDI official weekly-ad page requires store selection for exact local ad; Belmont availability should be confirmed."
   },
   "topDeals": {
     "harristeeter": [
       {
-        "item": "80% Lean Ground Chuck, value pack",
-        "price": "$5.49/lb",
-        "type": "beef"
-      },
-      {
-        "item": "Boneless New York Strip Steak",
-        "price": "$11.99/lb",
-        "type": "beef"
-      },
-      {
-        "item": "Wild Caught Tuna Steaks",
-        "price": "$9.99/lb",
-        "type": "seafood"
-      },
-      {
-        "item": "Peeled & Deveined Shrimp",
-        "price": "$9.99/lb",
-        "type": "seafood"
-      },
-      {
-        "item": "Smithfield Boston Butt Pork Roast",
-        "price": "$1.49/lb",
-        "type": "pork"
-      },
-      {
-        "item": "Fresh Foods Market Double-Dipped Chicken",
-        "price": "$7.99 each",
+        "item": "Perdue boneless chicken breasts, BOGO",
+        "price": "about $3.49/lb",
         "type": "chicken"
+      },
+      {
+        "item": "93% lean ground turkey, 20.8 oz package",
+        "price": "$6.99",
+        "type": "turkey"
+      },
+      {
+        "item": "93% lean ground beef, value pack",
+        "price": "$6.99/lb",
+        "type": "beef"
+      },
+      {
+        "item": "White shrimp, shell-on 16-20 ct",
+        "price": "$7.99/lb",
+        "type": "seafood"
+      },
+      {
+        "item": "Ranch steak, value pack",
+        "price": "$8.49/lb",
+        "type": "beef"
+      },
+      {
+        "item": "Hatfield marinated pork loin filet or tenderloin",
+        "price": "BOGO",
+        "type": "pork"
       }
     ],
     "aldi": [
       {
-        "item": "Kirkwood USDA Fresh Ground Turkey 85/15, 3 lb",
-        "price": "$7.99",
+        "item": "Fresh lamb shoulder chops",
+        "price": "$6.99/lb",
+        "type": "lamb"
+      },
+      {
+        "item": "Perdue fresh chicken wings",
+        "price": "$1.69/lb",
+        "type": "chicken"
+      },
+      {
+        "item": "Simply Nature Organic Turkey, 6 oz",
+        "price": "$4.79",
         "type": "turkey"
       },
       {
-        "item": "Sea Queen Fresh Atlantic Salmon Portion",
-        "price": "$8.99/lb",
-        "type": "seafood"
+        "item": "White mushrooms, sliced, 8 oz",
+        "price": "$1.29",
+        "type": "vegetable"
       },
       {
-        "item": "Sweet Chili Lime or Pollo Asado Chicken Breast Skewers",
-        "price": "$7.49/22.57 oz",
-        "type": "chicken"
+        "item": "Mini cucumbers, 16 oz",
+        "price": "$1.69",
+        "type": "vegetable"
       },
       {
-        "item": "Simply Nature Organic Chicken Breasts",
-        "price": "$4.99/lb",
-        "type": "chicken"
-      },
-      {
-        "item": "Family Pack Boneless Skinless Chicken Thighs",
-        "price": "$2.99/lb",
-        "type": "chicken"
-      },
-      {
-        "item": "Sweet Potatoes, 3 lb bag",
-        "price": "$3.29",
-        "type": "carb"
+        "item": "Avocados",
+        "price": "$0.59 each",
+        "type": "fat"
       }
     ]
   },
   "freezerRecommendations": [
     {
-      "item": "ALDI 3 lb ground turkey pack",
-      "reason": "Best clean bulk protein anchor this week; split into 1 lb bags for bowls, chili, lettuce cups, or quick taco skillets.",
-      "pricePerLb": "$7.99/3 lb"
+      "item": "HT BOGO boneless chicken breasts",
+      "reason": "Best clean bulk protein this week; portion into 1.25-1.5 lb bags for rice bowls, sheet-pan dinners, and grill nights.",
+      "pricePerLb": "about $3.49/lb"
     },
     {
-      "item": "ALDI family-pack boneless skinless chicken thighs",
-      "reason": "Cheap flexible dinner protein; trim visible fat, portion into marinade bags, and use on grill, sheet pan, or rice bowls.",
-      "pricePerLb": "$2.99/lb"
+      "item": "HT 93% lean ground turkey packages",
+      "reason": "Lean, fast weeknight protein for taco bowls, zucchini skillets, lettuce cups, or turkey chili without blowing up fat targets.",
+      "pricePerLb": "$6.99/20.8 oz"
     },
     {
-      "item": "HT Boston butt pork roast",
-      "reason": "Very low price per pound for family meals; cook once, shred, and keep portions lean by trimming fat and pairing with cabbage or sweet potato.",
-      "pricePerLb": "$1.49/lb"
+      "item": "HT shrimp deals",
+      "reason": "High-protein, low-fat fallback; buy only what you will use or freeze flat for fast stir-fries and rice plates.",
+      "pricePerLb": "$7.99/lb or BOGO bag options"
     }
   ],
   "meals": [
     {
       "id": "meal-001",
-      "name": "ALDI Ground Turkey Sweet Potato Taco Bowls",
-      "image": "https://source.unsplash.com/900x675/?turkey,taco,bowl,sweet-potato",
-      "proteinType": "turkey",
-      "protein": "Kirkwood 85/15 Ground Turkey",
-      "proteinOzPerServing": 5.5,
-      "vegetable": "Peppers, spinach, cucumbers",
-      "carb": "Roasted sweet potatoes",
-      "prepTime": 28,
+      "name": "HT BOGO Chicken Fajita Rice Bowls",
+      "store": "Harris Teeter",
+      "salePrice": "Perdue boneless chicken breasts BOGO, about $3.49/lb",
+      "proteinType": "Chicken breast",
+      "protein": "Perdue boneless chicken breast",
+      "proteinOzPerServing": 5,
+      "vegetable": "Bell peppers, onions, and spinach",
+      "carb": "Brown or jasmine rice",
       "servings": 5,
-      "estimatedCost": 24,
-      "store": "Aldi",
-      "salePrice": "$7.99/3 lb",
-      "dealHighlight": "Best bulk lean-ish protein buy",
+      "prepTime": 28,
+      "estimatedCost": "$17-20 for family dinner",
+      "dealHighlight": "Best clean bulk protein deal at HT this week and easy to portion for family bowls.",
+      "macroFit": "Lean high-protein dinner; use 3/4 cup cooked rice for Jmo and go heavier on peppers/spinach.",
       "macroPerServing": {
-        "calories": 520,
+        "calories": 430,
         "protein": 43,
-        "carbs": 48,
-        "fat": 17
+        "carbs": 42,
+        "fat": 9
       },
-      "macroFit": "High-protein bowl that keeps carbs useful and makes next-day lunch easy.",
+      "image": "https://source.unsplash.com/900x675/?chicken,fajita,rice,bowl",
       "ingredients": [
-        {
-          "name": "Ground Turkey",
-          "quantity": 2,
-          "unit": "lbs"
-        },
-        {
-          "name": "Sweet Potatoes",
-          "quantity": 3,
-          "unit": "lbs"
-        },
-        {
-          "name": "Multi-Colored Peppers",
-          "quantity": 2,
-          "unit": "3 ct packs"
-        },
-        {
-          "name": "Baby Spinach",
-          "quantity": 2,
-          "unit": "8 oz bags"
-        },
-        {
-          "name": "Cucumbers",
-          "quantity": 2,
-          "unit": "whole"
-        },
-        {
-          "name": "Taco Seasoning",
-          "quantity": 1,
-          "unit": "packet or homemade batch"
-        }
+        "2 lb boneless chicken breast, sliced",
+        "3 bell peppers, sliced",
+        "1 large onion, sliced",
+        "5 cups cooked brown or jasmine rice",
+        "2 cups spinach",
+        "2 tbsp olive oil or avocado oil",
+        "Fajita seasoning, lime, salsa"
       ],
       "instructions": [
-        "Cube sweet potatoes and roast at 425 F with salt, pepper, and a light drizzle of olive oil.",
-        "Brown ground turkey with taco seasoning and a splash of water.",
-        "Saute peppers until crisp-tender and wilt spinach at the end.",
-        "Serve turkey over sweet potatoes and vegetables with cucumber on the side."
+        "Season sliced chicken and sear in a large skillet.",
+        "Add peppers and onion; cook until crisp-tender.",
+        "Fold in spinach at the end.",
+        "Serve over rice with lime and salsa; keep oil measured for macro control."
       ]
     },
     {
       "id": "meal-002",
-      "name": "ALDI Pollo Asado Skewer Rice Plates",
-      "image": "https://source.unsplash.com/900x675/?grilled-chicken,rice,peppers",
-      "proteinType": "chicken",
-      "protein": "Pollo Asado Chicken Breast Skewers",
+      "name": "HT Lean Turkey Zucchini Quinoa Skillet",
+      "store": "Harris Teeter",
+      "salePrice": "93% lean ground turkey, 20.8 oz package for $6.99",
+      "proteinType": "Ground turkey",
+      "protein": "93% lean ground turkey",
       "proteinOzPerServing": 5,
-      "vegetable": "Peppers, spinach, cucumber salad",
-      "carb": "Jasmine rice",
-      "prepTime": 22,
+      "vegetable": "Zucchini, mushrooms, and tomatoes",
+      "carb": "Quinoa",
       "servings": 5,
-      "estimatedCost": 28,
-      "store": "Aldi",
-      "salePrice": "$7.49/22.57 oz",
-      "dealHighlight": "Fastest weeknight chicken option",
+      "prepTime": 25,
+      "estimatedCost": "$18-21 for family dinner",
+      "dealHighlight": "Lean turkey keeps fat lower than beef while still landing a sturdy protein serving.",
+      "macroFit": "Strong cut-day meal: lean protein, controlled carbs, high vegetable volume.",
       "macroPerServing": {
-        "calories": 485,
-        "protein": 42,
-        "carbs": 52,
-        "fat": 10
+        "calories": 405,
+        "protein": 39,
+        "carbs": 36,
+        "fat": 11
       },
-      "macroFit": "Clean, low-friction chicken dinner for the tighter week Jmo wanted.",
+      "image": "https://source.unsplash.com/900x675/?turkey,quinoa,zucchini,skillet",
       "ingredients": [
-        {
-          "name": "Pollo Asado Chicken Breast Skewers",
-          "quantity": 3,
-          "unit": "packs"
-        },
-        {
-          "name": "Jasmine Rice",
-          "quantity": 1.75,
-          "unit": "cups dry"
-        },
-        {
-          "name": "Multi-Colored Peppers",
-          "quantity": 1,
-          "unit": "3 ct pack"
-        },
-        {
-          "name": "Baby Spinach",
-          "quantity": 1,
-          "unit": "8 oz bag"
-        },
-        {
-          "name": "Cucumbers",
-          "quantity": 2,
-          "unit": "whole"
-        },
-        {
-          "name": "Limes",
-          "quantity": 3,
-          "unit": "whole"
-        }
+        "2 packages 93% lean ground turkey",
+        "3 zucchini, diced",
+        "8 oz sliced mushrooms",
+        "1 can diced tomatoes or 2 cups chopped tomatoes",
+        "4 cups cooked quinoa",
+        "Garlic, Italian seasoning, salt, pepper"
       ],
       "instructions": [
-        "Cook rice while the grill pan or air fryer heats.",
-        "Cook chicken skewers until hot and cooked through.",
-        "Saute peppers and spinach quickly with garlic and lime.",
-        "Serve skewers over rice with cucumber-lime salad."
+        "Brown turkey in a wide skillet and drain if needed.",
+        "Add garlic, zucchini, mushrooms, and tomatoes.",
+        "Simmer until vegetables soften.",
+        "Serve over quinoa; add crushed red pepper for heat."
       ]
     },
     {
       "id": "meal-003",
-      "name": "HT Tuna Steak Quinoa Green Bean Plates",
-      "image": "https://source.unsplash.com/900x675/?tuna-steak,quinoa,green-beans",
-      "proteinType": "seafood",
-      "protein": "Wild Caught Tuna Steaks",
-      "proteinOzPerServing": 5.5,
-      "vegetable": "Green beans and spinach salad",
-      "carb": "Quinoa",
-      "prepTime": 24,
-      "servings": 5,
-      "estimatedCost": 34,
+      "name": "HT Shrimp Green Bean Rice Plates",
       "store": "Harris Teeter",
-      "salePrice": "$9.99/lb",
-      "dealHighlight": "Lean seafood reset meal",
+      "salePrice": "White shrimp 16-20 ct $7.99/lb or BOGO shrimp bag options",
+      "proteinType": "Shrimp",
+      "protein": "White shrimp",
+      "proteinOzPerServing": 6,
+      "vegetable": "Green beans and mushrooms",
+      "carb": "Jasmine rice",
+      "servings": 5,
+      "prepTime": 20,
+      "estimatedCost": "$22-26 for family dinner",
+      "dealHighlight": "Fastest lean seafood option this week; high protein with very low fat.",
+      "macroFit": "Excellent when protein is behind for the day; keep sauce light and rice measured.",
       "macroPerServing": {
-        "calories": 455,
-        "protein": 46,
-        "carbs": 42,
-        "fat": 9
+        "calories": 385,
+        "protein": 41,
+        "carbs": 43,
+        "fat": 5
       },
-      "macroFit": "Very lean protein with enough carbs to support training without turning dinner heavy.",
+      "image": "https://source.unsplash.com/900x675/?shrimp,green-beans,rice",
       "ingredients": [
-        {
-          "name": "Tuna Steaks",
-          "quantity": 1.75,
-          "unit": "lbs"
-        },
-        {
-          "name": "Quinoa",
-          "quantity": 1.5,
-          "unit": "cups dry"
-        },
-        {
-          "name": "Green Beans",
-          "quantity": 2,
-          "unit": "lbs"
-        },
-        {
-          "name": "Baby Spinach",
-          "quantity": 8,
-          "unit": "oz"
-        },
-        {
-          "name": "Lemons",
-          "quantity": 3,
-          "unit": "whole"
-        },
-        {
-          "name": "Garlic",
-          "quantity": 1,
-          "unit": "bulb"
-        }
+        "2 lb shrimp, peeled/deveined",
+        "1.5 lb green beans",
+        "8 oz mushrooms",
+        "5 cups cooked jasmine rice",
+        "2 tbsp low-sodium soy sauce or coconut aminos",
+        "Garlic, ginger, lime"
       ],
       "instructions": [
-        "Cook quinoa and steam green beans.",
-        "Season tuna with lemon, pepper, garlic, and a little avocado oil.",
-        "Sear tuna 2 to 3 minutes per side, depending on thickness and preference.",
-        "Serve with quinoa, green beans, and spinach salad."
+        "Sear green beans and mushrooms until browned.",
+        "Add shrimp, garlic, and ginger; cook just until pink.",
+        "Finish with soy sauce or coconut aminos and lime.",
+        "Serve over measured rice."
       ]
     },
     {
       "id": "meal-004",
-      "name": "HT Shrimp Brown Rice Stir-Fry",
-      "image": "https://source.unsplash.com/900x675/?shrimp,stir-fry,brown-rice",
-      "proteinType": "seafood",
-      "protein": "Peeled & Deveined Shrimp",
-      "proteinOzPerServing": 6,
-      "vegetable": "Broccoli, carrots, peppers",
-      "carb": "Brown rice",
-      "prepTime": 20,
-      "servings": 5,
-      "estimatedCost": 31,
+      "name": "HT Ranch Steak Sweet Potato Plates",
       "store": "Harris Teeter",
-      "salePrice": "$9.99/lb",
-      "dealHighlight": "Fast high-protein dinner",
+      "salePrice": "Ranch steak value pack $8.49/lb",
+      "proteinType": "Lean steak",
+      "protein": "Ranch steak",
+      "proteinOzPerServing": 5,
+      "vegetable": "Broccoli or green beans",
+      "carb": "Roasted sweet potatoes",
+      "servings": 5,
+      "prepTime": 30,
+      "estimatedCost": "$26-30 for family dinner",
+      "dealHighlight": "Cheaper steak night than strips/T-bones while still feeling like a real Saturday dinner.",
+      "macroFit": "Higher iron/protein meal; trim visible fat and keep steak around 5 oz for Jmo.",
       "macroPerServing": {
-        "calories": 430,
+        "calories": 465,
         "protein": 42,
-        "carbs": 50,
-        "fat": 7
+        "carbs": 40,
+        "fat": 15
       },
-      "macroFit": "Low-fat, high-protein option that leaves room for a Greek yogurt or shake snack.",
+      "image": "https://source.unsplash.com/900x675/?steak,sweet-potato,broccoli",
       "ingredients": [
-        {
-          "name": "Peeled & Deveined Shrimp",
-          "quantity": 2,
-          "unit": "lbs"
-        },
-        {
-          "name": "Brown Rice",
-          "quantity": 1.75,
-          "unit": "cups dry"
-        },
-        {
-          "name": "Broccoli Florets",
-          "quantity": 2,
-          "unit": "lbs"
-        },
-        {
-          "name": "Carrots",
-          "quantity": 5,
-          "unit": "medium"
-        },
-        {
-          "name": "Bell Peppers",
-          "quantity": 3,
-          "unit": "whole"
-        },
-        {
-          "name": "Low-Sodium Soy Sauce",
-          "quantity": 1,
-          "unit": "bottle"
-        }
+        "2 lb ranch steak",
+        "4 medium sweet potatoes, cubed",
+        "2 lb broccoli or green beans",
+        "1.5 tbsp olive oil",
+        "Steak seasoning, garlic, lemon"
       ],
       "instructions": [
-        "Cook brown rice ahead or start it first.",
-        "Stir-fry broccoli, carrots, and peppers until crisp-tender.",
-        "Add shrimp, garlic, ginger, and low-sodium soy sauce; cook until shrimp are pink.",
-        "Serve over rice and keep sauce light."
+        "Roast sweet potatoes at 425F until tender.",
+        "Grill or pan-sear steak to medium and rest before slicing.",
+        "Steam or roast broccoli/green beans.",
+        "Plate steak with measured sweet potatoes and vegetables."
       ]
     },
     {
       "id": "meal-005",
-      "name": "ALDI Salmon Sweet Potato Spinach Plates",
-      "image": "https://source.unsplash.com/900x675/?salmon,sweet-potato,spinach",
-      "proteinType": "seafood",
-      "protein": "Sea Queen Atlantic Salmon Portions",
-      "proteinOzPerServing": 5.5,
-      "vegetable": "Spinach and cucumber salad",
-      "carb": "Sweet potatoes",
-      "prepTime": 25,
+      "name": "HT Pork Tenderloin Cabbage Potato Sheet Pan",
+      "store": "Harris Teeter",
+      "salePrice": "Hatfield marinated pork loin filet or tenderloin BOGO",
+      "proteinType": "Pork tenderloin",
+      "protein": "Pork loin filet or tenderloin",
+      "proteinOzPerServing": 5,
+      "vegetable": "Cabbage and carrots",
+      "carb": "Yukon Gold potatoes",
       "servings": 5,
-      "estimatedCost": 33,
-      "store": "Aldi",
-      "salePrice": "$8.99/lb",
-      "dealHighlight": "Best salmon option visible this week",
+      "prepTime": 30,
+      "estimatedCost": "$18-23 for family dinner",
+      "dealHighlight": "BOGO pork tenderloin is a good family-volume buy if sodium is managed with simple sides.",
+      "macroFit": "Moderate-fat protein; pair with cabbage and measured potatoes to keep the plate clean.",
       "macroPerServing": {
-        "calories": 535,
-        "protein": 39,
-        "carbs": 45,
-        "fat": 21
+        "calories": 435,
+        "protein": 38,
+        "carbs": 39,
+        "fat": 13
       },
-      "macroFit": "Higher-fat healthy seafood dinner; keep added oil minimal and pair with lean breakfast/lunch.",
+      "image": "https://source.unsplash.com/900x675/?pork-tenderloin,cabbage,potatoes",
       "ingredients": [
-        {
-          "name": "Atlantic Salmon Portions",
-          "quantity": 1.75,
-          "unit": "lbs"
-        },
-        {
-          "name": "Sweet Potatoes",
-          "quantity": 3,
-          "unit": "lbs"
-        },
-        {
-          "name": "Baby Spinach",
-          "quantity": 2,
-          "unit": "8 oz bags"
-        },
-        {
-          "name": "Cucumbers",
-          "quantity": 2,
-          "unit": "whole"
-        },
-        {
-          "name": "Lemons",
-          "quantity": 2,
-          "unit": "whole"
-        },
-        {
-          "name": "Garlic",
-          "quantity": 1,
-          "unit": "bulb"
-        }
+        "2 pork tenderloins or loin filets",
+        "1 head cabbage, sliced",
+        "1 lb carrots",
+        "2 lb Yukon Gold potatoes",
+        "1 tbsp olive oil",
+        "Mustard, pepper, garlic"
       ],
       "instructions": [
-        "Roast sweet potato wedges at 425 F until tender.",
-        "Season salmon with lemon, garlic, pepper, and paprika.",
-        "Bake or air-fry salmon until flaky, about 10 to 12 minutes.",
-        "Serve with spinach cucumber salad and keep dressing light."
+        "Slice cabbage, carrots, and potatoes; spread on sheet pan with measured oil.",
+        "Add pork tenderloins and roast until cooked through.",
+        "Rest pork, slice thin, and plate with cabbage and potatoes.",
+        "Use mustard or vinegar-forward sauce instead of creamy sauce."
       ]
     },
     {
       "id": "meal-006",
-      "name": "HT Pulled Pork Cabbage Sweet Potato Plates",
-      "image": "https://source.unsplash.com/900x675/?pulled-pork,cabbage,sweet-potato",
-      "proteinType": "pork",
-      "protein": "Smithfield Boston Butt Pork Roast",
-      "proteinOzPerServing": 5,
-      "vegetable": "Cabbage slaw and cucumbers",
-      "carb": "Sweet potatoes",
-      "prepTime": 20,
+      "name": "ALDI Lamb Chop Cucumber Quinoa Plates",
+      "store": "ALDI",
+      "salePrice": "Fresh lamb shoulder chops $6.99/lb; mini cucumbers $1.69 and mushrooms $1.29",
+      "proteinType": "Lamb shoulder chops",
+      "protein": "Fresh lamb shoulder chops",
+      "proteinOzPerServing": 4,
+      "vegetable": "Mini cucumber salad and mushrooms",
+      "carb": "Quinoa",
       "servings": 5,
-      "estimatedCost": 20,
-      "store": "Harris Teeter",
-      "salePrice": "$1.49/lb",
-      "dealHighlight": "Lowest cost family protein",
+      "prepTime": 28,
+      "estimatedCost": "$24-29 for family dinner",
+      "dealHighlight": "Best ALDI dinner protein signal this week; keep portions tighter because lamb runs fattier.",
+      "macroFit": "Flavorful but richer meal; use a 4 oz cooked portion for Jmo and add Greek yogurt or shrimp snack if protein is short.",
       "macroPerServing": {
-        "calories": 560,
-        "protein": 42,
-        "carbs": 46,
-        "fat": 20
+        "calories": 475,
+        "protein": 34,
+        "carbs": 35,
+        "fat": 22
       },
-      "macroFit": "Budget-friendly but needs trimming and portion control; pair with vegetables instead of buns.",
+      "image": "https://source.unsplash.com/900x675/?lamb,chops,cucumber,quinoa",
       "ingredients": [
-        {
-          "name": "Boston Butt Pork Roast",
-          "quantity": 3,
-          "unit": "lbs cooked/trimmed portion"
-        },
-        {
-          "name": "Sweet Potatoes",
-          "quantity": 3,
-          "unit": "lbs"
-        },
-        {
-          "name": "Green Cabbage",
-          "quantity": 1,
-          "unit": "head"
-        },
-        {
-          "name": "Cucumbers",
-          "quantity": 2,
-          "unit": "whole"
-        },
-        {
-          "name": "Apple Cider Vinegar",
-          "quantity": 1,
-          "unit": "bottle"
-        },
-        {
-          "name": "No-Sugar BBQ Seasoning",
-          "quantity": 1,
-          "unit": "batch"
-        }
+        "2 lb lamb shoulder chops",
+        "4 cups cooked quinoa",
+        "Mini cucumbers, sliced",
+        "8 oz mushrooms",
+        "Plain Greek yogurt, lemon, dill",
+        "Garlic, oregano, pepper"
       ],
       "instructions": [
-        "Cook pork ahead in slow cooker or Instant Pot, then trim fat and shred.",
-        "Roast sweet potatoes while reheating pork.",
-        "Toss cabbage and cucumbers with vinegar, pepper, and a light touch of olive oil.",
-        "Serve pork in measured portions with slaw and sweet potatoes; keep sauce optional."
+        "Season lamb with garlic, oregano, and pepper; grill or pan-sear.",
+        "Saute mushrooms separately.",
+        "Mix cucumber with Greek yogurt, lemon, and dill.",
+        "Serve lamb with quinoa, mushrooms, and cucumber salad; keep Jmo portion to about 4 oz cooked lamb."
       ]
     }
   ]
