@@ -1,6 +1,6 @@
 {
-  "weekOf": "August 19, 2026",
-  "lastUpdated": "2026-08-22T07:00:00-04:00",
+  "weekOf": "August 29, 2026",
+  "lastUpdated": "2026-08-29T07:00:00-04:00",
   "macroTarget": {
     "calories": 2100,
     "protein": 160,
@@ -458,113 +458,113 @@
     }
   ],
   "dealsSource": {
-    "harrisTeeter": "Checked Harris Teeter public weekly ad/search pages for Aug 19-25/26, 2026 during the Aug 22 cron. Official store-specific flyer access was limited, but public HT pages showed Belmont-area sale/search pricing for boneless chicken breast value packs, lean ground turkey, frozen ground turkey rolls, shrimp, and weekly-ad meat/seafood highlights. Verify Belmont shelf tags/e-VIC before relying on exact HT pricing.",
-    "aldi": "Checked ALDI Aug 19-25, 2026 public weekly-ad sources during the Aug 22 cron. Public ALDI roundup showed usable protein deals including sun-dried tomato basil seasoned chicken at $4.99/lb, rotisserie-style pulled chicken at $5.99, organic ground beef at $5.99/lb, and mesquite BBQ pork loin filet at $2.99/lb. Store-level Belmont availability can vary."
+    "harrisTeeter": "Checked Harris Teeter official weekly-ad/store pages and NC flyer-derived public pricing on Aug 29, 2026. Belmont store page confirms the Belmont Town Center store at 905 South Point Rd, but official flyer content was not fully exposed as text. Current public NC flyer sources show HT protein highlights running through Sep 1 including salmon fillets, shrimp, tilapia, 93% lean ground beef, pork chops, whole chicken, and steak; verify Belmont shelf tags/e-VIC for exact local pricing.",
+    "aldi": "Checked ALDI official weekly-ad page and public NC flyer-derived pricing on Aug 29, 2026. ALDI weekly-ad page loaded but did not expose a Belmont-specific text product list. Current public NC flyer sources show ALDI protein highlights including Tyson fresh chicken breast and Simply Nature organic 85/15 ground beef; Belmont availability and final local pricing should be verified in store/app."
   },
   "topDeals": {
     "harristeeter": [
       {
-        "item": "Boneless chicken breast value pack",
-        "price": "$1.99/lb public HT search sale",
-        "type": "chicken"
-      },
-      {
-        "item": "Harris Teeter 93% lean ground turkey",
-        "price": "$9.19 per 20.8 oz public HT search",
-        "type": "turkey"
-      },
-      {
-        "item": "Shady Brook frozen ground turkey roll",
-        "price": "2 for $5 public HT search",
-        "type": "turkey"
-      },
-      {
-        "item": "Argentina shrimp bag",
-        "price": "$19.98 weekly-special mention",
+        "item": "Salmon fillets",
+        "price": "$7.99-$9.99/lb NC flyer-derived public source",
         "type": "seafood"
       },
       {
-        "item": "T-bone steak",
-        "price": "$9.99/lb weekly-special mention",
+        "item": "EZ-peel or cooked shrimp",
+        "price": "$6.99-$7.99/lb NC flyer-derived public source",
+        "type": "seafood"
+      },
+      {
+        "item": "Tilapia fillets",
+        "price": "$6.99/lb NC flyer-derived public source",
+        "type": "seafood"
+      },
+      {
+        "item": "93% lean ground beef",
+        "price": "$5.99/lb NC flyer-derived public source",
         "type": "beef"
       },
       {
-        "item": "Chicken breast small pack",
-        "price": "$4.99/lb public HT search",
+        "item": "Assorted pork chops",
+        "price": "$3.99/lb NC flyer-derived public source",
+        "type": "pork"
+      },
+      {
+        "item": "Fresh whole chicken",
+        "price": "$1.59/lb NC flyer-derived public source",
         "type": "chicken"
       }
     ],
     "aldi": [
       {
-        "item": "Sun-dried tomato basil seasoned chicken",
-        "price": "$4.99/lb public ALDI deal",
+        "item": "Tyson fresh chicken breast",
+        "price": "$1.99/lb NC flyer-derived public source",
         "type": "chicken"
       },
       {
-        "item": "Mesquite BBQ pork loin filet",
-        "price": "$2.99/lb public ALDI deal",
-        "type": "pork"
-      },
-      {
-        "item": "Rotisserie-style pulled chicken",
-        "price": "$5.99 per 16 oz public ALDI deal",
-        "type": "chicken"
-      },
-      {
-        "item": "Simply Nature organic ground beef",
-        "price": "$5.99/lb public ALDI deal",
+        "item": "Simply Nature organic 85/15 grass-fed ground beef",
+        "price": "$5.99/lb NC flyer-derived public source",
         "type": "beef"
       },
       {
-        "item": "Sliced mushrooms",
-        "price": "$1.29 per 8 oz public ALDI deal",
+        "item": "Fresh antibiotic-free boneless skinless chicken thighs",
+        "price": "$2.49/lb NC flyer-derived public source",
+        "type": "chicken"
+      },
+      {
+        "item": "California grapes",
+        "price": "$1.29/lb public produce deal",
+        "type": "carb"
+      },
+      {
+        "item": "Grape tomatoes",
+        "price": "$1.99/lb public produce deal",
         "type": "vegetable"
       },
       {
-        "item": "Avocados",
-        "price": "$0.59 each public ALDI deal",
-        "type": "fat"
+        "item": "Fresh honey maple salmon",
+        "price": "$10.99/lb public flyer source; sweeter marinade",
+        "type": "seafood"
       }
     ]
   },
   "freezerRecommendations": [
     {
-      "item": "HT boneless chicken breast value packs",
-      "reason": "Best lean-protein stock-up if the Belmont shelf tag matches public HT sale pricing; portion into 1.5-2 lb bags for bowls, salads, and quick sheet-pan dinners.",
-      "pricePerLb": "$1.99/lb public HT search; verify Belmont e-VIC"
+      "item": "ALDI Tyson fresh chicken breast",
+      "reason": "Best lean-protein freezer play if Belmont matches the public NC flyer price. Portion into 1.5-2 lb bags for bowls, salads, and sheet-pan dinners.",
+      "pricePerLb": "$1.99/lb NC public flyer source; verify Belmont availability"
     },
     {
-      "item": "HT frozen ground turkey rolls",
-      "reason": "Cheap backup protein for chili, taco bowls, and burger plates. Choose leaner fresh turkey when fat macros need to stay tighter.",
-      "pricePerLb": "2 for $5 public HT search; verify dates"
+      "item": "HT shrimp bags",
+      "reason": "Fast, lean protein for 20-minute dinners and protein catch-up days. Buy only if the Belmont tag lands near the public NC flyer range.",
+      "pricePerLb": "$6.99-$7.99/lb NC public flyer source; verify Belmont tag"
     },
     {
-      "item": "ALDI pork loin filet",
-      "reason": "Strong family-volume price. Slice leftovers thin for lunch bowls and keep sauce portions controlled.",
-      "pricePerLb": "$2.99/lb public ALDI roundup"
+      "item": "HT salmon fillets",
+      "reason": "Good seafood rotation and healthy fats. Freeze portions individually; keep added oils low on salmon nights.",
+      "pricePerLb": "$7.99-$9.99/lb NC public flyer source; verify Belmont seafood case"
     }
   ],
   "meals": [
     {
       "id": "meal-001",
-      "name": "HT Chicken Burrito Rice Bowls",
-      "store": "Harris Teeter",
-      "salePrice": "Boneless chicken breast value pack: $1.99/lb public HT search sale; verify Belmont tag",
+      "name": "ALDI Chicken Breast Burrito Rice Bowls",
+      "store": "Aldi",
+      "salePrice": "Tyson fresh chicken breast: $1.99/lb NC public flyer source; verify Belmont app/shelf tag",
       "proteinType": "chicken",
       "protein": "Boneless skinless chicken breast",
       "proteinOzPerServing": 5,
-      "vegetable": "Bell peppers, romaine, salsa, and onions",
+      "vegetable": "Bell peppers, romaine, salsa, onions, and tomatoes",
       "carb": "Brown rice and black beans",
       "servings": 5,
       "prepTime": 30,
-      "estimatedCost": 18,
-      "dealHighlight": "Leanest HT anchor this week if the local value-pack tag matches public pricing.",
-      "macroFit": "High-protein bowl with controlled carbs; use Greek yogurt instead of sour cream and measure rice.",
+      "estimatedCost": 19,
+      "dealHighlight": "Best lean stock-up candidate if the Belmont ALDI tag matches public NC pricing.",
+      "macroFit": "A clean high-protein dinner; measure rice and use Greek yogurt instead of sour cream to stay inside the 2100-cal plan.",
       "macroPerServing": {
         "calories": 485,
-        "protein": 46,
-        "carbs": 54,
-        "fat": 9
+        "protein": 47,
+        "carbs": 55,
+        "fat": 8
       },
       "image": "https://source.unsplash.com/900x675/?chicken,rice,bowl",
       "ingredients": [
@@ -594,9 +594,9 @@
           "unit": "cans"
         },
         {
-          "name": "Romaine or shredded lettuce",
-          "quantity": 1,
-          "unit": "head"
+          "name": "Romaine hearts",
+          "quantity": 2,
+          "unit": "packs"
         },
         {
           "name": "Salsa",
@@ -623,117 +623,56 @@
     },
     {
       "id": "meal-002",
-      "name": "HT Lean Turkey Chili Sweet Potato Bowls",
+      "name": "HT Salmon Sweet Potato Broccoli Plates",
       "store": "Harris Teeter",
-      "salePrice": "Fresh 93% lean ground turkey public HT search; frozen turkey rolls are cheaper but fattier",
-      "proteinType": "turkey",
-      "protein": "93% lean ground turkey",
+      "salePrice": "Salmon fillets: $7.99-$9.99/lb NC public flyer sources; verify Belmont seafood case",
+      "proteinType": "seafood",
+      "protein": "Salmon fillets",
       "proteinOzPerServing": 5,
-      "vegetable": "Tomatoes, peppers, onions, and spinach",
-      "carb": "Sweet potatoes and beans",
+      "vegetable": "Broccoli and cucumber tomato salad",
+      "carb": "Roasted sweet potatoes",
       "servings": 5,
-      "prepTime": 35,
-      "estimatedCost": 22,
-      "dealHighlight": "Best macro-friendly turkey choice; frozen sale rolls are backup only when budget wins.",
-      "macroFit": "One-pot protein plus complex carbs. Keep toppings light and add spinach for volume.",
+      "prepTime": 28,
+      "estimatedCost": 31,
+      "dealHighlight": "Good seafood night with higher healthy fats, so keep added oil light.",
+      "macroFit": "Salmon helps protein and fats; pair with sweet potato and plenty of vegetables, then keep other meals leaner that day.",
       "macroPerServing": {
-        "calories": 510,
-        "protein": 44,
-        "carbs": 58,
-        "fat": 12
+        "calories": 525,
+        "protein": 40,
+        "carbs": 46,
+        "fat": 20
       },
-      "image": "https://source.unsplash.com/900x675/?turkey,chili,sweet-potato",
+      "image": "https://source.unsplash.com/900x675/?salmon,sweet-potato,broccoli",
       "ingredients": [
         {
-          "name": "93% lean ground turkey",
+          "name": "Salmon fillets",
           "quantity": 2,
           "unit": "lb"
         },
         {
           "name": "Sweet potatoes",
-          "quantity": 4,
+          "quantity": 5,
           "unit": "medium"
         },
         {
-          "name": "No-salt diced tomatoes",
-          "quantity": 2,
-          "unit": "cans"
-        },
-        {
-          "name": "Black or pinto beans",
-          "quantity": 2,
-          "unit": "cans"
-        },
-        {
-          "name": "Bell peppers",
-          "quantity": 2,
-          "unit": "each"
-        },
-        {
-          "name": "Yellow onion",
-          "quantity": 1,
-          "unit": "each"
-        },
-        {
-          "name": "Baby spinach",
-          "quantity": 1,
-          "unit": "bag"
-        },
-        {
-          "name": "Chili powder and cumin",
-          "quantity": 1,
-          "unit": "set"
-        }
-      ],
-      "instructions": [
-        "Roast cubed sweet potatoes while the chili cooks.",
-        "Brown turkey with onion, peppers, chili powder, cumin, and garlic.",
-        "Add tomatoes and beans; simmer until thick, then fold in spinach.",
-        "Serve chili over measured sweet potato cubes."
-      ]
-    },
-    {
-      "id": "meal-003",
-      "name": "ALDI Pork Loin Green Bean Quinoa Plates",
-      "store": "Aldi",
-      "salePrice": "Mesquite BBQ pork loin filet: $2.99/lb public ALDI deal; check Belmont availability",
-      "proteinType": "pork",
-      "protein": "Pork loin filet",
-      "proteinOzPerServing": 5,
-      "vegetable": "Green beans and mushrooms",
-      "carb": "Quinoa",
-      "servings": 5,
-      "prepTime": 32,
-      "estimatedCost": 20,
-      "dealHighlight": "Strong family-volume value from the ALDI ad roundup.",
-      "macroFit": "Trim portions and keep sauce light; quinoa gives a clean carb without making dinner heavy.",
-      "macroPerServing": {
-        "calories": 455,
-        "protein": 40,
-        "carbs": 42,
-        "fat": 13
-      },
-      "image": "https://source.unsplash.com/900x675/?pork-loin,green-beans,quinoa",
-      "ingredients": [
-        {
-          "name": "Pork loin filet",
+          "name": "Broccoli florets",
           "quantity": 2,
           "unit": "lb"
         },
         {
-          "name": "Green beans",
+          "name": "Cucumbers",
           "quantity": 2,
-          "unit": "lb"
+          "unit": "each"
         },
         {
-          "name": "Sliced mushrooms",
-          "quantity": 2,
-          "unit": "packs"
+          "name": "Grape tomatoes",
+          "quantity": 1,
+          "unit": "pint"
         },
         {
-          "name": "Cooked quinoa",
-          "quantity": 4,
-          "unit": "cups"
+          "name": "Lemon",
+          "quantity": 2,
+          "unit": "each"
         },
         {
           "name": "Olive oil",
@@ -741,23 +680,23 @@
           "unit": "tbsp"
         },
         {
-          "name": "Garlic and pepper",
+          "name": "Garlic, dill, and pepper",
           "quantity": 1,
           "unit": "set"
         }
       ],
       "instructions": [
-        "Roast or grill pork loin until cooked through, then rest before slicing.",
-        "Saute mushrooms and green beans with measured olive oil, garlic, and pepper.",
-        "Cook quinoa or warm prepped quinoa.",
-        "Serve sliced pork with quinoa and extra vegetables."
+        "Cube sweet potatoes and roast until browned.",
+        "Season salmon with lemon, garlic, dill, and pepper; bake or air fry until flaky.",
+        "Steam or roast broccoli with minimal oil.",
+        "Serve salmon with measured sweet potatoes, broccoli, and cucumber tomato salad."
       ]
     },
     {
-      "id": "meal-004",
-      "name": "HT Shrimp Stir-Fry Rice Bowls",
+      "id": "meal-003",
+      "name": "HT Shrimp Veggie Stir-Fry Rice Bowls",
       "store": "Harris Teeter",
-      "salePrice": "Argentina shrimp bag weekly-special mention: $19.98; verify Belmont tag",
+      "salePrice": "EZ-peel/cooked shrimp: about $6.99-$7.99/lb NC public flyer sources; verify Belmont freezer/seafood tag",
       "proteinType": "seafood",
       "protein": "Shrimp",
       "proteinOzPerServing": 6,
@@ -766,12 +705,12 @@
       "servings": 5,
       "prepTime": 20,
       "estimatedCost": 26,
-      "dealHighlight": "Fastest lean protein option for nights when work or kid logistics get sideways.",
-      "macroFit": "Excellent protein catch-up meal; keep sauce light and rice measured.",
+      "dealHighlight": "Fastest lean-protein dinner when the schedule gets stupid.",
+      "macroFit": "Excellent protein catch-up meal. Keep sauce light and rice measured so carbs support training instead of wandering off.",
       "macroPerServing": {
-        "calories": 410,
-        "protein": 43,
-        "carbs": 48,
+        "calories": 415,
+        "protein": 44,
+        "carbs": 49,
         "fat": 5
       },
       "image": "https://source.unsplash.com/900x675/?shrimp,stir-fry,rice",
@@ -794,6 +733,11 @@
         {
           "name": "Carrots",
           "quantity": 4,
+          "unit": "each"
+        },
+        {
+          "name": "Bell peppers",
+          "quantity": 2,
           "unit": "each"
         },
         {
@@ -820,91 +764,20 @@
       ]
     },
     {
-      "id": "meal-005",
-      "name": "ALDI Pulled Chicken Taco Salad Potatoes",
-      "store": "Aldi",
-      "salePrice": "Rotisserie-style pulled chicken: $5.99 per 16 oz public ALDI deal",
-      "proteinType": "chicken",
-      "protein": "Rotisserie-style pulled chicken",
-      "proteinOzPerServing": 4,
-      "vegetable": "Romaine, cucumbers, salsa, and peppers",
-      "carb": "Roasted red potatoes",
-      "servings": 5,
-      "prepTime": 22,
-      "estimatedCost": 23,
-      "dealHighlight": "Fast family dinner when cooking from raw protein is not happening.",
-      "macroFit": "Use potatoes as the measured carb and keep avocado or dressing portions modest.",
-      "macroPerServing": {
-        "calories": 465,
-        "protein": 37,
-        "carbs": 49,
-        "fat": 14
-      },
-      "image": "https://source.unsplash.com/900x675/?chicken,taco,salad,potatoes",
-      "ingredients": [
-        {
-          "name": "Rotisserie-style pulled chicken",
-          "quantity": 2,
-          "unit": "packs"
-        },
-        {
-          "name": "Red potatoes",
-          "quantity": 2,
-          "unit": "lb"
-        },
-        {
-          "name": "Romaine hearts",
-          "quantity": 2,
-          "unit": "packs"
-        },
-        {
-          "name": "Cucumbers",
-          "quantity": 2,
-          "unit": "each"
-        },
-        {
-          "name": "Bell peppers",
-          "quantity": 2,
-          "unit": "each"
-        },
-        {
-          "name": "Salsa",
-          "quantity": 1,
-          "unit": "jar"
-        },
-        {
-          "name": "Avocados",
-          "quantity": 2,
-          "unit": "each"
-        },
-        {
-          "name": "Plain non-fat Greek yogurt",
-          "quantity": 1,
-          "unit": "tub"
-        }
-      ],
-      "instructions": [
-        "Roast diced red potatoes with minimal oil until crisp.",
-        "Warm pulled chicken in a skillet with taco spices if needed.",
-        "Build large salads with romaine, cucumber, peppers, salsa, and Greek yogurt.",
-        "Serve with measured potatoes and a small avocado portion."
-      ]
-    },
-    {
-      "id": "meal-006",
-      "name": "HT Lean Beef Burger Potato Plates",
+      "id": "meal-004",
+      "name": "HT 93% Lean Beef Potato Burger Plates",
       "store": "Harris Teeter",
-      "salePrice": "93% lean beef public HT search around $7.49/lb; T-bone ad mention is pricier backup",
+      "salePrice": "93% lean ground beef: about $5.99/lb NC public flyer source; verify Belmont meat case",
       "proteinType": "beef",
       "protein": "93% lean ground beef",
       "proteinOzPerServing": 5,
-      "vegetable": "Mixed green salad and mushrooms",
+      "vegetable": "Mixed greens, mushrooms, cucumbers, and tomatoes",
       "carb": "Roasted red potatoes",
       "servings": 5,
       "prepTime": 28,
-      "estimatedCost": 28,
-      "dealHighlight": "Use lean beef for one satisfying dinner without blowing the fat target.",
-      "macroFit": "Bunless burger plate: potatoes carry carbs, salad adds volume, and lean beef keeps fat sane.",
+      "estimatedCost": 27,
+      "dealHighlight": "Lean-beef comfort dinner without detonating the fat target.",
+      "macroFit": "Bunless burger plate: potatoes carry the carbs, salad adds volume, and 93% lean beef keeps fat manageable.",
       "macroPerServing": {
         "calories": 500,
         "protein": 43,
@@ -920,7 +793,7 @@
         },
         {
           "name": "Red potatoes",
-          "quantity": 2,
+          "quantity": 2.5,
           "unit": "lb"
         },
         {
@@ -939,6 +812,11 @@
           "unit": "each"
         },
         {
+          "name": "Grape tomatoes",
+          "quantity": 1,
+          "unit": "pint"
+        },
+        {
           "name": "Mustard and pickles",
           "quantity": 1,
           "unit": "set"
@@ -954,6 +832,153 @@
         "Roast potatoes until crisp and saute mushrooms separately.",
         "Grill or pan-sear patties to desired doneness.",
         "Serve bunless with salad, mushrooms, pickles, mustard, and measured potatoes."
+      ]
+    },
+    {
+      "id": "meal-005",
+      "name": "HT Tilapia Quinoa Green Bean Plates",
+      "store": "Harris Teeter",
+      "salePrice": "Tilapia fillets: about $6.99/lb NC public flyer source; verify Belmont seafood case",
+      "proteinType": "seafood",
+      "protein": "Tilapia fillets",
+      "proteinOzPerServing": 6,
+      "vegetable": "Green beans, mushrooms, and side salad",
+      "carb": "Quinoa",
+      "servings": 5,
+      "prepTime": 24,
+      "estimatedCost": 24,
+      "dealHighlight": "Lean whitefish option that leaves room for a higher-protein snack later.",
+      "macroFit": "Very lean dinner with complex carbs. Add avocado only if the day is running low on fat.",
+      "macroPerServing": {
+        "calories": 430,
+        "protein": 45,
+        "carbs": 43,
+        "fat": 8
+      },
+      "image": "https://source.unsplash.com/900x675/?tilapia,quinoa,green-beans",
+      "ingredients": [
+        {
+          "name": "Tilapia fillets",
+          "quantity": 2,
+          "unit": "lb"
+        },
+        {
+          "name": "Cooked quinoa",
+          "quantity": 4.5,
+          "unit": "cups"
+        },
+        {
+          "name": "Green beans",
+          "quantity": 2,
+          "unit": "lb"
+        },
+        {
+          "name": "Sliced mushrooms",
+          "quantity": 2,
+          "unit": "packs"
+        },
+        {
+          "name": "Mixed greens",
+          "quantity": 1,
+          "unit": "large pack"
+        },
+        {
+          "name": "Lemon",
+          "quantity": 2,
+          "unit": "each"
+        },
+        {
+          "name": "Olive oil",
+          "quantity": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Garlic, paprika, and pepper",
+          "quantity": 1,
+          "unit": "set"
+        }
+      ],
+      "instructions": [
+        "Season tilapia with lemon, garlic, paprika, and pepper.",
+        "Bake or air fry fish until opaque and flaky.",
+        "Saute green beans and mushrooms with measured olive oil.",
+        "Serve with quinoa and a simple side salad."
+      ]
+    },
+    {
+      "id": "meal-006",
+      "name": "ALDI Organic Ground Beef Chili Rice Bowls",
+      "store": "Aldi",
+      "salePrice": "Simply Nature organic 85/15 grass-fed ground beef: $5.99/lb NC public flyer source; verify Belmont app/shelf tag",
+      "proteinType": "beef",
+      "protein": "85/15 organic grass-fed ground beef",
+      "proteinOzPerServing": 4,
+      "vegetable": "Tomatoes, peppers, onions, spinach, and romaine",
+      "carb": "Brown rice and pinto beans",
+      "servings": 5,
+      "prepTime": 35,
+      "estimatedCost": 24,
+      "dealHighlight": "ALDI beef value, but use a 4 oz portion because 85/15 brings more fat.",
+      "macroFit": "Higher-fat than the HT lean beef plate, so keep breakfast/lunch lean and skip cheese toppings.",
+      "macroPerServing": {
+        "calories": 515,
+        "protein": 39,
+        "carbs": 52,
+        "fat": 18
+      },
+      "image": "https://source.unsplash.com/900x675/?beef,chili,rice,bowl",
+      "ingredients": [
+        {
+          "name": "85/15 organic ground beef",
+          "quantity": 1.75,
+          "unit": "lb"
+        },
+        {
+          "name": "Cooked brown rice",
+          "quantity": 4.5,
+          "unit": "cups"
+        },
+        {
+          "name": "Pinto beans",
+          "quantity": 2,
+          "unit": "cans"
+        },
+        {
+          "name": "No-salt diced tomatoes",
+          "quantity": 2,
+          "unit": "cans"
+        },
+        {
+          "name": "Bell peppers",
+          "quantity": 2,
+          "unit": "each"
+        },
+        {
+          "name": "Yellow onion",
+          "quantity": 1,
+          "unit": "each"
+        },
+        {
+          "name": "Baby spinach",
+          "quantity": 1,
+          "unit": "bag"
+        },
+        {
+          "name": "Romaine hearts",
+          "quantity": 1,
+          "unit": "pack"
+        },
+        {
+          "name": "Chili powder and cumin",
+          "quantity": 1,
+          "unit": "set"
+        }
+      ],
+      "instructions": [
+        "Brown beef with onion, peppers, chili powder, cumin, and garlic; drain if needed.",
+        "Add tomatoes and pinto beans, then simmer until thick.",
+        "Fold in spinach at the end so it wilts into the chili.",
+        "Serve over measured brown rice with romaine on the side."
       ]
     }
   ]
