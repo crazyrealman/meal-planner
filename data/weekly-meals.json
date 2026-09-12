@@ -1,6 +1,6 @@
 {
-  "weekOf": "September 5, 2026",
-  "lastUpdated": "2026-09-05T07:00:00-04:00",
+  "weekOf": "September 12, 2026",
+  "lastUpdated": "2026-09-12T07:00:00-04:00",
   "macroTarget": {
     "calories": 2100,
     "protein": 160,
@@ -458,90 +458,90 @@
     }
   ],
   "dealsSource": {
-    "harrisTeeter": "Checked Harris Teeter official weekly-ad/store pages plus the public 09/02/26-09/08/26 NC flyer image on Sep 5, 2026. Official text pages exposed limited protein detail and may default away from Belmont, so Belmont shelf tags/e-VIC should be verified. Public flyer highlights: ribeye steak $9.99/lb, 93% lean ground beef or 85/15 ground turkey $6.99/lb, wild salmon fillets or snow crab clusters $9.99/lb, boneless chicken breast or tenderloins BOGO, pork shoulder butt roast $1.49/lb, and fully cooked baby back ribs $9.99 each.",
-    "aldi": "Checked ALDI official weekly-specials page plus public 09/02/26-09/08/26 flyer scans on Sep 5, 2026. ALDI official pages did not expose a Belmont-specific text product list. Public flyer highlights: fresh family-pack chicken wings $2.49/lb, Buffalo party pack chicken wings 40 oz $4.99, Smithfield fresh St. Louis pork ribs $2.49/lb, fresh ground beef chub sold in 5-lb packs for $17.95, seasoned beef skewers $5.99, nonfat Greek yogurt $2.79, organic zucchini $2.39/lb, and California grapes $6.89 per 3-lb pack."
+    "harrisTeeter": "Checked the current Sep 9-15, 2026 public NC ad and the Belmont Town Center store page on Sep 12. Protein highlights: boneless chicken breast $1.99/lb, ground chicken $4.50/lb, Coho salmon or Argentine shrimp $7.99/lb, tilapia 24 oz $6.99, and chicken wings $2.99/lb. Store pricing, VIC requirements, and stock should be verified at Belmont.",
+    "aldi": "Checked current Sep 9-15 regional public ad sources on Sep 12. Protein highlights: boneless skinless chicken thighs $2.49/lb, 73% ground beef $4.29/lb, chuck roast $6.99/lb, chicken drumsticks $0.89/lb, frozen tuna steaks $4.29, and nonfat Greek yogurt 4-pack $3.69. ALDI's official pages did not expose a Belmont-specific product list, so verify local price, package, and availability."
   },
   "topDeals": {
     "harristeeter": [
       {
-        "item": "Boneless chicken breast or tenderloins",
-        "price": "BOGO public NC flyer; verify Belmont package price/e-VIC",
+        "item": "Boneless chicken breast",
+        "price": "$1.99/lb public NC ad through Sep 15; verify Belmont VIC price",
         "type": "chicken"
       },
       {
-        "item": "93% lean ground beef or 85/15 ground turkey",
-        "price": "$6.99/lb public NC flyer",
-        "type": "beef"
+        "item": "Perdue ground chicken",
+        "price": "$4.50/lb public NC ad; verify Belmont availability",
+        "type": "chicken"
       },
       {
-        "item": "Wild salmon fillets",
-        "price": "$9.99/lb public NC flyer",
+        "item": "Farm-raised Coho salmon fillets or Argentine shrimp",
+        "price": "$7.99/lb public NC ad through Sep 15",
         "type": "seafood"
       },
       {
-        "item": "Ribeye steak value pack",
-        "price": "$9.99/lb public NC flyer",
-        "type": "beef"
+        "item": "Chicken wings",
+        "price": "$2.99/lb public NC ad; family option, not a primary Jmo lean-protein pick",
+        "type": "chicken"
       },
       {
-        "item": "Pork shoulder butt roast",
-        "price": "$1.49/lb public NC flyer",
-        "type": "pork"
+        "item": "Hilo Fish Company tilapia fillets, 24 oz",
+        "price": "$6.99 public NC ad",
+        "type": "seafood"
       },
       {
-        "item": "Fully cooked baby back ribs",
-        "price": "$9.99 each public NC flyer",
-        "type": "pork"
+        "item": "Argentine shrimp, 2-lb bag",
+        "price": "$15.98 / $7.99 per lb public NC ad",
+        "type": "seafood"
       }
     ],
     "aldi": [
       {
-        "item": "Fresh family-pack chicken wings",
-        "price": "$2.49/lb public flyer",
+        "item": "Boneless skinless chicken thighs",
+        "price": "$2.49/lb regional public ad; verify Belmont price and package",
         "type": "chicken"
       },
       {
-        "item": "Fresh ground beef chub, 5-lb pack",
-        "price": "$17.95 pack / about $3.59/lb public flyer",
+        "item": "73% ground beef, 5-lb pack",
+        "price": "$4.29/lb regional public ad; verify Belmont availability",
         "type": "beef"
       },
       {
-        "item": "Smithfield fresh St. Louis pork ribs",
-        "price": "$2.49/lb public flyer",
-        "type": "pork"
+        "item": "Black Angus chuck roast",
+        "price": "$6.99/lb regional public ad; verify Belmont availability",
+        "type": "beef"
       },
       {
-        "item": "Buffalo party pack chicken wings, 40 oz",
-        "price": "$4.99 public flyer",
+        "item": "Chicken drumsticks",
+        "price": "$0.89/lb regional public ad; dark meat, remove skin for Jmo portions",
         "type": "chicken"
       },
       {
-        "item": "Fresh seasoned beef skewers",
-        "price": "$5.99 public flyer",
-        "type": "beef"
+        "item": "Specially Selected frozen tuna steaks",
+        "price": "$4.29 regional public ad; verify Belmont availability",
+        "type": "seafood"
       },
       {
-        "item": "Friendly Farms nonfat Greek yogurt",
-        "price": "$2.79 public flyer",
+        "item": "Friendly Farms Super Zero nonfat Greek yogurt 4-pack",
+        "price": "$3.69 regional public ad; good high-protein snack support",
         "type": "snack"
       }
     ]
   },
   "freezerRecommendations": [
     {
-      "item": "HT BOGO boneless chicken breast or tenderloins",
-      "reason": "Best lean-protein meal-prep candidate if the Belmont price rings correctly. Portion into 1.5-2 lb bags for bowls, salads, pasta, and sheet-pan dinners.",
-      "pricePerLb": "BOGO public NC flyer; verify Belmont package price/e-VIC"
+      "item": "HT boneless chicken breast",
+      "reason": "Best lean-protein meal-prep candidate this week. Portion into 1.5-2 lb bags for bowls, salads, pasta, and sheet-pan dinners.",
+      "pricePerLb": "$1.99/lb public NC ad through Sep 15; verify Belmont VIC price"
     },
     {
-      "item": "HT 93% lean ground beef or 85/15 ground turkey",
-      "reason": "Useful for high-protein burger bowls, taco bowls, and chili. Choose 93% beef or ground turkey for Jmo portions when keeping fat tighter.",
-      "pricePerLb": "$6.99/lb public NC flyer"
+      "item": "HT Argentine shrimp or Coho salmon",
+      "reason": "Use shrimp for the leanest fast dinner; salmon is the higher-fat omega-3 option. Freeze in recipe-sized portions.",
+      "pricePerLb": "$7.99/lb public NC ad through Sep 15"
     },
     {
-      "item": "ALDI fresh ground beef chub",
-      "reason": "Strong family-value stock-up for kids and mixed meals. Use measured 4 oz adult portions or blend with beans/vegetables because fat varies by grind.",
-      "pricePerLb": "5 lb for $17.95, about $3.59/lb public flyer"
+      "item": "ALDI boneless skinless chicken thighs",
+      "reason": "Good family-value backup; trim visible fat, use 5 oz cooked Jmo portions, and freeze flat in fajita-night bags.",
+      "pricePerLb": "$2.49/lb regional public ad; verify Belmont price"
     }
   ],
   "meals": [
@@ -549,7 +549,7 @@
       "id": "meal-001",
       "name": "HT BOGO Chicken Tenderloin Quinoa Bowls",
       "store": "Harris Teeter",
-      "salePrice": "Boneless chicken breast or tenderloins: BOGO public NC flyer; verify Belmont package price/e-VIC",
+      "salePrice": "Boneless chicken breast: $1.99/lb public NC ad through Sep 15; verify Belmont VIC price",
       "proteinType": "chicken",
       "protein": "Boneless chicken tenderloins or chicken breast",
       "proteinOzPerServing": 5,
@@ -558,7 +558,7 @@
       "servings": 5,
       "prepTime": 30,
       "estimatedCost": 23,
-      "dealHighlight": "Leanest Harris Teeter stock-up play this week if the BOGO tag matches Belmont.",
+      "dealHighlight": "Best lean-protein stock-up play in the current Harris Teeter ad.",
       "macroFit": "High-protein, moderate-carb dinner that fits the 2100-cal plan cleanly; use 1 cup cooked quinoa/beans combined and keep oil to 1 tbsp for the pan.",
       "macroPerServing": {
         "calories": 475,
@@ -623,29 +623,29 @@
     },
     {
       "id": "meal-002",
-      "name": "HT 93% Lean Beef Burger Potato Plates",
+      "name": "HT Ground Chicken Burger Potato Plates",
       "store": "Harris Teeter",
-      "salePrice": "93% lean ground beef: $6.99/lb public NC flyer; verify Belmont meat case",
-      "proteinType": "beef",
-      "protein": "93% lean ground beef",
+      "salePrice": "Perdue ground chicken: $4.50/lb in the public NC ad; verify Belmont availability",
+      "proteinType": "chicken",
+      "protein": "Ground chicken",
       "proteinOzPerServing": 5,
       "vegetable": "Mushrooms, mixed greens, cucumbers, and tomatoes",
       "carb": "Roasted red potatoes",
       "servings": 5,
       "prepTime": 28,
       "estimatedCost": 29,
-      "dealHighlight": "Comfort-food dinner that still behaves if the beef is 93% lean.",
-      "macroFit": "Bunless plate keeps carbs useful and fat controlled; skip cheese and use mustard/pickles to keep the day near 70g fat.",
+      "dealHighlight": "Burger-night compromise that keeps protein high without donating half the fat budget to dinner.",
+      "macroFit": "Bunless plate keeps carbs useful and fat controlled; use mustard/pickles and skip cheese.",
       "macroPerServing": {
         "calories": 505,
-        "protein": 44,
+        "protein": 42,
         "carbs": 46,
-        "fat": 16
+        "fat": 11
       },
       "image": "https://source.unsplash.com/900x675/?lean-beef,burger,potatoes,salad",
       "ingredients": [
         {
-          "name": "93% lean ground beef",
+          "name": "Ground chicken",
           "quantity": 2,
           "unit": "lb"
         },
@@ -687,18 +687,18 @@
       ],
       "instructions": [
         "Cut potatoes into wedges and roast until crisp.",
-        "Form beef into five patties, season, and grill or pan-sear.",
+        "Form ground chicken into five patties, season, and grill or pan-sear until cooked through.",
         "Saute mushrooms separately and build a big salad with cucumbers and tomatoes.",
         "Serve patties bunless with potatoes, mushrooms, pickles, mustard, and greens."
       ]
     },
     {
       "id": "meal-003",
-      "name": "HT Wild Salmon Sweet Potato Broccoli Plates",
+      "name": "HT Coho Salmon Sweet Potato Broccoli Plates",
       "store": "Harris Teeter",
-      "salePrice": "Wild salmon fillets: $9.99/lb public NC flyer; verify Belmont seafood case",
+      "salePrice": "Farm-raised Coho salmon fillets: $7.99/lb public NC ad through Sep 15; verify Belmont seafood case",
       "proteinType": "seafood",
-      "protein": "Wild salmon fillets",
+      "protein": "Coho salmon fillets",
       "proteinOzPerServing": 5,
       "vegetable": "Broccoli plus cucumber tomato salad",
       "carb": "Roasted sweet potatoes",
@@ -716,7 +716,7 @@
       "image": "https://source.unsplash.com/900x675/?salmon,sweet-potato,broccoli",
       "ingredients": [
         {
-          "name": "Wild salmon fillets",
+          "name": "Coho salmon fillets",
           "quantity": 2,
           "unit": "lb"
         },
@@ -760,30 +760,30 @@
     },
     {
       "id": "meal-004",
-      "name": "HT Ground Turkey Taco Rice Bowls",
+      "name": "HT Argentine Shrimp Taco Rice Bowls",
       "store": "Harris Teeter",
-      "salePrice": "85/15 ground turkey or 93% beef: $6.99/lb public NC flyer; use turkey if Belmont has it fresh",
-      "proteinType": "turkey",
-      "protein": "85/15 ground turkey",
+      "salePrice": "Wild-caught Argentine shrimp, 16-20 ct.: $7.99/lb public NC ad through Sep 15; verify Belmont seafood case",
+      "proteinType": "seafood",
+      "protein": "Wild-caught Argentine shrimp",
       "proteinOzPerServing": 5,
       "vegetable": "Peppers, onions, romaine, salsa, and tomatoes",
       "carb": "Brown rice and pinto beans",
       "servings": 5,
       "prepTime": 25,
       "estimatedCost": 25,
-      "dealHighlight": "Flexible taco bowl when Jmo needs protein and the kids need normal food.",
+      "dealHighlight": "Fastest high-protein dinner on the board when the afternoon gets stupid.",
       "macroFit": "Use measured rice and beans; Greek yogurt gives the sour-cream feel with extra protein and less fat.",
       "macroPerServing": {
         "calories": 495,
-        "protein": 43,
+        "protein": 46,
         "carbs": 56,
-        "fat": 12
+        "fat": 7
       },
       "image": "https://source.unsplash.com/900x675/?turkey,taco,rice,bowl",
       "ingredients": [
         {
-          "name": "Ground turkey",
-          "quantity": 2,
+          "name": "Raw peeled/deveined shrimp",
+          "quantity": 2.25,
           "unit": "lb"
         },
         {
@@ -828,38 +828,38 @@
         }
       ],
       "instructions": [
-        "Brown turkey with taco seasoning, peppers, and onions.",
+        "Sauté shrimp with taco seasoning, peppers, and onions until just opaque.",
         "Warm brown rice and pinto beans.",
-        "Build bowls with measured rice, beans, turkey, romaine, salsa, and Greek yogurt.",
+        "Build bowls with measured rice, beans, shrimp, romaine, salsa, and Greek yogurt.",
         "Use lettuce bowls for anyone who wants a lower-carb version."
       ]
     },
     {
       "id": "meal-005",
-      "name": "ALDI Beef Chub Bean Chili Rice Bowls",
+      "name": "ALDI Chicken Thigh Fajita Rice Bowls",
       "store": "Aldi",
-      "salePrice": "Fresh ground beef chub: 5 lb for $17.95 public flyer; fat percentage/Belmont stock may vary",
-      "proteinType": "beef",
-      "protein": "Fresh ground beef chub",
-      "proteinOzPerServing": 4,
-      "vegetable": "Tomatoes, peppers, onions, spinach, and romaine",
+      "salePrice": "Boneless skinless chicken thighs: $2.49/lb regional public ad; Belmont availability and price may vary",
+      "proteinType": "chicken",
+      "protein": "Boneless skinless chicken thighs",
+      "proteinOzPerServing": 5,
+      "vegetable": "Peppers, onions, romaine, tomatoes, and cucumber",
       "carb": "Brown rice and black beans",
       "servings": 5,
-      "prepTime": 35,
-      "estimatedCost": 22,
-      "dealHighlight": "Best ALDI value play, but portion it like an adult because the grind may not be lean.",
-      "macroFit": "Beans stretch the protein and carbs while keeping beef to 4 oz per person; drain well and skip cheese to protect the fat target.",
+      "prepTime": 28,
+      "estimatedCost": 21,
+      "dealHighlight": "Aldi value play; trim visible fat and measure oil so thigh meat does not hijack the day's fat target.",
+      "macroFit": "Beans make the bowls filling; Jmo gets a 5 oz cooked chicken portion and a measured rice scoop.",
       "macroPerServing": {
-        "calories": 520,
-        "protein": 38,
-        "carbs": 58,
-        "fat": 16
+        "calories": 500,
+        "protein": 44,
+        "carbs": 55,
+        "fat": 13
       },
-      "image": "https://source.unsplash.com/900x675/?beef,chili,rice,bowl",
+      "image": "https://source.unsplash.com/900x675/?chicken,fajita,rice,bowl",
       "ingredients": [
         {
-          "name": "Ground beef chub",
-          "quantity": 1.75,
+          "name": "Boneless skinless chicken thighs",
+          "quantity": 2.5,
           "unit": "lb"
         },
         {
@@ -873,9 +873,9 @@
           "unit": "cans"
         },
         {
-          "name": "No-salt diced tomatoes",
-          "quantity": 2,
-          "unit": "cans"
+          "name": "Romaine hearts",
+          "quantity": 1,
+          "unit": "pack"
         },
         {
           "name": "Bell peppers",
@@ -888,9 +888,9 @@
           "unit": "each"
         },
         {
-          "name": "Baby spinach",
+          "name": "Cucumbers",
           "quantity": 1,
-          "unit": "bag"
+          "unit": "each"
         },
         {
           "name": "Romaine hearts",
@@ -904,44 +904,44 @@
         }
       ],
       "instructions": [
-        "Brown beef with onion, peppers, chili powder, cumin, and garlic; drain well.",
-        "Add tomatoes and black beans, then simmer until thick.",
-        "Fold in spinach at the end so it wilts into the chili.",
-        "Serve over measured brown rice with romaine on the side."
+        "Season sliced chicken with chili powder, cumin, garlic, and lime; sauté with onion and peppers until cooked through.",
+        "Warm black beans and brown rice separately.",
+        "Build bowls with romaine, cucumber, chicken, beans, rice, and salsa or lime.",
+        "Keep Jmo's rice portion measured; let the kids add extra rice if needed."
       ]
     },
     {
       "id": "meal-006",
-      "name": "ALDI Pork Rib Cauliflower Rice Plates",
+      "name": "ALDI Leaner Beef Chili Potato Plates",
       "store": "Aldi",
-      "salePrice": "Smithfield fresh St. Louis pork ribs: $2.49/lb public flyer; verify Belmont meat case",
-      "proteinType": "pork",
-      "protein": "St. Louis pork ribs",
+      "salePrice": "73% ground beef: $4.29/lb regional public ad; use the leanest package Belmont has and drain well",
+      "proteinType": "beef",
+      "protein": "Ground beef (leanest available)",
       "proteinOzPerServing": 4,
-      "vegetable": "Green beans, zucchini, and cabbage slaw",
-      "carb": "Riced cauliflower plus small roasted sweet potato portions",
+      "vegetable": "Tomatoes, peppers, onions, spinach, and green beans",
+      "carb": "Roasted sweet potatoes",
       "servings": 5,
-      "prepTime": 45,
+      "prepTime": 30,
       "estimatedCost": 24,
-      "dealHighlight": "Intentional lower-carb family option for rib night.",
-      "macroFit": "Ribs are fattier, so keep the portion to 4 oz edible meat, go heavy on vegetables, and use cauliflower rice as the base.",
+      "dealHighlight": "Budget beef option; drain thoroughly and keep adult portions at 4 oz cooked.",
+      "macroFit": "This is the higher-fat option: keep cheese off, use beans and vegetables for volume, and make another meal that day leaner.",
       "macroPerServing": {
         "calories": 495,
-        "protein": 36,
-        "carbs": 32,
-        "fat": 23
+        "protein": 39,
+        "carbs": 45,
+        "fat": 18
       },
-      "image": "https://source.unsplash.com/900x675/?pork-ribs,green-beans,cauliflower-rice",
+      "image": "https://source.unsplash.com/900x675/?beef,chili,sweet-potato,green-beans",
       "ingredients": [
         {
-          "name": "St. Louis pork ribs",
-          "quantity": 3,
+          "name": "Ground beef (leanest available)",
+          "quantity": 1.75,
           "unit": "lb"
         },
         {
-          "name": "Riced cauliflower",
-          "quantity": 4,
-          "unit": "cups"
+          "name": "No-salt diced tomatoes",
+          "quantity": 2,
+          "unit": "cans"
         },
         {
           "name": "Sweet potatoes",
@@ -959,26 +959,26 @@
           "unit": "each"
         },
         {
-          "name": "Cabbage slaw mix",
+          "name": "Baby spinach",
           "quantity": 1,
           "unit": "bag"
         },
         {
-          "name": "Low-sugar BBQ sauce or dry rub",
-          "quantity": 1,
-          "unit": "bottle"
-        },
-        {
-          "name": "Apple cider vinegar and mustard",
+          "name": "Chili powder, cumin, and garlic",
           "quantity": 1,
           "unit": "set"
+        },
+        {
+          "name": "Green beans",
+          "quantity": 1,
+          "unit": "1.5 lb"
         }
       ],
       "instructions": [
-        "Season ribs with dry rub and bake or grill until tender; brush lightly with low-sugar sauce near the end.",
-        "Roast sweet potato wedges for the family and keep Jmo portion measured.",
-        "Saute green beans and zucchini, then warm cauliflower rice.",
-        "Serve ribs with cauliflower rice, vegetables, slaw, and optional sweet potato."
+        "Brown beef with peppers, onion, chili powder, cumin, and garlic; drain thoroughly.",
+        "Add tomatoes, black beans, and spinach; simmer until thick.",
+        "Roast sweet potato wedges and steam green beans while the chili simmers.",
+        "Serve 4 oz cooked beef chili over a measured sweet potato portion with green beans."
       ]
     }
   ]
