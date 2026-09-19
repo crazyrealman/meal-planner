@@ -1,6 +1,6 @@
 {
-  "weekOf": "September 12, 2026",
-  "lastUpdated": "2026-09-12T07:00:00-04:00",
+  "weekOf": "September 19, 2026",
+  "lastUpdated": "2026-09-19T07:00:00-04:00",
   "macroTarget": {
     "calories": 2100,
     "protein": 160,
@@ -458,98 +458,98 @@
     }
   ],
   "dealsSource": {
-    "harrisTeeter": "Checked the current Sep 9-15, 2026 public NC ad and the Belmont Town Center store page on Sep 12. Protein highlights: boneless chicken breast $1.99/lb, ground chicken $4.50/lb, Coho salmon or Argentine shrimp $7.99/lb, tilapia 24 oz $6.99, and chicken wings $2.99/lb. Store pricing, VIC requirements, and stock should be verified at Belmont.",
-    "aldi": "Checked current Sep 9-15 regional public ad sources on Sep 12. Protein highlights: boneless skinless chicken thighs $2.49/lb, 73% ground beef $4.29/lb, chuck roast $6.99/lb, chicken drumsticks $0.89/lb, frozen tuna steaks $4.29, and nonfat Greek yogurt 4-pack $3.69. ALDI's official pages did not expose a Belmont-specific product list, so verify local price, package, and availability."
+    "harrisTeeter": "Checked the current Sep 16-22, 2026 NC public ad and Belmont store listing on Sep 19. Protein highlights: 93% lean ground turkey 20.8 oz $5.99, 93% lean ground beef $5.99/lb, salmon fillets $9.99/lb, cooked shrimp $7.99/lb, East Coast shrimp $9.99/lb, plus chicken breast/tenderloin small packs with price not exposed in lightweight results. Confirm Belmont VIC price and stock before a special trip.",
+    "aldi": "Checked the current Sep 16-22 regional public ad sources on Sep 19. Protein highlights: boneless skinless chicken thighs $2.49/lb, Perdue chicken drumsticks $0.89/lb, Smithfield pork butt roast $1.99/lb, and regional public listings for 73% ground beef $4.29/lb, chuck roast $6.99/lb, and tuna steaks $4.29. ALDI did not expose a Belmont-specific text circular, so verify local price, package, and availability."
   },
   "topDeals": {
     "harristeeter": [
       {
-        "item": "Boneless chicken breast",
-        "price": "$1.99/lb public NC ad through Sep 15; verify Belmont VIC price",
+        "item": "Chicken breast or tenderloins, small pack",
+        "price": "Current NC ad item; Belmont price/VIC eligibility not exposed in lightweight results",
         "type": "chicken"
       },
       {
-        "item": "Perdue ground chicken",
-        "price": "$4.50/lb public NC ad; verify Belmont availability",
-        "type": "chicken"
+        "item": "93% lean ground turkey, 20.8 oz",
+        "price": "$5.99 public NC ad through Sep 22",
+        "type": "turkey"
       },
       {
-        "item": "Farm-raised Coho salmon fillets or Argentine shrimp",
-        "price": "$7.99/lb public NC ad through Sep 15",
+        "item": "Salmon fillets",
+        "price": "$9.99/lb public NC ad through Sep 22",
         "type": "seafood"
       },
       {
-        "item": "Chicken wings",
-        "price": "$2.99/lb public NC ad; family option, not a primary Jmo lean-protein pick",
-        "type": "chicken"
-      },
-      {
-        "item": "Hilo Fish Company tilapia fillets, 24 oz",
-        "price": "$6.99 public NC ad",
+        "item": "Cooked shrimp, 41-50 count",
+        "price": "$7.99/lb public NC ad through Sep 22",
         "type": "seafood"
       },
       {
-        "item": "Argentine shrimp, 2-lb bag",
-        "price": "$15.98 / $7.99 per lb public NC ad",
+        "item": "Peeled/deveined East Coast shrimp, 31-40 count",
+        "price": "$9.99/lb public NC ad through Sep 22",
         "type": "seafood"
+      },
+      {
+        "item": "93% lean ground beef",
+        "price": "$5.99/lb public NC ad through Sep 22",
+        "type": "beef"
       }
     ],
     "aldi": [
       {
         "item": "Boneless skinless chicken thighs",
-        "price": "$2.49/lb regional public ad; verify Belmont price and package",
+        "price": "$2.49/lb regional public ad through Sep 22; verify Belmont price and package",
         "type": "chicken"
       },
       {
-        "item": "73% ground beef, 5-lb pack",
+        "item": "73% ground beef",
         "price": "$4.29/lb regional public ad; verify Belmont availability",
         "type": "beef"
       },
       {
-        "item": "Black Angus chuck roast",
-        "price": "$6.99/lb regional public ad; verify Belmont availability",
-        "type": "beef"
+        "item": "Smithfield pork butt roast",
+        "price": "$1.99/lb regional public ad through Sep 22; verify Belmont availability",
+        "type": "pork"
       },
       {
-        "item": "Chicken drumsticks",
-        "price": "$0.89/lb regional public ad; dark meat, remove skin for Jmo portions",
+        "item": "Perdue chicken drumsticks",
+        "price": "$0.89/lb regional public ad through Sep 22; dark meat, remove skin for Jmo portions",
         "type": "chicken"
       },
       {
         "item": "Specially Selected frozen tuna steaks",
-        "price": "$4.29 regional public ad; verify Belmont availability",
+        "price": "$4.29 regional public listing; verify Belmont availability",
         "type": "seafood"
       },
       {
-        "item": "Friendly Farms Super Zero nonfat Greek yogurt 4-pack",
-        "price": "$3.69 regional public ad; good high-protein snack support",
+        "item": "High-protein snack: nonfat Greek yogurt or tuna steaks",
+        "price": "Greek yogurt price not exposed; tuna steaks $4.29 in regional public listing",
         "type": "snack"
       }
     ]
   },
   "freezerRecommendations": [
     {
-      "item": "HT boneless chicken breast",
-      "reason": "Best lean-protein meal-prep candidate this week. Portion into 1.5-2 lb bags for bowls, salads, pasta, and sheet-pan dinners.",
-      "pricePerLb": "$1.99/lb public NC ad through Sep 15; verify Belmont VIC price"
+      "item": "HT 93% lean ground turkey",
+      "reason": "Lean, freezer-friendly base for burgers, taco bowls, and meat sauce. Freeze in 1.5-2 lb meal bags.",
+      "pricePerLb": "$5.99 per 20.8 oz public NC ad through Sep 22"
     },
     {
-      "item": "HT Argentine shrimp or Coho salmon",
-      "reason": "Use shrimp for the leanest fast dinner; salmon is the higher-fat omega-3 option. Freeze in recipe-sized portions.",
-      "pricePerLb": "$7.99/lb public NC ad through Sep 15"
+      "item": "HT shrimp",
+      "reason": "Fastest lean-protein dinner this week; freeze in recipe-sized portions and thaw overnight.",
+      "pricePerLb": "$7.99/lb cooked or $9.99/lb raw public NC ad through Sep 22"
     },
     {
       "item": "ALDI boneless skinless chicken thighs",
       "reason": "Good family-value backup; trim visible fat, use 5 oz cooked Jmo portions, and freeze flat in fajita-night bags.",
-      "pricePerLb": "$2.49/lb regional public ad; verify Belmont price"
+      "pricePerLb": "$2.49/lb regional public ad through Sep 22; verify Belmont price"
     }
   ],
   "meals": [
     {
       "id": "meal-001",
-      "name": "HT BOGO Chicken Tenderloin Quinoa Bowls",
+      "name": "HT Chicken Tenderloin Quinoa Bowls",
       "store": "Harris Teeter",
-      "salePrice": "Boneless chicken breast: $1.99/lb public NC ad through Sep 15; verify Belmont VIC price",
+      "salePrice": "Chicken breast or tenderloins: current small-pack ad item; Belmont price/VIC eligibility not exposed in lightweight results",
       "proteinType": "chicken",
       "protein": "Boneless chicken tenderloins or chicken breast",
       "proteinOzPerServing": 5,
@@ -558,7 +558,7 @@
       "servings": 5,
       "prepTime": 30,
       "estimatedCost": 23,
-      "dealHighlight": "Best lean-protein stock-up play in the current Harris Teeter ad.",
+      "dealHighlight": "Leanest straightforward family option; confirm the Belmont small-pack price before stocking up.",
       "macroFit": "High-protein, moderate-carb dinner that fits the 2100-cal plan cleanly; use 1 cup cooked quinoa/beans combined and keep oil to 1 tbsp for the pan.",
       "macroPerServing": {
         "calories": 475,
@@ -623,11 +623,11 @@
     },
     {
       "id": "meal-002",
-      "name": "HT Ground Chicken Burger Potato Plates",
+      "name": "HT 93% Lean Turkey Burger Potato Plates",
       "store": "Harris Teeter",
-      "salePrice": "Perdue ground chicken: $4.50/lb in the public NC ad; verify Belmont availability",
-      "proteinType": "chicken",
-      "protein": "Ground chicken",
+      "salePrice": "93% lean ground turkey, 20.8 oz: $5.99 public NC ad through Sep 22; verify Belmont stock",
+      "proteinType": "turkey",
+      "protein": "93% lean ground turkey",
       "proteinOzPerServing": 5,
       "vegetable": "Mushrooms, mixed greens, cucumbers, and tomatoes",
       "carb": "Roasted red potatoes",
@@ -638,14 +638,14 @@
       "macroFit": "Bunless plate keeps carbs useful and fat controlled; use mustard/pickles and skip cheese.",
       "macroPerServing": {
         "calories": 505,
-        "protein": 42,
+        "protein": 41,
         "carbs": 46,
         "fat": 11
       },
       "image": "https://source.unsplash.com/900x675/?lean-beef,burger,potatoes,salad",
       "ingredients": [
         {
-          "name": "Ground chicken",
+          "name": "93% lean ground turkey",
           "quantity": 2,
           "unit": "lb"
         },
@@ -687,18 +687,18 @@
       ],
       "instructions": [
         "Cut potatoes into wedges and roast until crisp.",
-        "Form ground chicken into five patties, season, and grill or pan-sear until cooked through.",
+        "Form ground turkey into five patties, season, and grill or pan-sear until cooked through.",
         "Saute mushrooms separately and build a big salad with cucumbers and tomatoes.",
         "Serve patties bunless with potatoes, mushrooms, pickles, mustard, and greens."
       ]
     },
     {
       "id": "meal-003",
-      "name": "HT Coho Salmon Sweet Potato Broccoli Plates",
+      "name": "HT Salmon Sweet Potato Broccoli Plates",
       "store": "Harris Teeter",
-      "salePrice": "Farm-raised Coho salmon fillets: $7.99/lb public NC ad through Sep 15; verify Belmont seafood case",
+      "salePrice": "Salmon fillets: $9.99/lb public NC ad through Sep 22; verify Belmont seafood case",
       "proteinType": "seafood",
-      "protein": "Coho salmon fillets",
+      "protein": "Salmon fillets",
       "proteinOzPerServing": 5,
       "vegetable": "Broccoli plus cucumber tomato salad",
       "carb": "Roasted sweet potatoes",
@@ -716,7 +716,7 @@
       "image": "https://source.unsplash.com/900x675/?salmon,sweet-potato,broccoli",
       "ingredients": [
         {
-          "name": "Coho salmon fillets",
+          "name": "Salmon fillets",
           "quantity": 2,
           "unit": "lb"
         },
@@ -762,7 +762,7 @@
       "id": "meal-004",
       "name": "HT Argentine Shrimp Taco Rice Bowls",
       "store": "Harris Teeter",
-      "salePrice": "Wild-caught Argentine shrimp, 16-20 ct.: $7.99/lb public NC ad through Sep 15; verify Belmont seafood case",
+      "salePrice": "Cooked shrimp: $7.99/lb or peeled/deveined East Coast shrimp: $9.99/lb public NC ad through Sep 22; verify Belmont seafood case",
       "proteinType": "seafood",
       "protein": "Wild-caught Argentine shrimp",
       "proteinOzPerServing": 5,
@@ -838,7 +838,7 @@
       "id": "meal-005",
       "name": "ALDI Chicken Thigh Fajita Rice Bowls",
       "store": "Aldi",
-      "salePrice": "Boneless skinless chicken thighs: $2.49/lb regional public ad; Belmont availability and price may vary",
+      "salePrice": "Boneless skinless chicken thighs: $2.49/lb regional public ad through Sep 22; Belmont availability and price may vary",
       "proteinType": "chicken",
       "protein": "Boneless skinless chicken thighs",
       "proteinOzPerServing": 5,
@@ -912,9 +912,9 @@
     },
     {
       "id": "meal-006",
-      "name": "ALDI Leaner Beef Chili Potato Plates",
+      "name": "ALDI Drained Beef Chili Potato Plates",
       "store": "Aldi",
-      "salePrice": "73% ground beef: $4.29/lb regional public ad; use the leanest package Belmont has and drain well",
+      "salePrice": "73% ground beef: $4.29/lb regional public ad; use the leanest package Belmont has and drain very well",
       "proteinType": "beef",
       "protein": "Ground beef (leanest available)",
       "proteinOzPerServing": 4,
