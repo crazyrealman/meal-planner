@@ -1,6 +1,6 @@
 {
-  "weekOf": "September 19, 2026",
-  "lastUpdated": "2026-09-19T07:00:00-04:00",
+  "weekOf": "September 26, 2026",
+  "lastUpdated": "2026-09-26T07:00:00-04:00",
   "macroTarget": {
     "calories": 2100,
     "protein": 160,
@@ -458,98 +458,98 @@
     }
   ],
   "dealsSource": {
-    "harrisTeeter": "Checked the current Sep 16-22, 2026 NC public ad and Belmont store listing on Sep 19. Protein highlights: 93% lean ground turkey 20.8 oz $5.99, 93% lean ground beef $5.99/lb, salmon fillets $9.99/lb, cooked shrimp $7.99/lb, East Coast shrimp $9.99/lb, plus chicken breast/tenderloin small packs with price not exposed in lightweight results. Confirm Belmont VIC price and stock before a special trip.",
-    "aldi": "Checked the current Sep 16-22 regional public ad sources on Sep 19. Protein highlights: boneless skinless chicken thighs $2.49/lb, Perdue chicken drumsticks $0.89/lb, Smithfield pork butt roast $1.99/lb, and regional public listings for 73% ground beef $4.29/lb, chuck roast $6.99/lb, and tuna steaks $4.29. ALDI did not expose a Belmont-specific text circular, so verify local price, package, and availability."
+    "harrisTeeter": "Checked current Sep 23-29, 2026 NC public ad sources on Sep 26. Protein highlights: 80% lean ground chuck $5.49/lb, EZ-peel white shrimp $7.99/lb, Argentine shrimp $8.99/lb, white shrimp $11.99/lb, tuna steaks $9.99/lb, and Perdue Perfect Portions boneless chicken breast 24 oz $6.99 (public source notes a $1 coupon). Belmont VIC price and stock should be verified.",
+    "aldi": "Checked current Sep 23-29 regional public ad sources on Sep 26. Protein highlights: antibiotic-free boneless skinless chicken thighs $2.49/lb, 80/20 or organic 85/15 ground beef $5.99/lb, boneless center-cut pork chops $3.99/lb, thin-sliced pork chops $4.29/lb, sirloin tip steak $7.99/lb, and frozen tuna steaks $4.29. ALDI did not expose a Belmont-specific text circular, so verify local price, package, and availability."
   },
   "topDeals": {
     "harristeeter": [
       {
-        "item": "Chicken breast or tenderloins, small pack",
-        "price": "Current NC ad item; Belmont price/VIC eligibility not exposed in lightweight results",
+        "item": "Perdue Perfect Portions boneless chicken breast, 24 oz",
+        "price": "$6.99 public NC ad through Sep 29; public source notes a $1 coupon",
         "type": "chicken"
       },
       {
-        "item": "93% lean ground turkey, 20.8 oz",
-        "price": "$5.99 public NC ad through Sep 22",
-        "type": "turkey"
-      },
-      {
-        "item": "Salmon fillets",
-        "price": "$9.99/lb public NC ad through Sep 22",
-        "type": "seafood"
-      },
-      {
-        "item": "Cooked shrimp, 41-50 count",
-        "price": "$7.99/lb public NC ad through Sep 22",
-        "type": "seafood"
-      },
-      {
-        "item": "Peeled/deveined East Coast shrimp, 31-40 count",
-        "price": "$9.99/lb public NC ad through Sep 22",
-        "type": "seafood"
-      },
-      {
-        "item": "93% lean ground beef",
-        "price": "$5.99/lb public NC ad through Sep 22",
+        "item": "80% lean ground chuck",
+        "price": "$5.49/lb public NC ad through Sep 29",
         "type": "beef"
+      },
+      {
+        "item": "Wild-caught tuna steaks",
+        "price": "$9.99/lb public NC ad through Sep 29",
+        "type": "seafood"
+      },
+      {
+        "item": "EZ-peel white shrimp, 21-30 count",
+        "price": "$7.99/lb public NC ad through Sep 29",
+        "type": "seafood"
+      },
+      {
+        "item": "Wild-caught Argentine shrimp, 16-20 count",
+        "price": "$8.99/lb public NC ad through Sep 29",
+        "type": "seafood"
+      },
+      {
+        "item": "Fresh wild-caught white shrimp",
+        "price": "$11.99/lb public NC ad through Sep 29",
+        "type": "seafood"
       }
     ],
     "aldi": [
       {
         "item": "Boneless skinless chicken thighs",
-        "price": "$2.49/lb regional public ad through Sep 22; verify Belmont price and package",
+        "price": "$2.49/lb regional public ad through Sep 29; verify Belmont price and package",
         "type": "chicken"
       },
       {
-        "item": "73% ground beef",
-        "price": "$4.29/lb regional public ad; verify Belmont availability",
+        "item": "80/20 ground beef or organic 85/15 ground beef",
+        "price": "$5.99/lb regional public ad; verify Belmont availability",
         "type": "beef"
       },
       {
-        "item": "Smithfield pork butt roast",
-        "price": "$1.99/lb regional public ad through Sep 22; verify Belmont availability",
+        "item": "Boneless center-cut pork chops",
+        "price": "$3.99/lb regional public ad through Sep 29; verify Belmont availability",
         "type": "pork"
       },
       {
-        "item": "Perdue chicken drumsticks",
-        "price": "$0.89/lb regional public ad through Sep 22; dark meat, remove skin for Jmo portions",
+        "item": "Thin-sliced boneless center-cut pork chops",
+        "price": "$4.29/lb regional public ad through Sep 29",
         "type": "chicken"
       },
       {
-        "item": "Specially Selected frozen tuna steaks",
-        "price": "$4.29 regional public listing; verify Belmont availability",
+        "item": "Black Angus sirloin tip steak",
+        "price": "$7.99/lb regional public ad; verify Belmont availability",
         "type": "seafood"
       },
       {
-        "item": "High-protein snack: nonfat Greek yogurt or tuna steaks",
-        "price": "Greek yogurt price not exposed; tuna steaks $4.29 in regional public listing",
+        "item": "Friendly Farms Super Zero nonfat Greek yogurt 4-pack",
+        "price": "$3.69 regional public listing; good high-protein snack support",
         "type": "snack"
       }
     ]
   },
   "freezerRecommendations": [
     {
-      "item": "HT 93% lean ground turkey",
-      "reason": "Lean, freezer-friendly base for burgers, taco bowls, and meat sauce. Freeze in 1.5-2 lb meal bags.",
-      "pricePerLb": "$5.99 per 20.8 oz public NC ad through Sep 22"
+      "item": "HT EZ-peel white shrimp",
+      "reason": "Fast lean-protein dinner; freeze in recipe-sized portions and thaw overnight.",
+      "pricePerLb": "$7.99/lb public NC ad through Sep 29"
     },
     {
-      "item": "HT shrimp",
-      "reason": "Fastest lean-protein dinner this week; freeze in recipe-sized portions and thaw overnight.",
-      "pricePerLb": "$7.99/lb cooked or $9.99/lb raw public NC ad through Sep 22"
+      "item": "HT Perdue Perfect Portions chicken breast",
+      "reason": "Lean, portion-ready chicken for bowls and sheet-pan dinners; freeze if the Belmont price rings correctly.",
+      "pricePerLb": "$6.99 per 24 oz public NC ad through Sep 29"
     },
     {
       "item": "ALDI boneless skinless chicken thighs",
       "reason": "Good family-value backup; trim visible fat, use 5 oz cooked Jmo portions, and freeze flat in fajita-night bags.",
-      "pricePerLb": "$2.49/lb regional public ad through Sep 22; verify Belmont price"
+      "pricePerLb": "$2.49/lb regional public ad through Sep 29; verify Belmont price"
     }
   ],
   "meals": [
     {
       "id": "meal-001",
-      "name": "HT Chicken Tenderloin Quinoa Bowls",
+      "name": "HT Chicken Quinoa Black Bean Bowls",
       "store": "Harris Teeter",
-      "salePrice": "Chicken breast or tenderloins: current small-pack ad item; Belmont price/VIC eligibility not exposed in lightweight results",
+      "salePrice": "Perdue Perfect Portions boneless chicken breast, 24 oz: $6.99 public NC ad through Sep 29; verify Belmont VIC/coupon",
       "proteinType": "chicken",
       "protein": "Boneless chicken tenderloins or chicken breast",
       "proteinOzPerServing": 5,
@@ -558,7 +558,7 @@
       "servings": 5,
       "prepTime": 30,
       "estimatedCost": 23,
-      "dealHighlight": "Leanest straightforward family option; confirm the Belmont small-pack price before stocking up.",
+      "dealHighlight": "Leanest straightforward family option this week.",
       "macroFit": "High-protein, moderate-carb dinner that fits the 2100-cal plan cleanly; use 1 cup cooked quinoa/beans combined and keep oil to 1 tbsp for the pan.",
       "macroPerServing": {
         "calories": 475,
@@ -623,29 +623,29 @@
     },
     {
       "id": "meal-002",
-      "name": "HT 93% Lean Turkey Burger Potato Plates",
+      "name": "HT Ground Chuck Burger Potato Plates",
       "store": "Harris Teeter",
-      "salePrice": "93% lean ground turkey, 20.8 oz: $5.99 public NC ad through Sep 22; verify Belmont stock",
-      "proteinType": "turkey",
-      "protein": "93% lean ground turkey",
-      "proteinOzPerServing": 5,
+      "salePrice": "80% lean ground chuck: $5.49/lb public NC ad through Sep 29; drain well and keep adult portions measured",
+      "proteinType": "beef",
+      "protein": "80% lean ground chuck",
+      "proteinOzPerServing": 4,
       "vegetable": "Mushrooms, mixed greens, cucumbers, and tomatoes",
       "carb": "Roasted red potatoes",
       "servings": 5,
       "prepTime": 28,
       "estimatedCost": 29,
       "dealHighlight": "Burger-night compromise that keeps protein high without donating half the fat budget to dinner.",
-      "macroFit": "Bunless plate keeps carbs useful and fat controlled; use mustard/pickles and skip cheese.",
+      "macroFit": "Bunless plate keeps carbs useful; drain well, skip cheese, and make the rest of the day leaner.",
       "macroPerServing": {
         "calories": 505,
-        "protein": 41,
+        "protein": 39,
         "carbs": 46,
-        "fat": 11
+        "fat": 17
       },
       "image": "https://source.unsplash.com/900x675/?lean-beef,burger,potatoes,salad",
       "ingredients": [
         {
-          "name": "93% lean ground turkey",
+          "name": "80% lean ground chuck",
           "quantity": 2,
           "unit": "lb"
         },
@@ -687,36 +687,36 @@
       ],
       "instructions": [
         "Cut potatoes into wedges and roast until crisp.",
-        "Form ground turkey into five patties, season, and grill or pan-sear until cooked through.",
+        "Form ground chuck into five patties, season, and grill or pan-sear; drain excess fat before serving.",
         "Saute mushrooms separately and build a big salad with cucumbers and tomatoes.",
         "Serve patties bunless with potatoes, mushrooms, pickles, mustard, and greens."
       ]
     },
     {
       "id": "meal-003",
-      "name": "HT Salmon Sweet Potato Broccoli Plates",
+      "name": "HT Tuna Steak Sweet Potato Broccoli Plates",
       "store": "Harris Teeter",
-      "salePrice": "Salmon fillets: $9.99/lb public NC ad through Sep 22; verify Belmont seafood case",
+      "salePrice": "Wild-caught tuna steaks: $9.99/lb public NC ad through Sep 29; verify Belmont seafood case",
       "proteinType": "seafood",
-      "protein": "Salmon fillets",
+      "protein": "Wild-caught tuna steaks",
       "proteinOzPerServing": 5,
       "vegetable": "Broccoli plus cucumber tomato salad",
       "carb": "Roasted sweet potatoes",
       "servings": 5,
       "prepTime": 28,
       "estimatedCost": 34,
-      "dealHighlight": "Higher-fat protein night with solid omega-3 upside.",
-      "macroFit": "Salmon makes fat climb, so pair it with lean breakfast/lunch and avoid extra oil beyond a light spray.",
+      "dealHighlight": "Lean seafood night with protein to spare.",
+      "macroFit": "Tuna keeps fat lower than salmon; keep added oil modest and use the sweet potato as the main carb.",
       "macroPerServing": {
         "calories": 530,
-        "protein": 40,
+        "protein": 44,
         "carbs": 47,
-        "fat": 20
+        "fat": 9
       },
       "image": "https://source.unsplash.com/900x675/?salmon,sweet-potato,broccoli",
       "ingredients": [
         {
-          "name": "Salmon fillets",
+          "name": "Wild-caught tuna steaks",
           "quantity": 2,
           "unit": "lb"
         },
@@ -753,7 +753,7 @@
       ],
       "instructions": [
         "Roast cubed sweet potatoes until browned.",
-        "Season salmon with lemon, garlic, dill, and pepper, then bake or air fry until flaky.",
+        "Season tuna with lemon, garlic, dill, and pepper, then sear or air fry just until cooked to preference.",
         "Steam or roast broccoli with minimal added oil.",
         "Serve with cucumber tomato salad and measured sweet potato portions."
       ]
@@ -762,7 +762,7 @@
       "id": "meal-004",
       "name": "HT Argentine Shrimp Taco Rice Bowls",
       "store": "Harris Teeter",
-      "salePrice": "Cooked shrimp: $7.99/lb or peeled/deveined East Coast shrimp: $9.99/lb public NC ad through Sep 22; verify Belmont seafood case",
+      "salePrice": "EZ-peel white shrimp, 21-30 ct.: $7.99/lb public NC ad through Sep 29; verify Belmont seafood case",
       "proteinType": "seafood",
       "protein": "Wild-caught Argentine shrimp",
       "proteinOzPerServing": 5,
@@ -838,7 +838,7 @@
       "id": "meal-005",
       "name": "ALDI Chicken Thigh Fajita Rice Bowls",
       "store": "Aldi",
-      "salePrice": "Boneless skinless chicken thighs: $2.49/lb regional public ad through Sep 22; Belmont availability and price may vary",
+      "salePrice": "Antibiotic-free boneless skinless chicken thighs: $2.49/lb regional public ad through Sep 29; Belmont availability and price may vary",
       "proteinType": "chicken",
       "protein": "Boneless skinless chicken thighs",
       "proteinOzPerServing": 5,
@@ -912,36 +912,36 @@
     },
     {
       "id": "meal-006",
-      "name": "ALDI Drained Beef Chili Potato Plates",
+      "name": "ALDI Center-Cut Pork Chop Potato Plates",
       "store": "Aldi",
-      "salePrice": "73% ground beef: $4.29/lb regional public ad; use the leanest package Belmont has and drain very well",
-      "proteinType": "beef",
-      "protein": "Ground beef (leanest available)",
+      "salePrice": "Boneless center-cut pork chops: $3.99/lb regional public ad through Sep 29; verify Belmont package and price",
+      "proteinType": "pork",
+      "protein": "Boneless center-cut pork chops",
       "proteinOzPerServing": 4,
-      "vegetable": "Tomatoes, peppers, onions, spinach, and green beans",
+      "vegetable": "Green beans, zucchini, and cabbage slaw",
       "carb": "Roasted sweet potatoes",
       "servings": 5,
       "prepTime": 30,
       "estimatedCost": 24,
-      "dealHighlight": "Budget beef option; drain thoroughly and keep adult portions at 4 oz cooked.",
-      "macroFit": "This is the higher-fat option: keep cheese off, use beans and vegetables for volume, and make another meal that day leaner.",
+      "dealHighlight": "Budget-friendly leaner pork night with a simple 4 oz cooked adult portion.",
+      "macroFit": "Center-cut chops are the more controlled pork choice; use a measured sweet potato and go heavy on vegetables.",
       "macroPerServing": {
         "calories": 495,
-        "protein": 39,
+        "protein": 38,
         "carbs": 45,
-        "fat": 18
+        "fat": 13
       },
-      "image": "https://source.unsplash.com/900x675/?beef,chili,sweet-potato,green-beans",
+      "image": "https://source.unsplash.com/900x675/?pork-chops,sweet-potato,green-beans",
       "ingredients": [
         {
-          "name": "Ground beef (leanest available)",
-          "quantity": 1.75,
+          "name": "Boneless center-cut pork chops",
+          "quantity": 2,
           "unit": "lb"
         },
         {
-          "name": "No-salt diced tomatoes",
-          "quantity": 2,
-          "unit": "cans"
+          "name": "Cabbage slaw mix",
+          "quantity": 1,
+          "unit": "bag"
         },
         {
           "name": "Sweet potatoes",
@@ -959,26 +959,26 @@
           "unit": "each"
         },
         {
-          "name": "Baby spinach",
+          "name": "Apple cider vinegar and mustard",
           "quantity": 1,
-          "unit": "bag"
+          "unit": "set"
         },
         {
-          "name": "Chili powder, cumin, and garlic",
+          "name": "Garlic, smoked paprika, and pepper",
           "quantity": 1,
           "unit": "set"
         },
         {
           "name": "Green beans",
-          "quantity": 1,
-          "unit": "1.5 lb"
+          "quantity": 1.5,
+          "unit": "lb"
         }
       ],
       "instructions": [
-        "Brown beef with peppers, onion, chili powder, cumin, and garlic; drain thoroughly.",
-        "Add tomatoes, black beans, and spinach; simmer until thick.",
-        "Roast sweet potato wedges and steam green beans while the chili simmers.",
-        "Serve 4 oz cooked beef chili over a measured sweet potato portion with green beans."
+        "Season chops with garlic, smoked paprika, salt, and pepper; pan-sear or air fry until cooked through.",
+        "Roast sweet potato wedges and steam green beans while the chops cook.",
+        "Toss cabbage slaw with vinegar and mustard; sauté zucchini if preferred.",
+        "Serve a 4 oz cooked chop portion with measured sweet potato and plenty of vegetables."
       ]
     }
   ]
