@@ -1,6 +1,6 @@
 {
-  "weekOf": "September 26, 2026",
-  "lastUpdated": "2026-09-26T07:00:00-04:00",
+  "weekOf": "October 3, 2026",
+  "lastUpdated": "2026-10-03T07:00:00-04:00",
   "macroTarget": {
     "calories": 2100,
     "protein": 160,
@@ -458,8 +458,8 @@
     }
   ],
   "dealsSource": {
-    "harrisTeeter": "Checked current Sep 23-29, 2026 NC public ad sources on Sep 26. Protein highlights: 80% lean ground chuck $5.49/lb, EZ-peel white shrimp $7.99/lb, Argentine shrimp $8.99/lb, white shrimp $11.99/lb, tuna steaks $9.99/lb, and Perdue Perfect Portions boneless chicken breast 24 oz $6.99 (public source notes a $1 coupon). Belmont VIC price and stock should be verified.",
-    "aldi": "Checked current Sep 23-29 regional public ad sources on Sep 26. Protein highlights: antibiotic-free boneless skinless chicken thighs $2.49/lb, 80/20 or organic 85/15 ground beef $5.99/lb, boneless center-cut pork chops $3.99/lb, thin-sliced pork chops $4.29/lb, sirloin tip steak $7.99/lb, and frozen tuna steaks $4.29. ALDI did not expose a Belmont-specific text circular, so verify local price, package, and availability."
+    "harrisTeeter": "Checked current Sep 30-Oct 6, 2026 NC public ad sources on Oct 3. The Charlotte-area weekly flyer is active, but lightweight sources exposed limited exact protein prices; current public results confirm chicken leg quarters and current produce specials. Verify Belmont VIC price and stock before a special trip.",
+    "aldi": "Checked current Sep 30-Oct 6 regional public ad sources on Oct 3. Protein highlights: 80/20 ground beef $5.29/lb, thin-sliced boneless pork chops $2.99/lb, chicken wings $1.69/lb, shaved steak 16 oz $6.45, petite sirloin $8.99/lb, and short ribs $7.49/lb. ALDI did not expose a Belmont-specific text circular, so verify local price, package, and availability."
   },
   "topDeals": {
     "harristeeter": [
@@ -549,7 +549,7 @@
       "id": "meal-001",
       "name": "HT Chicken Quinoa Black Bean Bowls",
       "store": "Harris Teeter",
-      "salePrice": "Perdue Perfect Portions boneless chicken breast, 24 oz: $6.99 public NC ad through Sep 29; verify Belmont VIC/coupon",
+      "salePrice": "Lean chicken bowl: verify current Belmont Harris Teeter chicken price/VIC offer",
       "proteinType": "chicken",
       "protein": "Boneless chicken tenderloins or chicken breast",
       "proteinOzPerServing": 5,
@@ -625,7 +625,7 @@
       "id": "meal-002",
       "name": "HT Ground Chuck Burger Potato Plates",
       "store": "Harris Teeter",
-      "salePrice": "80% lean ground chuck: $5.49/lb public NC ad through Sep 29; drain well and keep adult portions measured",
+      "salePrice": "80/20 ground beef: $5.29/lb current ALDI regional ad; drain well and keep adult portions measured",
       "proteinType": "beef",
       "protein": "80% lean ground chuck",
       "proteinOzPerServing": 4,
@@ -696,7 +696,7 @@
       "id": "meal-003",
       "name": "HT Tuna Steak Sweet Potato Broccoli Plates",
       "store": "Harris Teeter",
-      "salePrice": "Wild-caught tuna steaks: $9.99/lb public NC ad through Sep 29; verify Belmont seafood case",
+      "salePrice": "Petite sirloin steak: $8.99/lb current ALDI regional ad; verify Belmont package",
       "proteinType": "seafood",
       "protein": "Wild-caught tuna steaks",
       "proteinOzPerServing": 5,
@@ -762,7 +762,7 @@
       "id": "meal-004",
       "name": "HT Argentine Shrimp Taco Rice Bowls",
       "store": "Harris Teeter",
-      "salePrice": "EZ-peel white shrimp, 21-30 ct.: $7.99/lb public NC ad through Sep 29; verify Belmont seafood case",
+      "salePrice": "Seafood bowl option; current Belmont Harris Teeter shrimp price was not exposed in lightweight results",
       "proteinType": "seafood",
       "protein": "Wild-caught Argentine shrimp",
       "proteinOzPerServing": 5,
@@ -838,7 +838,7 @@
       "id": "meal-005",
       "name": "ALDI Chicken Thigh Fajita Rice Bowls",
       "store": "Aldi",
-      "salePrice": "Antibiotic-free boneless skinless chicken thighs: $2.49/lb regional public ad through Sep 29; Belmont availability and price may vary",
+      "salePrice": "Whole chicken wings: $1.69/lb current ALDI regional ad; remove skin/measure portions for Jmo",
       "proteinType": "chicken",
       "protein": "Boneless skinless chicken thighs",
       "proteinOzPerServing": 5,
@@ -914,7 +914,7 @@
       "id": "meal-006",
       "name": "ALDI Center-Cut Pork Chop Potato Plates",
       "store": "Aldi",
-      "salePrice": "Boneless center-cut pork chops: $3.99/lb regional public ad through Sep 29; verify Belmont package and price",
+      "salePrice": "Thin-sliced boneless pork chops: $2.99/lb current ALDI regional ad; verify Belmont package and price",
       "proteinType": "pork",
       "protein": "Boneless center-cut pork chops",
       "proteinOzPerServing": 4,
